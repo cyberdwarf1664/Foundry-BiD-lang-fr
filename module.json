@@ -10,7 +10,6 @@
   "download": "https://github.com/cyberdwarf1664/Foundry-BiD-lang-fr/archive/main.zip",
   "manifest": "https://raw.githubusercontent.com/cyberdwarf1664/Foundry-BiD-lang-fr/main/module.json",
   
-
   "languages" : [
        {
           "lang" : "fr",
