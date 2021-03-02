@@ -16,7 +16,7 @@
           "name" : "French/Français",
           "path" : "fr.json"
        }
-              ]
+              ],
   "dependencies" : [
 {
   "name": "babele",
