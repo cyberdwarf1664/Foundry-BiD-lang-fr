@@ -2,7 +2,7 @@
   "name": "BiD-fr",
   "title": "Blades in the Dark - Translations (French)",
   "description": "Provides translations (System and compendiums) for Blades in the dark",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "author": "Cyberdwarf",
   "minimumCoreVersion": "0.5.5",
   "compatibleCoreVersion": "0.7.9",
