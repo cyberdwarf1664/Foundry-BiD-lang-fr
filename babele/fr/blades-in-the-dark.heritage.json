@@ -1,0 +1,38 @@
+{
+	"label": "Origines",
+	"mapping": {
+        "description": "data.description"
+    },
+	"entries": [
+		{
+			"id": "Akoros",
+			"name": "Akoros",
+			"description":"Akoros est la nation la plus vaste et la plus avancée de tout l’Imperium. Elle abrite la capitale, mais aussi Doskvol elle-même. Ces deux villes sont connues pour être des agrégats de diverses cultures ayant étroitement cohabité depuis plusieurs siècles, à l’image de l’Europe."
+		},
+		{
+			"id": "Iruvia",
+			"name": "Iruvia",
+			"description":"Si vous souhaitez être originaire d’une culture considérée comme “exotique” par les autochtones, vous pourriez venir d’Iruvia, un riche et puissant royaume marchand, érigé au milieu des sables d’un désert du sud lointain. C’est une autre nation cosmopolite, dont les cultures sont similaires à la Perse antique, l’Égypte et l’Inde."
+		},
+		{
+			"id": "Severos",
+			"name": "Severos",
+			"description":"Si vous souhaitez être originaire d’un lieu considéré comme “sauvage” par le reste de l’empire, vous pourriez venir de Severos. En dehors de quelques comptoirs impériaux, la majorité des Severosi mène une vie de nomadisme, au sein de tribus de cavaliers éparpillées dans les arides terres mortes, où ils doivent leur survie aux ruines d’antiques forteresses magiques, dont les enchantements repoussent encore les esprits."
+		},
+		{
+			"id": "Skovlan",
+			"name": "Skovlan",
+			"description":"Si vous souhaitez être originaire d’un peuple ostracisé, vous pourriez venir de Skovlan, le royaume insulaire qui s’étend par-delà le bras de mer qui le sépare de Doskvol. Skovlan fut la dernière cité à se soumettre aux lois Impériales, au terme des trente six années de la Guerre d’Unification (dont l’armistice remonte seulement à quelques années). De nombreux réfugiés Skovlandiens ayant perdu leurs foyers et leurs emplois dans le chaos de la guerre se sont tournés vers Doskvol à la recherche d’un nouveau départ."
+		},
+		{
+			"id": "The Dagger Isles",
+			"name": "Les Îles de la Dague",
+			"description":"Si vous souhaitez incarner un vagabond sans attaches, vous pourriez être originaire des Îles de la Dague. Les insulaires grandissent souvent à bord de navires et voyagent longuement avant de se fixer quelque-part. Ils ont une réputation de corsaires et de marchands qui vivent sans la sécurité offerte par les barrières d’éclairs — en affrontant les esprits par des moyens qui leur sont exclusifs."
+		},
+		{
+			"id": "Tycheros",
+			"name": "Tycheros",
+			"description":"Enfin, si vous souhaitez être à part, vous pourriez venir de Tycheros. Cette terre quasi-mythique située loin au nord, par-delà la Mer du Vide. La légende prétend que ses habitants sont des demi-démons. Si vous optez pour une origine Tycherosi, vous devez également vous choisir une marque démoniaque (comme des yeux noirs de requin, des plumes en guise de cheveux, etc.) qui fait de votre personnage un être véritablement singulier."
+		}
+	]
+}

@@ -1,0 +1,268 @@
+{
+	"label": "Equipéments",
+	"mapping": {
+        "description": "data.description",
+	"class":"data.class"
+	
+    },
+	"entries": [
+		{
+			"id": "(C) Fine hand weapon",
+			"name": "(E) Arme à une main de qualité",
+			"description": "Une superbe arme de corps à corps de votre choix.",
+			"class": "Ecorcheur"
+		},
+		{
+			"id": "(C) Fine heavy weapon",
+			"name": "(E) Arme lourde de qualité",
+			"description": "Une superbe arme de corps à corps à deux mains de votre choix.",
+			"class": "Ecorcheur"
+		},
+		{
+			"id": "(C) Manacles & chain",
+			"name": "(E) Menottes et chaînes",
+			"description": "Un jeu de menottes et de chaînes de belle facture, capables d’entraver un prisonnier.",
+			"class": "Ecorcheur"
+		},
+		{
+			"id": "(C) Rage essence vial",
+			"name": "(E) Fiole d'essence de rage",
+			"description": "Une seule dose, permet de démultiplier la force, la résistance à la douleur et la furie dévastatrice de celui qui l’ingère pour une durée de plusieurs minutes.\n Le MJ modifiera votre position et votre effet, lorsque vous combattez sous l’emprise de l’essence de rage. De plus, vous subissez deux conséquences : “Confond ami et ennemi” et “Enragé jusqu’à ce que tout soit brisé.” Vous pouvez résister à ces effets en suivant la règle habituelle.",
+			"class": "Ecorcheur"
+		},
+		{
+			"id": "(C) Scary weapon or tool",
+			"name": "(E) Arme ou outil effrayant",
+			"description": "Une arme à une main ou un outil effrayant. Cet objet vous confère un effet augmenté lorsque vous intimidez, mais n’inflige pas de dégâts supplémentaires en combat.",
+			"class": "Ecorcheur"
+		},
+		{
+			"id": "(H) A trained hunting pet",
+			"name": "(L) Un animal de compagnie dressé pour la chasse",
+			"description": "Votre compagnon animal obéit à vos ordres et anticipe vos actions. Cohorte (Expert : Traqueur).",
+			"class": "Limier"
+		},
+		{
+			"id": "(H) Electroplasmic ammunition",
+			"name": "(L) Munitions électroplasmiques",
+			"description": "Une cartouchière de munitions électroplasmiques, redoutables contre les esprits, mais moins efficaces contre les cibles physiques. Ces charges électriques sont suffisantes pour étourdir une personne, mais elles ne causent que peu de dégâts physiques. Plusieurs tirs peuvent parvenir à neutraliser une cible humaine.\n Cette munition est particulièrement réactive avec le champ ectoplasmique — vous pouvez créer un compteur de progression de 4 segments appelé “Attirer l’Attention des Gardiens Spirites” puis le compléter pour chaque tir effectué avec cette munition.",
+			"class": "Limier"
+		},
+		{
+			"id": "(H) Fine long rifle",
+			"name": "(L) Fusil long de qualité",
+			"description": "Un magnifique fusil de chasse, mortel à longue portée, mais encombrant en combat rapproché. Le port de fusils longs est généralement prohibé pour les citoyens de Doskvol, mais vous possédez un permis militaire (authentique ou falsifié) pour celui que vous possédez.",
+			"class": "Limier"
+		},
+		{
+			"id": "(H) Fine pair of pistols",
+			"name": "(L) Paire de pistolets de qualité",
+			"description": "Une paire de pistolets identiques, conçus pour le tir de précision, équipés de double-canons qui vous permettent d’effectuer deux tirs avant de recharger.",
+			"class": "Limier"
+		},
+		{
+			"id": "(H) Spyglass",
+			"name": "(L) Longue-vue",
+			"description": "Un tube de laiton équipé de lentilles qui vous assure une vision à longue distance. Télescopique. Peut être montée sur un fusil.",
+			"class": "Limier"
+		},
+		{
+			"id": "(Le) Bandolier",
+			"name": "(S) Bandoulière",
+			"description": "Une bretelle porté en bandoulière, équipée de pochettes rembourrées capables de stocker trois composés alchimiques ou des bombes à étincelles. Lorsque vous utilisez le contenu de votre bandoulière, barrez l’une des possibilités listées p.87 ou l’une de vos formules personnelles. Voir page 226 pour plus de détails sur les composés alchimiques et les bombes.",
+			"class": "Sangsue"
+		},
+		{
+			"id": "(Le) Blowgun & darts, syringes",
+			"name": "(S) Sarbacane et fléchettes, seringues",
+			"description": "Un fin tube où peuvent être glissées des fléchettes empoisonnées à l’aide de fioles d’alchimiste. Réserve de seringues vides.",
+			"class": "Sangsue"
+		},
+		{
+			"id": "(Le) Fine tinkering tools",
+			"name": "(S) Outils de qualité",
+			"description": "Un jeu d’outils de qualité pour la mécanique de précision. Une loupe de joaillier. Des appareils de mesure.",
+			"class": "Sangsue"
+		},
+		{
+			"id": "(Le) Fine wrecking tools",
+			"name": "(S) Outils de démolition  qualité",
+			"description": "Un jeu d’outils spécialisés pour le sabotage et la destruction. Une puissante perceuse compacte. Un maillet et des pitons d’acier. Un pied de biche. Une batterie électroplasmique, des pinces, des câbles. Des fioles d’acide. Une torche de découpe à étincelles et un bidon de carburant.",
+			"class": "Sangsue"
+		},
+		{
+			"id": "(Le) Gadgets",
+			"name": "(S) Gadgets",
+			"description": "Vous pouvez créer des gadgets pendant votre temps mort en bricolant à l’aide d’outils et matières premières appropriés. Voir Gadgets, page 227. Notez la charge ajoutée par chacun des gadgets que vous utilisez au cours d’une opération.",
+			"class": "Sangsue"
+		},
+		{
+			"id": "(Lu) Dark-sight goggles",
+			"name": "(G) Lunettes de vision nocturne",
+			"description": "Un appareil ésotérique qui permet à son porteur de voir dans l’obscurité totale comme s’il se trouvait dans un lieu bien éclairé.",
+			"class": "Guetteur"
+		},
+		{
+			"id": "(Lu) Fine lockpicks",
+			"name": "(G) Outils de crochetage de qualité",
+			"description": "Un jeu d’outils finement ouvragés vous permettant de déverrouiller ou de neutraliser des serrures.",
+			"class": "Guetteur"
+		},
+		{
+			"id": "(Lu) Fine shadow cloak",
+			"name": "(G) Cape d'ombre de qualité",
+			"description": "Une cape à capuche tissée dans une soie d’ombre Iruvienne très rare, capable de se fondre dans l’obscurité environnante. Cet objet améliore votre degré d’effet lorsque vous vous déplacez discrètement.",
+			"class": "Guetteur"
+		},
+		{
+			"id": "(Lu) Light climbing gear",
+			"name": "(G) Matériel d'escalade léger",
+			"description": "Un baudrier d’escalade complet bien moins encombrant et plus léger que du matériel classique.",
+			"class": "Guetteur"
+		},
+		{
+			"id": "(Lu) Silence potion vial",
+			"name": "(G) Potion de silence",
+			"description": "Une fiole contenant un liquide doré qui supprime tous les sons dans un rayon de dix pas autour de celui qui l’ingère, pour une durée limitée à quelques instants.",
+			"class": "Guetteur"
+		},
+		{
+			"id": "(Sl) A cane-sword",
+			"name": "(Al) Une canne-épée",
+			"description": "Une fine lame dissimulée dans un fourreau semblable à la canne d’un noble. Capable de donner le change lors d’une inspection rapide.",
+			"class": "Arlequin"
+		},
+		{
+			"id": "(Sl) Fine clothes & jewelry",
+			"name": "(Al) Vêtements et bijoux de qualité de rechange",
+			"description": "Une tenue de rechange qui semble si raffinée qu’elle peut passer pour celle d’un noble.",
+			"class": "Arlequin"
+		},
+		{
+			"id": "(Sl) Fine disguise kit",
+			"name": "(Al) Fine disguise kit",
+			"description": "",
+			"class": "Arlequin"
+		},
+		{
+			"id": "(Sl) Fine loaded dice, trick cards",
+			"name": "(Al) Fine loaded dice, trick cards",
+			"description": "",
+			"class": "Arlequin"
+		},
+		{
+			"id": "(Sl) Trance powder",
+			"name": "(Al) Trance powder",
+			"description": "",
+			"class": "Arlequin"
+		},
+		{
+			"id": "(Sp) Blueprints",
+			"name": "(Sp) Blueprints"
+		},
+		{
+			"id": "(Sp) Concealed palm pistol",
+			"name": "(Sp) Concealed palm pistol"
+		},
+		{
+			"id": "(Sp) Fine bottle of whiskey",
+			"name": "(Sp) Fine bottle of whiskey"
+		},
+		{
+			"id": "(Sp) Fine cover identity",
+			"name": "(Sp) Fine cover identity"
+		},
+		{
+			"id": "(Sp) Vial of slumber essence",
+			"name": "(Sp) Vial of slumber essence"
+		},
+		{
+			"id": "(W) Demonbane charm",
+			"name": "(W) Demonbane charm"
+		},
+		{
+			"id": "(W) Fine lightning hook",
+			"name": "(W) Fine lightning hook"
+		},
+		{
+			"id": "(W) Fine spirit mask",
+			"name": "(W) Fine spirit mask"
+		},
+		{
+			"id": "(W) Ghost key",
+			"name": "(W) Ghost key"
+		},
+		{
+			"id": "(W) Spirit bottles (2)",
+			"name": "(W) Spirit bottles (2)"
+		},
+		{
+			"id": "+ Heavy",
+			"name": "+ Heavy"
+		},
+		{
+			"id": "A 2nd Pistol",
+			"name": "A 2nd Pistol"
+		},
+		{
+			"id": "A Blade or Two",
+			"name": "A Blade or Two"
+		},
+		{
+			"id": "A Large Weapon",
+			"name": "A Large Weapon"
+		},
+		{
+			"id": "A Pistol",
+			"name": "A Pistol"
+		},
+		{
+			"id": "An Unusual Weapon",
+			"name": "An Unusual Weapon"
+		},
+		{
+			"id": "Arcane Implements",
+			"name": "Arcane Implements"
+		},
+		{
+			"id": "Armor",
+			"name": "Armor"
+		},
+		{
+			"id": "Burglary Gear",
+			"name": "Burglary Gear"
+		},
+		{
+			"id": "Climbing Gear",
+			"name": "Climbing Gear"
+		},
+		{
+			"id": "Demolition Tools",
+			"name": "Demolition Tools"
+		},
+		{
+			"id": "Documents",
+			"name": "Documents"
+		},
+		{
+			"id": "Lantern",
+			"name": "Lantern"
+		},
+		{
+			"id": "Spiritbane Charm",
+			"name": "Spiritbane Charm"
+		},
+		{
+			"id": "Subterfuge Supplies",
+			"name": "Subterfuge Supplies"
+		},
+		{
+			"id": "Throwing Knives",
+			"name": "Throwing Knives"
+		},
+		{
+			"id": "Tinkering Tools",
+			"name": "Tinkering Tools"
+		}
+	]
+}

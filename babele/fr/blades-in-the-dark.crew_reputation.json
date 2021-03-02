@@ -1,0 +1,85 @@
+{
+	"label": "Réputation de la bande",
+	"entries": [
+		{
+			"id": "Alluring",
+			"name": "Séduisante",
+			"description": ""
+		},
+		{
+			"id": "Ambitious",
+			"name": "Ambitieux",
+			"description": ""
+		},
+		{
+			"id": "Brutal",
+			"name": "Brutaux",
+			"description": ""
+		},
+		{
+			"id": "Cruel",
+			"name": "Cruelle",
+			"description": ""
+		},
+		{
+			"id": "Daring",
+			"name": "Intrépides",
+			"description": ""
+		},
+		{
+			"id": "Ferocious",
+			"name": "Feroce",
+			"description": ""
+		},
+		{
+			"id": "Honorable",
+			"name": "Honorables",
+			"description": ""
+		},
+		{
+			"id": "Monstrous",
+			"name": "Monstrueuse",
+			"description": ""
+		},
+		{
+			"id": "Professional",
+			"name": "Professionels",
+			"description": ""
+		},
+		{
+			"id": "Radiant",
+			"name": "Radiante",
+			"description": ""
+		},
+		{
+			"id": "Savvy",
+			"name": "Futés",
+			"description": ""
+		},
+		{
+			"id": "Serene",
+			"name": "Sereine",
+			"description": ""
+		},
+		{
+			"id": "Sinister",
+			"name": "Sinistre",
+			"description": ""
+		},
+		{
+			"id": "Strange",
+			"name": "Etrange",
+			"description": ""
+		},
+		{
+			"id": "Subtle",
+			"name": "Subtils",
+			"description": ""
+		},
+		{
+			"id": "Transcendent",
+			"name": "Transcendante",
+			"description": ""
+		}
+	]
+}

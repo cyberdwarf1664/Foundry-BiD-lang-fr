@@ -1,256 +1,383 @@
 {
 	"label": "Capacités",
         "mapping": {
-        "description": "data.description"
+        "description": "data.description",
+	"class":"data.class"
+	
     },
+
 	"entries": [
 		{
 			"id": "(C) Battleborn",
-			"name": "(C) Battleborn"
+			"name": "(E) Guerrier né",
+			"description": "Vous pouvez cocher votre armure spéciale pour réduire une blessure causée par une attaque en combat ou pour vous dépasser durant un combat.",
+			"class": "Ecorcheur"
 		},
+
 		{
 			"id": "(C) Bodyguard",
-			"name": "(C) Bodyguard"
+			"name": "(E) Garde du corps",
+			"description": "Quand vous protégez un coéquipier, vous gagnez +1 dé à votre jet de résistance. Quand vous recueillez des informations afin d’anticiper de possibles menaces, vous obtenez +1 effet.",
+			"class": "Ecorcheur"
 		},
 		{
 			"id": "(C) Ghost Fighter",
-			"name": "(C) Ghost Fighter"
+			"name": "(E) Combattant des arcanes",
+			"description": "Vous pouvez imprégner d’énergie spirituelle vos mains, vos armes de mêlée ou vos outils. Vous bénéficiez d’un effet puissant lorsque vous affrontez le surnaturel.",
+			"class": "Ecorcheur"
 		},
 		{
 			"id": "(C) Leader",
-			"name": "(C) Leader"
+			"name": "(E) Meneur",
+			"description": "Quand vous Commandez une cohorte en combat, vos hommes continuent à se battre alors même qu’ils devraient se disperser (la cohorte n’est pas mise hors de combat lorsqu’elle subit une blessure de niveau 3). La cohorte bénéficie de +1 effet et 1 armure.",
+			"class": "Ecorcheur"
 		},
 		{
 			"id": "(C) Mule",
-			"name": "(C) Mule"
+			"name": "(E) Bourrique",
+			"description": "Vos limites maximales de charge sont augmentées. Légère : 5. Normale : 7. Lourde : 8.",
+			"class": "Ecorcheur"
 		},
 		{
 			"id": "(C) Not to be Trifled With",
-			"name": "(C) Not to be Trifled With"
+			"name": "(E) A ne pas prendre à la légère",
+			"description": "Lorsque vous vous dépassez afin d’accomplir l’un des exploits suivants : accomplir un tour de force physique proche du surhumain ou affronter en combat rapproché un petit gang à jeu égal.",
+			"class": "Ecorcheur"
 		},
 		{
 			"id": "(C) Savage",
-			"name": "(C) Savage"
+			"name": "(E) Féroce",
+			"description": "Vos déchaînements de violence vous rendent particulièrement effrayant. Quand vous commandez une cible effrayée, gagnez +1 dé.",
+			"class": "Ecorcheur"
 		},
 		{
 			"id": "(C) Veteran",
-			"name": "(C) Veteran"
+			"name": "(E) Vétéran",
+			"description": "Vous pouvez choisir une capacité d'un autre livret",
+			"class": "Ecorcheur"
 		},
 		{
 			"id": "(C) Vigorous",
-			"name": "(C) Vigorous"
+			"name": "(E) Vigoureux",
+			"description": "Vous guérissez plus rapidement. Cochez de manière permanente un segment de votre compteur de guérison. Gagnez +1 dé aux jets de récupération.",
+			"class": "Ecorcheur"
 		},
 		{
 			"id": "(H) Focused",
-			"name": "(H) Focused"
+			"name": "(L) Concentration",
+			"description": "Vous pouvez dépenser votre armure spéciale pour résister à une conséquence en lien avec la surprise ou une blessure mentale (la peur, la confusion, la perte de la trace de votre cible) ou pour vous dépasser au combat à distance ou au pistage.",
+			"class": "Limier"
 		},
 		{
 			"id": "(H) Ghost Hunter",
-			"name": "(H) Ghost Hunter"
+			"name": "(L) Chasseur de fantômes",
+			"description": "Votre animal de compagnie est imprégné d’énergie spirite. Cela le rend puissant lorsqu’il traque ou combat des entités surnaturelles, en plus de lui conférer une capacité ésotérique au choix : forme fantomatique, lien mental ou rapide comme l’éclair. Vous pouvez choisir cette capacité plusieurs fois pour conférer un pouvoir ésotérique supplémentaire à votre animal.",
+			"class": "Limier"
 		},
 		{
 			"id": "(H) Scout",
-			"name": "(H) Scout"
+			"name": "(L) Ecalireur",
+			"description": "Quand vous recueillez des informations pour découvrir la localisation d’une cible, vous obtenez +1 effet. Quand vous vous dissimulez dans un affût préparé à l’avance ou que vous utilisez un camouflage, vous obtenez +1 dé aux jets pour éviter d’être repéré.",
+			"class": "Limier"
 		},
 		{
 			"id": "(H) Sharpshooter",
-			"name": "(H) Sharpshooter"
+			"name": "(L) Tireur d'élite",
+			"description": "Vous pouvez vous dépasser pour accomplir l’une des choses suivantes : effectuer un tir à une distance extrême qui va au-delà de la portée normale de l’arme ou effectuer un tir de suppression pour neutraliser l’ennemi.",
+			"class": "Limier"
 		},
 		{
 			"id": "(H) Survivor",
-			"name": "(H) Survivor"
+			"name": "(L) Survivant",
+			"description": "Que ce soit via une expérience durement acquise ou par le biais d’un rituel occulte, vous êtes immunisé contre les miasmes empoisonnés des terres mortes, ce qui vous permet de survivre en vous nourrissant de l’étrange faune et flore qu’on peut y trouver. Vous gagnez +1 case de stress.",
+			"class": "Limier"
 		},
 		{
 			"id": "(H) Tough as Nails",
-			"name": "(H) Tough as Nails"
+			"name": "(L) Volonté de fer",
+			"description": "Vous êtes insensible à la terreur que provoque la vue de certaines entités surnaturelles. Quand vous faites un jet de résistance avec Détermination, vous obtenez un dé supplémentaire.",
+			"class": "Limier"
 		},
 		{
 			"id": "(H) Vengeful",
-			"name": "(H) Vengeful"
+			"name": "(L) Vengeur",
+			"description": "Vous bénéficiez d’une condition supplémentaire pour gagner de l’expérience : « Tu cherches à te venger de quelqu’un qui t’a causé du tort, à toi ou à une personne qui t’est chère ». Si la bande vous a aidé à accomplir votre vengeance, elle gagne aussi de l’expérience.",
+			"class": "Limier"
 		},
 		{
 			"id": "(H) Veteran",
-			"name": "(H) Veteran"
+			"name": "(L) Vétéran",
+			"description": "Vous pouvez choisir une capacité d'un autre livret",
+			"class": "Limier"
 		},
 		{
 			"id": "(Le) Alchemist",
-			"name": "(Le) Alchemist"
+			"name": "(S) Alchimiste",
+			"description": "Quand vous inventez ou fabriquez une création avec la caractéristique alchimique, vous obtenez +1 niveau de résultat à votre jet (un 1-3 devient un 4/5, etc.). Vous débutez avec une formule déjà connue.",
+			"class": "Sangsue"
 		},
 		{
 			"id": "(Le) Analyst",
-			"name": "(Le) Analyst"
+			"name": "(S) Analyste",
+			"description": "Pendant un temps mort, vous cochez deux segments dans n’importe quel compteur de projet à long terme qui implique une investigation, l’apprentissage d’une nouvelle formule ou la conception d’une nouvelle invention.",
+			"class": "Sangsue"
 		},
 		{
 			"id": "(Le) Artificer",
-			"name": "(Le) Artificer"
+			"name": "(S) Artificier",
+			"description": "Quand vous inventez ou fabriquez une création avec la caractéristique à étincelle, vous obtenez +1 niveau de résultat à votre jet (un 1-3 devient un 4/5, etc.). Vous débutez avec une invention déjà connue.",
+			"class": "Sangsue"
 		},
 		{
 			"id": "(Le) Fortitude",
-			"name": "(Le) Fortitude"
+			"name": "(S) Force d'âme",
+			"description": "Vous pouvez dépenser votre armure spéciale pour résister à une conséquence en rapport avec la fatigue, la faiblesse ou les effets chimiques, ou pour vous dépasser dans un domaine technique ou quand vous manipulez des produits alchimiques.",
+			"class": "Sangsue"
 		},
 		{
 			"id": "(Le) Ghost Ward",
-			"name": "(Le) Ghost Ward"
+			"name": "(S) Sceau naturel",
+			"description": "Quand vous Démolissez un lieu à l’aide de substances ésotériques, le ruinant pour toute autre utilisation, l’endroit devient, à votre guise, un lieu consacré au surnaturel ou, au contraire, un lieu profané et impropre à accueillir le surnaturel.",
+			"class": "Sangsue"
 		},
 		{
 			"id": "(Le) Physicker",
-			"name": "(Le) Physicker"
+			"name": "(S) Médecin",
+			"description": "Vous êtes capable de Bricoler les os fracturés, de transfuser du sang ou d’autres fluides corporels, de recoudre les plaies et de stabiliser les mourants. Vous pouvez Étudier une maladie ou un cadavre. Tous les membres de votre bande (vous inclus) gagnez +1 dé sur vos jets de guérison.",
+			"class": "Sangsue"
 		},
 		{
 			"id": "(Le) Saboteur",
-			"name": "(Le) Saboteur"
+			"name": "(S) Saboteur",
+			"description": "Quand vous Démolissez, votre ouvrage est beaucoup plus silencieux qu’il ne devrait l’être et vos dégâts sont admirablement dissimulés en cas d’inspection de routine.",
+			"class": "Sangsue"
 		},
 		{
 			"id": "(Le) Venomous",
-			"name": "(Le) Venomous"
+			"name": "(S) Venimeux",
+			"description": "Choisissez une drogue ou un poison (que vous portez en bandoulière). Vous êtes immunisé contre cette substance. Vous pouvez vous dépasser pour le sécréter par les pores de votre peau, le concentrer dans votre salive ou l’exhaler sous la forme d’une vapeur.",
+			"class": "Sangsue"
 		},
 		{
 			"id": "(Le) Veteran",
-			"name": "(Le) Veteran"
+			"name": "(S) Vétéran",
+			"description": "Vous pouvez choisir une capacité d'un autre livret",
+			"class": "Sangsue"
 		},
 		{
 			"id": "(Lu) Ambush",
-			"name": "(Lu) Ambush"
+			"name": "(G) Embuscade",
+			"description": "Quand vous passez à l’attaque depuis une cachette ou en déclenchant un piège, vous gagnez +1 dé à votre jet.",
+			"class": "Guetteur"
 		},
 		{
 			"id": "(Lu) Daredevil",
-			"name": "(Lu) Daredevil"
+			"name": "(G) Casse-cou",
+			"description": "Quand vous êtes dans une position désespérée, vous pouvez gagner +1 dé à votre jet d’action si vous subissez -1 dé au jet de résistance contre les conséquences de cette action.",
+			"class": "Guetteur"
 		},
 		{
 			"id": "(Lu) Expertise",
-			"name": "(Lu) Expertise"
+			"name": "(G) Expertise",
+			"description": "Choisissez l’une de vos valeurs d’action. Quand vous menez une action de groupe en usant de cette action, vous ne subissez au maximum qu’un point de stress, peu importe le nombre de jets ratés.",
+			"class": "Guetteur"
 		},
 		{
 			"id": "(Lu) Ghost Veil",
-			"name": "(Lu) Ghost Veil"
+			"name": "(G) Voile spirit",
+			"description": "Vous pouvez traverser partiellement le voile qui nous sépare du champ ectoplasmique, pour l’espace de quelques instants paraître sombre et éthéré. Vous subissez 2 stress au moment où vous traversez le voile, plus 1 stress pour chacun des bénéfices ci-après : cela dure quelques minutes au lieu de quelques instants — vous êtes invisible — vous êtes capable de flotter dans l’air tel un fantôme.",
+			"class": "Guetteur"
 		},
 		{
 			"id": "(Lu) Infiltrator",
-			"name": "(Lu) Infiltrator"
+			"name": "(G) Infiltré",
+			"description": "Vous n’êtes pas affecté par la qualité ou le rang quand vous contournez des mesures de sécurité.",
+			"class": "Guetteur"
 		},
 		{
 			"id": "(Lu) Reflexes",
-			"name": "(Lu) Reflexes"
+			"name": "(G) Réflexes",
+			"description": "Vous agissez toujours en premier.",
+			"class": "Guetteur"
 		},
 		{
 			"id": "(Lu) Shadow",
-			"name": "(Lu) Shadow"
+			"name": "(G) Ombre",
+			"description": "Vous pouvez dépenser votre armure spéciale pour résister à une conséquence en rapport avec la détection ou les mesures de sécurité, ou vous dépasser pour réaliser un exploit d’athlétisme ou de discrétion.",
+			"class": "Guetteur"
 		},
 		{
 			"id": "(Lu) The Devil's Footsteps",
-			"name": "(Lu) The Devil's Footsteps"
+			"name": "(G) Le diable au corps",
+			"description": "Vous pouvez vous dépasser afin d’accomplir l’un des exploits suivants : accomplir un exploit athlétique proche du surhumain ou manoeuvrer pour embrouiller vos ennemis, de manière à ce qu’ils s’affrontent mutuellement par erreur.",
+			"class": "Guetteur"
 		},
 		{
 			"id": "(Lu) Veteran",
-			"name": "(Lu) Veteran"
+			"name": "(G) Vétéran",
+			"description": "Vous pouvez choisir une capacité d'un autre livret",
+			"class": "Guetteur"
 		},
 		{
 			"id": "(Sl) A Little Something on the Side",
-			"name": "(Sl) A Little Something on the Side"
+			"name": "(Al) A côtés",
+			"description": "Vous pouvez choisir une capacité d'un autre livret",
+			"class": "Arlequin"
 		},
 		{
 			"id": "(Sl) Cloak & Dagger",
-			"name": "(Sl) Cloak & Dagger"
+			"name": "(Al) De cape et dépée",
+			"description": "Lorsque vous utilisez un déguisement ou une autre forme d’artifice, vous gagnez +1 dé sur vos jets visant à provoquer la confusion ou éviter la suspicion. Quand enfin vous tombez le masque, l’effet de surprise qui en résulte vous donne l’initiative dans cette situation.",
+			"class": "Arlequin"
 		},
 		{
 			"id": "(Sl) Ghost Voice",
-			"name": "(Sl) Ghost Voice"
+			"name": "(Al) Voix fantomatique",
+			"description": "Vous êtes initié aux mystères permettant de converser avec un fantôme ou un démon comme s’il s’agissait d’un être humain ordinaire, en dépit de leur éventuelle apparence terrifiante ou sauvage. Cela vous rend puissant lorsque vous communiquez avec les entités surnaturelles.",
+			"class": "Arlequin"
 		},
 		{
 			"id": "(Sl) Like Looking into a Mirror",
-			"name": "(Sl) Like Looking into a Mirror"
+			"name": "(Al) Tel le reflet dans le miroir", 					"description": "Vous savez toujours quand quelqu’un vous ment.",
+			"class": "Arlequin"
 		},
 		{
 			"id": "(Sl) Mesmerism",
-			"name": "(Sl) Mesmerism"
+			"name": "(Al) Mesmérisme",
+			"description": "Quand vous influencez quelqu’un, vous pouvez lui ôter tout souvenir de ce qui vient de se passer jusqu’à votre prochaine interaction.",
+			"class": "Arlequin"
 		},
 		{
 			"id": "(Sl) Rook's Gambit",
-			"name": "(Sl) Rook's Gambit"
+			"name": "(Al) Gambit de la tour",
+			"description": "Vous gagnez 2 points de stress pour utiliser votre meilleure valeur d’action alors que vous accomplissez un autre type d’action. Expliquez comment vous adaptez cette compétence à cet autre domaine.",
+			"class": "Arlequin"
 		},
 		{
 			"id": "(Sl) Subterfuge",
-			"name": "(Sl) Subterfuge"
+			"name": "(Al) Subterfuge",
+			"description": "Vous pouvez dépenser votre armure spéciale pour résister à une conséquence en rapport avec la suspicion ou la persuasion, ou pour vous dépasser afin de mettre en oeuvre un subterfuge.",
+			"class": "Arlequin"
 		},
 		{
 			"id": "(Sl) Trust in Me",
-			"name": "(Sl) Trust in Me"
+			"name": "(Al) Aie confiance",
+			"description": "Vous gagnez +1 dé contre toute cible avec laquelle vous développez une relation intime.",
+			"class": "Arlequin"
 		},
 		{
 			"id": "(Sl) Veteran",
-			"name": "(Sl) Veteran"
+			"name": "(Al) Vétéran",
+			"description": "Vous pouvez choisir une capacité d'un autre livret",
+			"class": "Arlequin"
 		},
 		{
 			"id": "(Sp) Calculating",
-			"name": "(Sp) Calculating"
+			"name": "(Ag) Prévoyant",
+			"description": "Grâce à votre planification minutieuse, pendant les temps morts, vous pouvez octroyer, à vous-même ou à un membre de la bande, une activité de temps mort supplémentaire.",
+			"class": "Araignée"
 		},
 		{
 			"id": "(Sp) Connected",
-			"name": "(Sp) Connected"
+			"name": "(Ag) Influent",
+			"description": "Pendant les temps morts, vous obtenez +1 niveau de résultat quand vous acquérez une ressource ou réduisez le raffut.",
+			"class": "Araignée"
 		},
 		{
 			"id": "(Sp) Foresight",
-			"name": "(Sp) Foresight"
+			"name": "(Ag) Anticipation",
+			"description": "Deux fois par coup, vous pouvez aider un coéquipier sans payer le coût en stress. Décrivez comment vous vous y étiez préparé.",
+			"class": "Araignée"
 		},
 		{
 			"id": "(Sp) Functioning Vice",
-			"name": "(Sp) Functioning Vice"
+			"name": "(Ag) Vice caché",
+			"description": "Lorsque vous vous adonnez à votre vice, vous pouvez ajuster le résultat de votre jet de 1 ou 2 (en positif ou négatif). Un allié qui se joint à vous peut en faire de même.",
+			"class": "Araignée"
 		},
 		{
 			"id": "(Sp) Ghost  Contract",
-			"name": "(Sp) Ghost  Contract"
+			"name": "(Ag) Contrat Spirite",
+			"description": "Lorsque vous concluez un marché en vous serrant la main ou en rédigeant un contrat écrit, votre partenaire et vous — humain ou autre — portez désormais chacun la marque de ce serment. Si l’un de vous deux enfreint les termes du contrat, il subit une blessure de niveau 3, en étant “Maudit.”",
+			"class": "Araignée"
 		},
 		{
 			"id": "(Sp) Jail Bird",
-			"name": "(Sp) Jail Bird"
+			"name": "(Ag) Gibier de potence",
+			"description": "Lorsque vous êtes incarcéré, votre niveau d’avis de recherche est comptabilisé comme étant inférieur d’un degré, votre Rang supérieur d’un degré et vous gagnez +1 relation avec la faction qui vous aidera durant votre incarcération, en plus de ce que vous obtiendrez sur votre jet d’incarcération.",
+			"class": "Araignée"
 		},
 		{
 			"id": "(Sp) Mastermind",
-			"name": "(Sp) Mastermind"
+			"name": "(Sp) Tête pensante",
+			"description": "Vous pouvez dépenser votre armure spéciale pour protéger un coéquipier, ou pour vous dépasser quand vous recueillez des informations ou travaillez sur un projet à long terme.",
+			"class": "Araignée"
 		},
 		{
 			"id": "(Sp) Veteran",
-			"name": "(Sp) Veteran"
+			"name": "(Ag) Vétéran",
+			"description": "Vous pouvez choisir une capacité d'un autre livret",
+			"class": "Araignée"
 		},
 		{
 			"id": "(Sp) Weaving the Web",
-			"name": "(Sp) Weaving the Web"
+			"name": "(Ag) Tisser sa toile",
+			"description": "Vous obtenez +1 dé pour côtoyer quand vous recueillez des informations au sujet d’une cible pour un coup. Vous obtenez +1 dé au jet d’engagement pour cette opération.",
+			"class": "Araignée"
 		},
 		{
 			"id": "(W) Compel",
-			"name": "(W) Compel"
+			"name": "(H) Contraite",
+			"description": "Vous êtes capable de Communier avec le champ ectoplasmique afin de contraindre un fantôme se trouvant aux alentours à se manifester et obéir à vos ordres. Vous n’êtes pas terrifié par les fantômes que vous invoquez ou tentez de contraindre (mais vos alliés peuvent l’être).",
+			"class": "Haruspice"
 		},
 		{
 			"id": "(W) Ghost Mind",
-			"name": "(W) Ghost Mind"
+			"name": "(H) Médium",
+			"description": "Vous êtes toujours conscient des entités surnaturelles qui vous entourent. Vous obtenez +1 dé quand vous recueillez des informations sur le surnaturel.",
+			"class": "Haruspice"
 		},
 		{
 			"id": "(W) Iron Will",
-			"name": "(W) Iron Will"
+			"name": "(H) Volonté de fer",
+			"description": "Vous êtes insensible à la terreur que provoque la vue de certaines entités surnaturelles. Quand vous faites un jet de résistance avec Détermination, vous obtenez un dé supplémentaire.",
+			"class": "Haruspice"
 		},
 		{
 			"id": "(W) Occultist",
-			"name": "(W) Occultist"
+			"name": "(H) Occultiste",
+			"description": "Vous connaissez les secrets permettant de Côtoyer les puissances primordiales, les dieux oubliés ou les démons. Une fois que vous avez côtoyé l’une de ces entités, vous gagnez +1 dé pour Commander aux cultistes qui les vénèrent.",
+			"class": "Haruspice"
 		},
 		{
 			"id": "(W) Ritual",
-			"name": "(W) Ritual"
+			"name": "(H) Rituel",
+			"description": "Vous connaissez les secrets ésotériques permettant d’accomplir un rituel de sorcellerie. Vous pouvez Étudier un rituel occulte (ou en créer un nouveau) afin d’invoquer un effet ou un être surnaturel. Vous débutez avec un rituel déjà connu.",
+			"class": "Haruspice"
 		},
 		{
 			"id": "(W) Strange Methods",
-			"name": "(W) Strange Methods"
+			"name": "(H) Méthodes étranges",
+			"description": "Quand vous inventez ou fabriquez une création avec la caractéristique ésotérique, vous obtenez +1 niveau de résultat à votre jet (un 1-3 devient un 4/5, etc.). Vous débutez avec un modèle de création ésotérique déjà connu.",
+			"class": "Haruspice"
 		},
 		{
 			"id": "(W) Tempest",
-			"name": "(W) Tempest"
+			"name": "(H) Tempête",
+			"description": "Vous pouvez vous dépasser pour accomplir l’une des choses suivantes : lancer un éclair que vous utilisez comme une arme — invoquer une tempête à proximité immédiate (pluie torrentielle, vents hurlants, brouillard épais, givre glacial et neige, etc.).",
+			"class": "Haruspice"
 		},
 		{
 			"id": "(W) Veteran",
-			"name": "(W) Veteran"
+			"name": "(H) Vétéran",
+			"description": "Vous pouvez choisir une capacité d'un autre livret",
+			"class": "Haruspice"
 		},
 		{
 			"id": "(W) Warded",
-			"name": "(W) Warded"
+			"name": "(H) Conjurer",
+			"description": "Vous pouvez dépenser votre armure spéciale pour résister à une conséquence en rapport avec le surnaturel, ou pour vous dépasser quand vous affrontez ou recourez à une force ésotérique.",
+			"class": "Haruspice"
 		}
 	]
 }

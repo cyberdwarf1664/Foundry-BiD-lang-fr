@@ -9,4 +9,9 @@
   "manifest": "",
   "minimumCoreVersion": "0.5.5",
   "compatibleCoreVersion": "1.0.0"
+"languages" : [
+       {
+          "lang" : "fr",
+          "name" : "French/Français",
+          "path" : "fr.json"
 }

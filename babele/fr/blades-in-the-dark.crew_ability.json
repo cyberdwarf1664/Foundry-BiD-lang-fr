@@ -1,0 +1,298 @@
+{
+	"label": "Capacités de bande",
+	"mapping": {
+        	"description": "data.description",
+		"class":"data.class"
+  },
+
+	"entries": [
+		{
+			"id": "(A) Crow's Veil",
+			"name": "(A) Voile du corbeau",
+			"description" :"Grâce à votre expérience durement acquise ou par le biais de rituels ésotériques, vos activités échappent à la vigilance des corbeaux de massacre. Vous ne subissez donc aucun raffut supplémentaire lorsque vous tuez dans le cadre d’un coup.",
+			"class": "Assassins"
+		},
+		{
+			"id": "(A) Deadly",
+			"name": "(A) Merutrier",
+			"description" :"Chaque PJ peut ajouter +1 à son score d’action pour Traquer, Rôder ou Combattre (jusqu’à un score maximum de 3).",
+			"class": "Assassins"
+		},
+		{
+			"id": "(A) Emberdeath",
+			"name": "(A) Mort ardente",
+			"description" :"Grâce à votre expérience durement acquise ou par le biais de rituels ésotériques, vous maîtrisez des techniques vous permettant de détruire l’esprit d’une victime vivante, au moment où vous lui portez un coup fatal. Vous subissez 3 stress pour canaliser l’énergie électroplasmique du champ ectoplasmique, afin de désintégrer le corps et l’esprit de votre victime dans une gerbe d’étincelles.",
+			"class": "Assassins"
+		},
+		{
+			"id": "(A) No Traces",
+			"name": "(A) Aucune trace",
+			"description" :"Lorsque vous menez une opération discrètement ou que vous la faites passer pour un accident, vous obtenez la moitié du renom de votre cible (arrondie au supérieur) au lieu de zéro. Quand vous terminez votre temps mort avec zéro raffut, vous gagnez également +1 renom.",
+			"class": "Assassins"
+		},
+		{
+			"id": "(A) Patron",
+			"name": "(A) Mécène",
+			"description" :"Lorsque vous augmentez votre Rang, il vous en coûte la moitié de la somme d’argent habituelle. Qui est votre mécène ? Pourquoi vous soutient-il ?",
+			"class": "Assassins"
+		},
+		{
+			"id": "(A) Predators",
+			"name": "(A) Predateurs",
+			"description" :"Lorsque vous échafaudez un plan basé sur la discrétion ou la tromperie afin de commettre un meurtre, vous gagnez +1 dé sur votre jet d’engagement.",
+			"class": "Assassins"
+		},
+		{
+			"id": "(A) Veteran",
+			"name": "(A) Vétéran",
+			"description" :"Vous pouvez choisir une capacité d'une autre bande",
+			"class": "Assassins"
+		},
+		{
+			"id": "(A) Vipers",
+			"name": "(A) Vipères",
+			"description" :"Lorsque vous concoctez des poisons ou que vous en faites l’acquisition, vous gagnez +1 niveau de résultat sur votre jet. Lorsque vous faites usage d’un poison, vous bénéficiez d’une préparation spéciale qui vous immunise contre ses effets.",
+			"class": "Assassins"
+		},
+		{
+			"id": "(Br) Blood Brothers",
+			"name": "(Br) Frères de sang",
+			"description" :"Lorsque vous combattez aux côtés de vos cohortes, celles-ci gagnent +1 dé sur leurs jets de coopération (préparation et actions de groupe).Toutes vos cohortes gagnent gratuitement le type Gros bras (s’ils sont déjà des Gros bras, donnez-leurs un autre type).",
+			"class": "Bravos"
+		},
+		{
+			"id": "(Br) Dangerous",
+			"name": "(Br) Dangereux",
+			"description" :"Chaque PJ peut ajouter +1 à son score d’action pour Traquer, Combattre ou Démolir (jusqu’à un score maximum de 3).",
+			"class": "Bravos"
+		},
+		{
+			"id": "(Br) Door Kickers",
+			"name": "(Br) Enfonceurs de portes",
+			"description" :"Lorsque vous exécutez un plan d’assaut, vous gagnez +1 dé sur votre jet d’engagement.",
+			"class": "Bravos"
+		},
+		{
+			"id": "(Br) Fiends",
+			"name": "(Br) Maniaque",
+			"description" :"La peur vaut bien le respect. Vous pouvez comptabiliser chaque niveau d’avis de recherche comme s’il s’agissait d’un territoire.",
+			"class": "Bravos"
+		},
+		{
+			"id": "(Br) Forged In The Fire",
+			"name": "(Br) Forgés par le feu",
+			"description" :"Chaque PJ a été endurci par des expériences cruelles. Vous gagnez +1 dé sur vos jets de résistance.",
+			"class": "Bravos"
+		},
+		{
+			"id": "(Br) Patron",
+			"name": "(Br) Mécène",
+			"description" :"Lorsque vous augmentez votre Rang, il vous en coûte la moitié de la somme d’argent habituelle. Qui est votre mécène ? Pourquoi vous soutient-il ?",
+			"class": "Bravos"
+		},
+		{
+			"id": "(Br) Veteran",
+			"name": "(Br) Vétéran",
+			"description" :"Vous pouvez choisir une capacité d'une autre bande",
+			"class": "Bravos"
+		},
+		{
+			"id": "(Br) War Dogs",
+			"name": "(Br) Chiens de guerre",
+			"description" :"Lorsque vous êtes en guerre (relations avec une faction à -3), votre bande ne subit pas -1 assise et les PJ conservent toujours deux activités de temps mort, au lieu d’une seule.",
+			"class": "Bravos"
+		},
+		{
+			"id": "(C) Anointed",
+			"name": "(Cu) Consacré",
+			"description" :"Vous gagnez +1 dé sur vos jets de résistance contre les menaces surnaturelles. Vous gagnez également +1 dé sur vos jets de guérison lorsque vous souffrez de blessures surnaturelles.",
+			"class": "Cultistes"
+		},
+		{
+			"id": "(C) Bound in Darkness",
+			"name": "(Cu) Liés par les ténèbres",
+			"description" :"Vous pouvez utiliser les manoeuvres de coopération avec n’importe quel membre de votre culte, et ce peu importe la distance qui vous sépare. En acceptant de subir 1 stress, vous pouvez murmurer un message qui sera entendu par tous les autres cultistes.",
+			"class": "Cultistes"
+		},
+		{
+			"id": "(C) Chosen",
+			"name": "(Cu) Elu",
+			"description" :"Chaque PJ peut ajouter +1 à son score d’action Communier, Étudier ou Influencer jusqu’à un score maximum de 3).",
+			"class": "Cultistes"
+		},
+		{
+			"id": "(C) Conviction",
+			"name": "(Cu) Conviction",
+			"description" :"Chaque PJ gagne un vice supplémentaire : l’Adoration. Lorsque vous cédez à ce vice en pratiquant un sacrifice digne de ce nom, vous ne sombrez pas dans l’excès si vous éliminez votre stress excédentaire. De plus, votre divinité vous assistera sur un de vos jets d’action — à partir de maintenant et jusqu’à ce que vous lui fassiez un nouveau sacrifice en cédant à ce vice.",
+			"class": "Cultistes"
+		},
+		{
+			"id": "(C) Glory Incarnate",
+			"name": "(Cu) Gloire incarnée",
+			"description" :"Votre divinité se manifeste parfois dans le monde physique. Cela peut s’avérer être une bénédiction, mais les priorités et les valeurs d’un dieu ne sont pas toujours alignées sur celles des mortels. Vous voilà prévenus.",
+			"class": "Cultistes"
+		},
+		{
+			"id": "(C) Sealed in Blood",
+			"name": "(Cu) Scellé dans le sang",
+			"description" :"Chaque sacrifice humain abaisse de -3 stress le coût de n’importe lequel de vos rituels.",
+			"class": "Cultistes"
+		},
+		{
+			"id": "(C) Veteran",
+			"name": "(Cu) Vétéran",
+			"description" :"Vous pouvez choisir une capacité d'une autre bande",
+			"class": "Cultistes"
+		},
+		{
+			"id": "(C) Zealotry",
+			"name": "(C) Fanatisme",
+			"description" :"Vos cohortes ont abandonné toute raison pour se dévouer entièrement au culte. Ils accepteront d’exécuter n’importe quel service, peu importe le danger ou l’étrangeté de celui-ci. Ils gagnent +1 dé sur vos jets visant à agir contre les ennemis de leur foi.",
+			"class": "Cultistes"
+		},
+		{
+			"id": "(H) Accord",
+			"name": "(Cl) Accord",
+			"description" :"Quelques fois avoir des amis est aussi important qu’occuper un territoire. Vous pouvez comptabiliser jusqu’à trois de vos relations avec des factions à +3 comme s’il s’agissait de vos territoires.",
+			"class": "Colporteurs"
+		},
+		{
+			"id": "(H) Ghost Market",
+			"name": "(Cl) Marché fantôme",
+			"description" :"Par le biais de rituels ou d’une expérience durement acquise, vous avez découvert comment préparer vos produits pour les vendre à des fantôme et/ou des démons. Ceux-ci ne vous règlent pas en argent. Comment vous rémunèrent-t-ils ?",
+			"class": "Colporteurs"
+		},
+		{
+			"id": "(H) High Society",
+			"name": "(Cl) Haute société",
+			"description" :"Seules comptent vos relations. Vous subissez -1 raffut pendant votre temps mort et vous gagnez +1 dé pour recueillir des informations sur l’élite de la ville.",
+			"class": "Colporteurs"
+		},
+		{
+			"id": "(H) Hooked",
+			"name": "(Cl) Accros",
+			"description" :"Les membres de votre gang consomment votre produit. Ajoutez le défaut féroces, peu fiables ou fougueux à votre gang pour leur donner +1 qualité (jusqu’à un score maximum de 4).",
+			"class": "Colporteurs"
+		},
+		{
+			"id": "(H) Patron",
+			"name": "(Cl) Mécène",
+			"description" :"Lorsque vous augmentez votre Rang, il vous en coûte la moitié de la somme d’argent habituelle.",
+			"class": "Colporteurs"
+		},
+		{
+			"id": "(H) Silver Tongues",
+			"name": "(Cl) Langues d'argent",
+			"description" :"Chaque PJ peut ajouter +1 à son score d’action Communier, Côtoyer ou Influencer (jusqu’à un score maximum de 3).",
+			"class": "Colporteurs"
+		},
+		{
+			"id": "(H) The Good Stuff",
+			"name": "(Cl) Qualité supérieure",
+			"description" :"Votre marchandise est exquise. La qualité de vos produits est égale à votre Rang +2. Lorsque vous négociez avec une bande ou une faction, le MJ vous précisera qui devient accro à votre produit (un seul, quelques-uns, la majorité ou aucun).",
+			"class": "Colporteurs"
+		},
+		{
+			"id": "(H) Veteran",
+			"name": "(Cl) Vétéran",
+			"description" :"Vous pouvez choisir une capacité d'une autre bande",
+			"class": "Colporteurs"
+		},
+		{
+			"id": "(Sh) Everyone Steals",
+			"name": "(O) Tout le monde vole",
+			"description" :"Chaque PJ peut ajouter +1 à son score d’action Rôder, Manoeuvrer ou Bricoler (jusqu’à un score maximum de 3).",
+			"class": "Ombres"
+		},
+		{
+			"id": "(Sh) Ghost Echoes",
+			"name": "(O) Echos fantomatiques",
+			"description" :"En raisons d’étranges expériences ou par le biais de rituels occultes, tous les membres de votre bande gagnent la capacité de voir et d’interagir avec les structures, rues et objets fantomatiques qui persistent dans l’écho que la ville imprime au sein du champ ectoplasmique.",
+			"class": "Ombres"
+		},
+		{
+			"id": "(Sh) Pack Rats",
+			"name": "(O) Meute de rats",
+			"description" :"Votre repaire est encombré de tout un tas de biens volés. Lorsque vous faites un jet d’acquisition, vous gagnez +1 dé.",
+			"class": "Ombres"
+		},
+		{
+			"id": "(Sh) Patron",
+			"name": "(O) Mécène",
+			"description" :"Lorsque vous augmentez votre Rang, il vous en coûte la moitié de la somme d’argent habituelle.",
+			"class": "Ombres"
+		},
+		{
+			"id": "(Sh) Second Story",
+			"name": "(O) Premier étage",
+			"description" :"Lorsque vous exécutez une mission d’infiltration clandestine, vous gagnez +1 dé sur votre jet d’engagement.",
+			"class": "Ombres"
+		},
+		{
+			"id": "(Sh) Slippery",
+			"name": "(O) Glissant",
+			"description" :"Lorsque vous faites un jet d’imbroglio, relancez-le et conservez le jet que vous préférez. Lorsque vous réduisez le raffut de la bande, vous gagnez +1 dé.",
+			"class": "Ombres"
+		},
+		{
+			"id": "(Sh) Synchronized",
+			"name": "(O) Synchronisés",
+			"description" :"Lorsque vous effectuez une action de groupe, vous pouvez comptabiliser les 6 obtenus sur des jets différents comme étant des succès critiques.",
+			"class": "Ombres"
+		},
+		{
+			"id": "(Sh) Veteran",
+			"name": "(O) Vétéran",
+			"description" :"Vous pouvez choisir une capacité d'une autre bande",
+			"class": "Ombres"
+		},
+		{
+			"id": "(Sm) All Hands",
+			"name": "(Cb) Au taquet",
+			"description" :"Pendant un temps mort, l’une de vos cohortes peut effectuer une activité de temps mort pour permettre à la bande de faire une acquisition, réduire votre raffut ou encore travailler sur un projet à long terme.",
+			"class": "Contrebandier"
+		},
+		{
+			"id": "(Sm) Ghost Passage",
+			"name": "(Cb) Passage fantomatique",
+			"description" :"Que ce soit au prix d’une expérience durement acquise ou par le biais d’un rituel occulte, tous les membres de votre bande sont immunisés contre la possession par les esprits, mais ils peuvent choisir de “porter en eux” un fantôme en tant que passager.",
+			"class": "Contrebandier"
+		},
+		{
+			"id": "(Sm) Just Passing Through",
+			"name": "(Cb) Je ne fais que passer",
+			"description" :"Pendant un temps mort, vous gagnez -1 raffut. Lorsque votre raffut est de 4 ou moins, vous obtenez +1 dé pour tromper les passants en faisant croire que vous n’êtes que des citoyens ordinaires.",
+			"class": "Contrebandier"
+		},
+		{
+			"id": "(Sm) Leverage",
+			"name": "(Cb) Moyen de pression",
+			"description" :"Votre bande fournit d’autres factions en produits illégaux. Votre succès leur profite. Chaque fois que vous améliorez votre renom, vous gagnez +1 renom en bonus.",
+			"class": "Contrebandier"
+		},
+		{
+			"id": "(Sm) Like Part of the Family",
+			"name": "(Cb) Pratiquement de la famille",
+			"description" :"Créez l’un de vos véhicules en tant que cohorte (utilisez les atouts et handicaps de véhicules listés p.122). Sa qualité est égale à votre Rang +1. Votre véhicule peut utiliser les actions de collaboration (en se basant sur sa qualité pour ses jets). Un véhicule ne peut pas mener une action de groupe, mais il peut y participer.",
+			"class": "Contrebandier"
+		},
+		{
+			"id": "(Sm) Reavers",
+			"name": "(Cb) Pillards",
+			"description" :"Lorsque vous engagez un conflit à bord d’un véhicule, vous gagnez +1 effet par dégât de véhicule et vitesse. Votre véhicule gagne quant à lui un blindage.",
+			"class": "Contrebandier"
+		},
+		{
+			"id": "(Sm) Renegades",
+			"name": "(Cb) Renégats",
+			"description" :"renégats Chaque PJ peut ajouter +1 à son score d’action pour Manoeuvrer, Rôder ou Combattre (jusqu’à un score maximum de 3).",
+			"class": "Contrebandier"
+		},
+		{
+			"id": "(Sm) Veteran",
+			"name": "(Cb) Vétéran",
+			"description" :"Vous pouvez choisir une capacité d'une autre bande",
+			"class": "Contrebandier"
+		}
+	]
+}
