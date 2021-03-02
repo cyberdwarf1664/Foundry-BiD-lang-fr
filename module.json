@@ -6,7 +6,7 @@
   "author": "Cyberdwarf",
   "url": "",
   "download": "https://github.com/cyberdwarf1664/Foundry-BiD-lang-fr/archive/main.zip",
-  "manifest": "",
+  "manifest": "https://raw.githubusercontent.com/cyberdwarf1664/Foundry-BiD-lang-fr/main/module.json",
   "minimumCoreVersion": "0.5.5",
   "compatibleCoreVersion": "1.0.0"
 "languages" : [
