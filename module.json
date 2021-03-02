@@ -2,7 +2,7 @@
   "name": "BiD-fr",
   "title": "Blades in the Dark - Translations (French)",
   "description": "Provides translations (System and compendiums) for Blades in the dark",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "author": "Cyberdwarf",
   "minimumCoreVersion": "0.5.5",
   "compatibleCoreVersion": "0.7.9",
@@ -21,7 +21,11 @@
   "dependencies" : [
 {
   "name": "babele",
-  "manifest": " https://gitlab.com/riccisi/foundryvtt-babele/raw/master/module/module.json"
+  "manifest": "https://gitlab.com/riccisi/foundryvtt-babele/raw/master/module/module.json",
+  "name": "Backgroundless Pins",
+  "manifest": "https://raw.githubusercontent.com/schultzcole/FVTT-Backgroundless-Pins/master/module.json",
+  "name": "Pin Cushion",
+  "manifest": "https://raw.githubusercontent.com/death-save/pin-cushion/master/module.json"
 }
 ],
 
@@ -31,6 +35,12 @@
       "label": "Plan et Quartiers",
       "path": "./packs/plan-et-quartiers.db",
       "entity": "Scene"
+    },
+    {
+      "name": "Quartiers",
+      "label": "Quartiers et Lieux reparquables",
+      "path": "./packs/quartiers.db",
+      "entity": "JournalEntry"
     }
 ]
 }
