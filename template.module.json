@@ -1,0 +1,31 @@
+{
+  "name": "BiD-fr",
+  "title": "Blades in the Dark - Translations (French)",
+  "description": "Provides translations (System and compendiums) for Blades in the dark",
+  "version": "0.0.1",
+  "author": "Cyberdwarf",
+  "minimumCoreVersion": "0.5.5",
+  "compatibleCoreVersion": "0.7.9",
+  "url": "https://github.com/cyberdwarf1664/Foundry-BiD-lang-fr",
+  "download": "https://github.com/cyberdwarf1664/Foundry-BiD-lang-fr/archive/main.zip",
+  "manifest": "https://raw.githubusercontent.com/cyberdwarf1664/Foundry-BiD-lang-fr/main/module.json",
+  
+  "languages" : [
+       {
+          "lang" : "fr",
+          "name" : "French/Français",
+          "path" : "fr.json"
+       }
+              ]
+  "dependencies" : [
+{
+  "name": "babele",
+  "manifest": " https://gitlab.com/riccisi/foundryvtt-babele/raw/master/module/module.json"
+},
+{
+  "name": "Blades-in-the-dark",
+  "type": "system",
+  "manifest": " https://raw.githubusercontent.com/megastruktur/foundryvtt-blades-in-the-dark/master/system.json"
+}
+]
+}
