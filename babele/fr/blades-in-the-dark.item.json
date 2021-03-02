@@ -1,5 +1,5 @@
 {
-	"label": "Equipéments",
+	"label": "Equipements",
 	"mapping": {
         "description": "data.description",
 	"class":"data.class"
@@ -135,134 +135,171 @@
 		{
 			"id": "(Sl) Fine clothes & jewelry",
 			"name": "(Al) Vêtements et bijoux de qualité de rechange",
-			"description": "Une tenue de rechange qui semble si raffinée qu’elle peut passer pour celle d’un noble.",
+			"description": "Une tenue de rechange qui semble si raffinée qu’elle peut passer pour celle d’un noble. Si la tenue est portée, la charge est de 0.",
 			"class": "Arlequin"
 		},
 		{
 			"id": "(Sl) Fine disguise kit",
-			"name": "(Al) Fine disguise kit",
-			"description": "",
+			"name": "(Al) Kit de déguisement de qualité",
+			"description": "Un kit de maquillage de théâtre équipé d’une impressionnante variété de prothèses faciales permettant de tromper n’importe quel observateur. La qualité de ce kit peut augmenter l’effet de vos actions de supercherie  lorsque vous l’utilisez",
 			"class": "Arlequin"
 		},
 		{
 			"id": "(Sl) Fine loaded dice, trick cards",
-			"name": "(Al) Fine loaded dice, trick cards",
-			"description": "",
+			"name": "(Al) Dés pipés de qualité, cartes marquées",
+			"description": "Un matériel de joueur subtilement altéré pour favoriser certains résultats. La qualité de ce kit peut augmenter l’effet de vos actions de supercherie lorsque vous l’utilisez.",
 			"class": "Arlequin"
 		},
 		{
 			"id": "(Sl) Trance powder",
-			"name": "(Al) Trance powder",
-			"description": "",
+			"name": "(Al) Poudre de trance",
+			"description": "Une dose de cette drogue populaire, qui provoque un état de conscience altéré. La victime de cette poudre n’est pas complètement évanouie, elle entre plutôt dans une sorte d’état d’obéissance indolente, proche de l’hypnose.",
 			"class": "Arlequin"
 		},
 		{
 			"id": "(Sp) Blueprints",
-			"name": "(Sp) Blueprints"
+			"name": "(Ag) Plan d'architecture",
+			"description": "Un folio regroupant d’utiles dessins d’architecture et des plans de la ville. Vous êtes libre de préciser quels plans vous transportez quand vous choisissez cet objet.",
+			"class": "Araignée"
 		},
 		{
 			"id": "(Sp) Concealed palm pistol",
-			"name": "(Sp) Concealed palm pistol"
+			"name": "(Ag) Pistolet de paume dissimulé",
+			"description": "Une petite arme à feu utilisant une faible charge de poudre, que l’on peut facilement escamoter dans une manche ou un manteau. Ce pistolet ne possède qu’une portée extrêmement limitée, ne dépassant pas quelques pas. Mais il est très difficile à détecter, même durant une fouille.",
+			"class": "Araignée"
 		},
 		{
 			"id": "(Sp) Fine bottle of whiskey",
-			"name": "(Sp) Fine bottle of whiskey"
+			"name": "(Ag) Bouteille de whisky de qualité",
+			"description": "Une distillation rare, provenant de votre collection personnelle, son degré d’alcool est aussi élevé que sa capacité à impressionner.",
+			"class": "Araignée"
 		},
 		{
 			"id": "(Sp) Fine cover identity",
-			"name": "(Sp) Fine cover identity"
+			"name": "(Ag) Fausse identité de qualité",
+			"description": "Des papiers d’identité, quelques rumeurs ou ragots répandus et une ou deux fausses relations suffisent à vous faire passer pour une personne entièrement différente.",
+			"class": "Araignée"
 		},
 		{
 			"id": "(Sp) Vial of slumber essence",
-			"name": "(Sp) Vial of slumber essence"
+			"name": "(Ag) Fiole d'essence de sommeil",
+			"description": "Une dose d’essence de sommeil suffisante pour plonger quiconque dans l’inconscience durant une bonne heure. Le sommeil de la victime n’a rien de surnaturel, mais il est profond — cette dernière ne se réveillera pas prématurément sans être violemment secouée.",
+			"class": "Araignée"
 		},
 		{
 			"id": "(W) Demonbane charm",
-			"name": "(W) Demonbane charm"
+			"name": "(H) Charme repousse-démon",
+			"description": "Un colifichet ésotérique que les démons préfèrent éviter.",
+			"class": "Haruspice"
 		},
 		{
 			"id": "(W) Fine lightning hook",
-			"name": "(W) Fine lightning hook"
+			"name": "(H) Crochet à éclairs de qualité",
+			"description": "Une longue perche équipée d’une boucle de gros câble à une extrémité, elle-même reliée à un condensateur électroplasmique. Utile pour attraper un esprit et le confiner dans une bouteille spirite. Ce crochet fabriqué sur-mesure est télescopique, ce qui le rend moins encombrant et réduit sa charge, tout en conservant sa portée.",
+			"class": "Haruspice"
 		},
 		{
 			"id": "(W) Fine spirit mask",
-			"name": "(W) Fine spirit mask"
+			"name": "(H) Masque spirite de qualité",
+			"description": "Un objet ésotérique qui permet à un utilisateur entraîné de percevoir les énergies surnaturelles dans leurs moindres détails. Il offre également une certaine protection contre la possession fantomatique.",
+			"class": "Haruspice"
 		},
 		{
 			"id": "(W) Ghost key",
-			"name": "(W) Ghost key"
+			"name": "(H) Clé fantôme",
+			"description": "Un objet ésotérique capable d’ouvrir des portes fantômes.",
+			"class": "Haruspice"
 		},
 		{
 			"id": "(W) Spirit bottles (2)",
-			"name": "(W) Spirit bottles (2)"
+			"name": "(H) Bouteilles spirites (2)",
+			"description": "Un appareil ésotérique capable de contenir un esprit. Il se présente sous la forme d’un cylindre de cristal cerclé de métal, de la taille d’une miche de pain.",
+			"class": "Haruspice"
 		},
 		{
 			"id": "+ Heavy",
-			"name": "+ Heavy"
+			"name": "+ Lourd",
+			"description": "L’ajout d’une cotte de maille, de plaques de métal, ou d’un casque de fer."
 		},
 		{
 			"id": "A 2nd Pistol",
-			"name": "A 2nd Pistol"
+			"name": "Un 2nd Pistolet",
+			"description": "Une arme à feu tirant un coup unique, qui se recharge par le canon. Dévastateur à une vingtaine de pas, mais lent à recharger."
 		},
 		{
 			"id": "A Blade or Two",
-			"name": "A Blade or Two"
+			"name": "Une lame ou deux",
+			"description": "Peut-être que vous maniez un simple couteau de combat. Ou deux sabres. Ou une rapière et un stylet. Ou un lourd hachoir de boucher."
 		},
 		{
 			"id": "A Large Weapon",
-			"name": "A Large Weapon"
+			"name": "Une arme d'hast",
+			"description": "Une arme utilisée à deux mains. Une hache de guerre, une grande épée, un marteau de guerre ou une hallebarde. Un fusil de chasse. Un tromblon. Un arc ou une arbalète."
 		},
 		{
 			"id": "A Pistol",
-			"name": "A Pistol"
+			"name": "Un Pistolet",
+			"description": "Une arme à feu tirant un coup unique, qui se recharge par le canon. Dévastateur à une vingtaine de pas, mais lent à recharger."
 		},
 		{
 			"id": "An Unusual Weapon",
-			"name": "An Unusual Weapon"
+			"name": "Une arme exotique",
+			"description": "Il peut s’agir d’une curiosité ou d’un outil transformé en arme. Un fouet, un fléau, une hachette, une pelle, une chaîne, un éventail-rasoir, des bottes à bouts ferrés."
 		},
 		{
 			"id": "Arcane Implements",
-			"name": "Arcane Implements"
+			"name": "Ingrédients ésotériques",
+			"description": "Une fiole de vifargent. Une bourse de sel noir. Une ancre spirite sous la forme d’une petite pierre. Une bouteille spirite. Une fiole d’électroplasme, conçue pour se briser et répandre son contenu à l’impact."
 		},
 		{
 			"id": "Armor",
-			"name": "Armor"
+			"name": "Armure",
+			"description": "Une épaisse tunique de cuir accompagnée de gants et de bottes renforcés."
 		},
 		{
 			"id": "Burglary Gear",
-			"name": "Burglary Gear"
+			"name": "Equipement de cambrioleur",
+			"description": "Un jeu de crochets. Un petit pied de biche. Des fioles d’huile qui rendent silencieuses les charnières rouillées. Une bobine de fil et des hameçons. Un petit sac de sable fin."
 		},
 		{
 			"id": "Climbing Gear",
-			"name": "Climbing Gear"
+			"name": "Matériel d'escalade",
+			"description": "Une grande longueur de corde. Une petite longueur de corde. Des grappins. Un petit sac de poussière de craie. Un harnais d’alpinisme équipé de mousquetons et d’anneaux. Un jeu de pitons de fer et un petit maillet."
 		},
 		{
 			"id": "Demolition Tools",
-			"name": "Demolition Tools"
+			"name": "Outils de démolition",
+			"description": "Une masse et des pitons d’acier. Une perceuse lourde. Un pied de biche."
 		},
 		{
 			"id": "Documents",
-			"name": "Documents"
+			"name": "Documents",
+			"description": "Une collection de volumes abrégés abordant toute une variété de sujets, parmi lesquels un registre de la noblesse, des commandants du Guet de la ville et des autres citoyens remarquables. Des pages vierges, un encrier, une plume. Une sélection de cartes intéressantes."
 		},
 		{
 			"id": "Lantern",
-			"name": "Lantern"
+			"name": "Lanterne",
+			"description": "Une simple lanterne à huile, une lampe électroplasmique dernier cri, ou tout autre source de lumière."
 		},
 		{
 			"id": "Spiritbane Charm",
-			"name": "Spiritbane Charm"
+			"name": "Charme repousse-esprit",
+			"description": "Un petit colifichet ésotérique que les fantômes préfèrent éviter."
 		},
 		{
 			"id": "Subterfuge Supplies",
-			"name": "Subterfuge Supplies"
+			"name": "Fournitures de subterfuge",
+			"description": "Un kit de maquillage de théâtre. Une sélection de documents vierges, prêts à être falsifiés. Des bijoux de pacotille. Une cape réversible et un chapeau remarquable. Un badge officiel falsifié."
 		},
 		{
 			"id": "Throwing Knives",
-			"name": "Throwing Knives"
+			"name": "Couteaux de lancer",
+			"description": "Six petites lames légères."
 		},
 		{
 			"id": "Tinkering Tools",
-			"name": "Tinkering Tools"
+			"name": "Outils de bricolage",
+			"description": "Un assortiment d’outils de mécanique de précision : une loupe de joaillier, des pincettes, un petit maillet, des pinces, des tournevis, etc."
 		}
 	]
 }
