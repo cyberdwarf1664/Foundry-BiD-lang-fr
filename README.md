@@ -1,5 +1,5 @@
 # Foundry-BiD-lang-fr
-Module de traduction Babele pour Le Systeme Blades in the Dark de megastruktur
+>b>Module de traduction Babele pour Le Systeme Blades in the Dark de megastruktur>/b>
 
 <p>Ce module rajoute le fichier fr.json pour traduire l'interface ainsi que la traduction des compendiums via babele.</p>
 <p>Pour configurer babele rendez vous dans les options de module de Babele et pointer le repertoire /modules/BiD-fr/babele/</p>
