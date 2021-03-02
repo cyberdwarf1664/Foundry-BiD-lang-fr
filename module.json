@@ -18,4 +18,15 @@
           "path" : "fr.json"
        }
               ]
+  "dependencies": [
+{
+  "name": "babele",
+  "manifest": " https://gitlab.com/riccisi/foundryvtt-babele/raw/master/module/module.json",
+},
+{
+  "name": "Blades-in-the-dark",
+  "type": "system",
+  "manifest": " https://raw.githubusercontent.com/megastruktur/foundryvtt-blades-in-the-dark/master/system.json"
+}
+]
 }
