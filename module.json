@@ -24,11 +24,11 @@
   "manifest": "https://gitlab.com/riccisi/foundryvtt-babele/raw/master/module/module.json"
 },
 {
-  "name": "Backgroundless Pins",
+  "name": "FVTT-Backgroundless-Pins",
   "manifest": "https://raw.githubusercontent.com/schultzcole/FVTT-Backgroundless-Pins/master/module.json"
 },
 {
-  "name": "Pin Cushion",
+  "name": "pin-cushion",
   "manifest": "https://raw.githubusercontent.com/death-save/pin-cushion/master/module.json"
 }
 ],
