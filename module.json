@@ -17,7 +17,7 @@
           "path" : "fr.json"
        }
               ]
-  "dependencies": [
+  "dependencies" : [
 {
   "name": "babele",
   "manifest": " https://gitlab.com/riccisi/foundryvtt-babele/raw/master/module/module.json"
