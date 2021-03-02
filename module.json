@@ -30,7 +30,7 @@
       "name": "Plan-et-quartiers",
       "label": "Plan et Quartiers",
       "path": "./packs/plan-et-quartiers.db",
-      "entity": "Scenes"
+      "entity": "Scene"
     }
 ]
 }
