@@ -1,10 +1,10 @@
 {
   "name": "BiD-fr",
-  "title": "Blades in the Dark - Translations for compendiums (French)",
-  "description": "Provides Babele translations for compendiums<p> *** Rejoignez la communauté Discord FR :<a href='https://discord.gg/pPSDNJk'> https://discord.gg/pPSDNJk </a></p>",
+  "title": "Blades in the Dark - Translations (French)",
+  "description": "Provides translations (System and compendiums) for Blades in the dark",
   "version": "0.0.1",
   "author": "Cyberdwarf",
-  "url": "",
+  "url": "https://github.com/cyberdwarf1664/Foundry-BiD-lang-fr",
   "download": "https://github.com/cyberdwarf1664/Foundry-BiD-lang-fr/archive/main.zip",
   "manifest": "https://raw.githubusercontent.com/cyberdwarf1664/Foundry-BiD-lang-fr/main/module.json",
   "minimumCoreVersion": "0.5.5",
