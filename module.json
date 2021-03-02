@@ -4,15 +4,17 @@
   "description": "Provides translations (System and compendiums) for Blades in the dark",
   "version": "0.0.1",
   "author": "Cyberdwarf",
+  "minimumCoreVersion": "0.5.5",
   "url": "https://github.com/cyberdwarf1664/Foundry-BiD-lang-fr",
   "download": "https://github.com/cyberdwarf1664/Foundry-BiD-lang-fr/archive/main.zip",
   "manifest": "https://raw.githubusercontent.com/cyberdwarf1664/Foundry-BiD-lang-fr/main/module.json",
-  "minimumCoreVersion": "0.5.5",
-  "compatibleCoreVersion": "1.0.0",
+  
+
   "languages" : [
        {
           "lang" : "fr",
           "name" : "French/Français",
           "path" : "fr.json"
+       }
               ]
 }
