@@ -26,8 +26,8 @@
 {
   "name": "Backgroundless Pins",
   "manifest": "https://raw.githubusercontent.com/schultzcole/FVTT-Backgroundless-Pins/master/module.json"
-{
 },
+{
   "name": "Pin Cushion",
   "manifest": "https://raw.githubusercontent.com/death-save/pin-cushion/master/module.json"
 }
