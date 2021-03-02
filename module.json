@@ -23,5 +23,14 @@
   "name": "babele",
   "manifest": " https://gitlab.com/riccisi/foundryvtt-babele/raw/master/module/module.json"
 }
+],
+
+  "packs": [
+    {
+      "name": "Plan-et-quartiers",
+      "label": "Plan et Quartiers",
+      "path": "./packs/plan-et-quartiers.db",
+      "entity": "Scenes"
+    }
 ]
 }
