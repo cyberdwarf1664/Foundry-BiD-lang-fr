@@ -15,9 +15,9 @@
 		},
 		{
 			"id": "Ghost",
-			"name": "Ghost",
-			"description" : "",
-			"experience_clues": ""
+			"name": "Fantôme",
+			"description" : "Un esprit désincarné en quête de vengeance",
+			"experience_clues": "- vous abattez votre vengeance sur ceux qui vous ont trahi, vous exprimez votre outrage ou votre colère et enfin, vous réglez vos comptes avec vos origines ou vos antécédents."
 			
 		},
 		{
@@ -29,9 +29,9 @@
 		},
 		{
 			"id": "Hull",
-			"name": "Hull",
-			"description" : "",
-			"experience_clues": ""
+			"name": "Coquille",
+			"description" : "Un esprit qui anime une enveloppe à étincelles",
+			"experience_clues": "- Vous assurez vos fonctions en dépit de la difficulté ou du danger, vous refoulez ou ignorez vos anciennes qualités humaines."
 			
 		},
 		{
@@ -65,8 +65,8 @@
 		{
 			"id": "Vampire",
 			"name": "Vampire",
-			"description" : "",
-			"experience_clues": ""
+			"description" : "Un esprit qui anime un corps mort-vivant",
+			"experience_clues": "- vvous faites la démonstration de votre supériorité vous massacrez une cible sans témoigner la moindre pitié."
 			
 		},
 		{
