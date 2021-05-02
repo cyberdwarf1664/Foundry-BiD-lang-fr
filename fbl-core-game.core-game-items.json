@@ -1,0 +1,1915 @@
+{
+	"label": "Core Game Objets",
+	"mapping": {
+        "description": "data.description"
+	
+    },
+	"entries": [
+		{
+			"id": "Adaptive (Human)",
+			"name": "Adaptive (Human)"
+		},
+		{
+			"id": "Altered personality",
+			"name": "Altered personality"
+		},
+		{
+			"id": "Ambidextrous",
+			"name": "Ambidextrous"
+		},
+		{
+			"id": "Amnesia",
+			"name": "Amnesia"
+		},
+		{
+			"id": "Animal Form",
+			"name": "Animal Form"
+		},
+		{
+			"id": "Animal Speech",
+			"name": "Animal Speech"
+		},
+		{
+			"id": "Anxious",
+			"name": "Anxious"
+		},
+		{
+			"id": "Arrow of the Fire Wyrm",
+			"name": "Arrow of the Fire Wyrm"
+		},
+		{
+			"id": "Arrows, Iron Head",
+			"name": "Flêches, Pointe de fer",
+			"description": "Augmente de 1 le dé de ressource Flèches."
+		},
+		{
+			"id": "Arrows, Wooden Head",
+			"name": "Flêches, Pointe de bois",
+			"description": "Augmente de 1 le dé de ressource Flèches. Les armures sont doublées."
+		},
+		{
+			"id": "Asina",
+			"name": "Asina"
+		},
+		{
+			"id": "Axe Fighter",
+			"name": "Axe Fighter"
+		},
+		{
+			"id": "Backpack",
+			"name": "Sac à dos",
+			"description": "N'encombre pas le porteur"
+		},
+		{
+			"id": "Bakery",
+			"name": "Bakery"
+		},
+		{
+			"id": "Bandages",
+			"name": "Bandages",
+			"description": "Bonus d'équipement de +1 en GUERISON."
+		},
+		{
+			"id": "Banish Demon",
+			"name": "Banish Demon"
+		},
+		{
+			"id": "Barkhyde",
+			"name": "Barkhyde"
+		},
+		{
+			"id": "Barrel",
+			"name": "Baril",
+			"description": "Contient 10 unités d'eau ou d'un autre liquide."
+		},
+		{
+			"id": "Battleaxe",
+			"name": "Hache de bataille",
+			"description": ""
+		},
+		{
+			"id": "Bear Trap",
+			"name": "Pège à ours",
+			"description": "Bonus d'équipement de +2 en Chasse durant les voyage."
+		},
+		{
+			"id": "Bear's Claw",
+			"name": "Bear's Claw"
+		},
+		{
+			"id": "Beastmaster",
+			"name": "Beastmaster"
+		},
+		{
+			"id": "Befoul",
+			"name": "Befoul"
+		},
+		{
+			"id": "Berserker",
+			"name": "Berserker"
+		},
+		{
+			"id": "Bind Demon",
+			"name": "Bind Demon"
+		},
+		{
+			"id": "Bind Magic",
+			"name": "Bind Magic"
+		},
+		{
+			"id": "Bind Soul",
+			"name": "Bind Soul"
+		},
+		{
+			"id": "Blanket",
+			"name": "Couverture",
+			"description": "Bonus d'équipement de +1 contre le froid."
+		},
+		{
+			"id": "Bleeding forehead",
+			"name": "Saignement au front"
+		},
+		{
+			"id": "Bleeding gut",
+			"name": "Entaille à la gorge"
+		},
+		{
+			"id": "Bleeding thigh",
+			"name": "Saignement de cuisse"
+		},
+		{
+			"id": "Blind",
+			"name": "Aveugle"
+		},
+		{
+			"id": "Blood Bond",
+			"name": "Blood Bond"
+		},
+		{
+			"id": "Blood Channeling",
+			"name": "Blood Channeling"
+		},
+		{
+			"id": "Blood Curse",
+			"name": "Blood Curse"
+		},
+		{
+			"id": "Boots",
+			"name": "Bottes",
+			"description": "Bonus d'équipement de +1 en Marche forcée."
+		},
+		{
+			"id": "Bowyer",
+			"name": "Bowyer"
+		},
+		{
+			"id": "Brawler",
+			"name": "Brawler"
+		},
+		{
+			"id": "Bread",
+			"name": "Pain"
+		},
+		{
+			"id": "Breathless",
+			"name": "Souffle coupé"
+		},
+		{
+			"id": "Broadsword",
+			"name": "Glaive",
+			"description": ""
+		},
+		{
+			"id": "Broken arm",
+			"name": "Bras cassé"
+		},
+		{
+			"id": "Broken fingers",
+			"name": "Doigt cassé"
+		},
+		{
+			"id": "Broken leg",
+			"name": "Jambe cassé"
+		},
+		{
+			"id": "Broken neck",
+			"name": "Coup brisé"
+		},
+		{
+			"id": "Broken nose",
+			"name": "Nez cassé"
+		},
+		{
+			"id": "Broken ribs",
+			"name": "Côte cassée"
+		},
+		{
+			"id": "Broken toes",
+			"name": "Orteille cassé"
+		},
+		{
+			"id": "Builder",
+			"name": "Builder"
+		},
+		{
+			"id": "Canoe",
+			"name": "Canoe",
+			"description": "Peut transporter 2 personnes et 10 objets."
+		},
+		{
+			"id": "Carskenfoot's Boots",
+			"name": "Carskenfoot's Boots"
+		},
+		{
+			"id": "Cart",
+			"name": "Chariot",
+			"description": "Tiré par un animal. Peu transporter 2 personnes et 50 objets."
+		},
+		{
+			"id": "Castle",
+			"name": "Castle",
+			"description": ""
+		},
+		{
+			"id": "Cat's Paw",
+			"name": "Cat's Paw"
+		},
+		{
+			"id": "Catatonic",
+			"name": "Catatonic"
+		},
+		{
+			"id": "Cauldron",
+			"name": "Chaudron",
+			"description": "Permet au chef de cuisiner d6+2 unités de Nourriture par quart."
+		},
+		{
+			"id": "Chainmail",
+			"name": "Chemise de maille",
+			"description": ""
+		},
+		{
+			"id": "Chalk",
+			"name": "Craie",
+			"description": ""
+		},
+		{
+			"id": "Chef",
+			"name": "Chef"
+		},
+		{
+			"id": "Chicken",
+			"name": "Poulet",
+			"description": ""
+		},
+		{
+			"id": "Chill of the Grave",
+			"name": "Chill of the Grave"
+		},
+		{
+			"id": "Claustrophobic",
+			"name": "Claustrophobic"
+		},
+		{
+			"id": "Clay Jug",
+			"name": "Jarre",
+			"description": "Contient 1 unité d'eau ou d'un autre liquide."
+		},
+		{
+			"id": "Clay's Rosary",
+			"name": "Clay's Rosary"
+		},
+		{
+			"id": "Cleanse Spirit",
+			"name": "Cleanse Spirit"
+		},
+		{
+			"id": "Cleft skull",
+			"name": "Cleft skull"
+		},
+		{
+			"id": "Cloak",
+			"name": "Manteau",
+			"description": ""
+		},
+		{
+			"id": "Closed Helmet",
+			"name": "Casue fermé",
+			"description": ""
+		},
+		{
+			"id": "Cloth, Silk",
+			"name": "Tissu, soie"
+		},
+		{
+			"id": "Cloth, Wool",
+			"name": "Tissu, laine"
+		},
+		{
+			"id": "Cold Blooded",
+			"name": "Cold Blooded"
+		},
+		{
+			"id": "Combat Trained Horse",
+			"name": "Combat Trained Horse",
+			"description": ""
+		},
+		{
+			"id": "Concussion",
+			"name": "Contusion"
+		},
+		{
+			"id": "Contaminate",
+			"name": "Contaminate"
+		},
+		{
+			"id": "Copper Coin",
+			"name": "pièce de cuivre",
+			"description": ""
+		},
+		{
+			"id": "Cottage",
+			"name": "Cottage",
+			"description": ""
+		},
+		{
+			"id": "Cow",
+			"name": "Vache",
+			"description": ""
+		},
+		{
+			"id": "Crushed elbow",
+			"name": "Coude écrasé"
+		},
+		{
+			"id": "Crushed foot",
+			"name": "Pied écrasé"
+		},
+		{
+			"id": "Crushed knee",
+			"name": "Genoux écrasé"
+		},
+		{
+			"id": "Crushed skull",
+			"name": "Crâne écrabouillée"
+		},
+		{
+			"id": "Crystal Ball",
+			"name": "Boule de cristal",
+			"description": ""
+		},
+		{
+			"id": "Dagger",
+			"name": "Dague",
+			"description": ""
+		},
+		{
+			"id": "Decapitation",
+			"name": "Decapitation"
+		},
+		{
+			"id": "Deer's Dash",
+			"name": "Deer's Dash"
+		},
+		{
+			"id": "Defender",
+			"name": "Defender"
+		},
+		{
+			"id": "Delusion",
+			"name": "Delusion"
+		},
+		{
+			"id": "Dispel Magic",
+			"name": "Dispel Magic"
+		},
+		{
+			"id": "Divination",
+			"name": "Divination"
+		},
+		{
+			"id": "Donkey",
+			"name": "Âne",
+			"description": ""
+		},
+		{
+			"id": "Dovecote",
+			"name": "Dovecote"
+		},
+		{
+			"id": "Dragonslayer",
+			"name": "Dragonslayer"
+		},
+		{
+			"id": "Drum",
+			"name": "Tambour",
+			"description": ""
+		},
+		{
+			"id": "Drunkard",
+			"name": "Drunkard"
+		},
+		{
+			"id": "Dungeon",
+			"name": "Dungeon"
+		},
+		{
+			"id": "Dust from the Deep",
+			"name": "Dust from the Deep"
+		},
+		{
+			"id": "Earthquake",
+			"name": "Earthquake"
+		},
+		{
+			"id": "Entice",
+			"name": "Entice"
+		},
+		{
+			"id": "Executioner",
+			"name": "Executioner"
+		},
+		{
+			"id": "Falchion",
+			"name": "Fauchon",
+			"description": ""
+		},
+		{
+			"id": "Farm",
+			"name": "Ferme",
+			"description": ""
+		},
+		{
+			"id": "Farsight",
+			"name": "Farsight"
+		},
+		{
+			"id": "Fast Footwork",
+			"name": "Fast Footwork"
+		},
+		{
+			"id": "Fast Shooter",
+			"name": "Fast Shooter"
+		},
+		{
+			"id": "Fearless",
+			"name": "Fearless"
+		},
+		{
+			"id": "Feroxa's Claws",
+			"name": "Feroxa's Claws"
+		},
+		{
+			"id": "Field",
+			"name": "Field"
+		},
+		{
+			"id": "Field Kitchen",
+			"name": "Cuisine de poche",
+			"description": "Permet au chef de cuisiner 2d6 unités de Nourriture par quart."
+		},
+		{
+			"id": "Field Ration",
+			"name": "Rations",
+			"description": "Augmente de 1 le dé de ressources Nourriture."
+		},
+		{
+			"id": "Fine Garments",
+			"name": "Beaux vêtements",
+			"description": "Bonus d'équipement de +2 en Manipluation."
+		},
+		{
+			"id": "Fireplace",
+			"name": "Fireplace"
+		},
+		{
+			"id": "Firewalker",
+			"name": "Firewalker"
+		},
+		{
+			"id": "Firm Grip",
+			"name": "Firm Grip"
+		},
+		{
+			"id": "Fish",
+			"name": "Poisson"
+		},
+		{
+			"id": "Fisher",
+			"name": "Fisher"
+		},
+		{
+			"id": "Fishing Hook and Line",
+			"name": "Hameçon et ligne",
+			"description": "Bonus d'équipement de +1 pour Pêcher."
+		},
+		{
+			"id": "Fishing Net",
+			"name": "Filet de pêche",
+			"description": "Bonus d'équipement de +2 pour Pêcher."
+		},
+		{
+			"id": "Flail",
+			"name": "Fléau",
+			"description": ""
+		},
+		{
+			"id": "Flint & Steel",
+			"name": "Flint & Steel",
+			"description": ""
+		},
+		{
+			"id": "Flour",
+			"name": "Farine"
+		},
+		{
+			"id": "Flute",
+			"name": "Flûte",
+			"description": "Bonus d'équipement de +1 en Performance."
+		},
+		{
+			"id": "Food Knife",
+			"name": "Couteau de cuisine",
+			"description": ""
+		},
+		{
+			"id": "Forge",
+			"name": "Forge"
+		},
+		{
+			"id": "Fort",
+			"name": "Fort",
+			"description": ""
+		},
+		{
+			"id": "Fortress",
+			"name": "Forteresse",
+			"description": ""
+		},
+		{
+			"id": "Gallows",
+			"name": "Gallows"
+		},
+		{
+			"id": "Garden",
+			"name": "Jardin"
+		},
+		{
+			"id": "Ghoulish Glare",
+			"name": "Ghoulish Glare"
+		},
+		{
+			"id": "Glass",
+			"name": "Verre"
+		},
+		{
+			"id": "Gold",
+			"name": "Or"
+		},
+		{
+			"id": "Gold Coin",
+			"name": "Pièce d'or",
+			"description": ""
+		},
+		{
+			"id": "Gouged eye",
+			"name": "Oeil poché"
+		},
+		{
+			"id": "Grain",
+			"name": "Grain"
+		},
+		{
+			"id": "Grappling Hook",
+			"name": "Crochet d'escalalde",
+			"description": "Bonus d'équipement de +1 pour escalalder."
+		},
+		{
+			"id": "Great Fur",
+			"name": "Manteau de fourrure",
+			"description": "Bonus d'équipement de +2 contre le froid."
+		},
+		{
+			"id": "Great Helm",
+			"name": "Grand casque",
+			"description": ""
+		},
+		{
+			"id": "Groin hit",
+			"name": "Coup à l'aine"
+		},
+		{
+			"id": "Guard Dog",
+			"name": "Chien de garde",
+			"description": ""
+		},
+		{
+			"id": "Guard Tower",
+			"name": "Guard Tower"
+		},
+		{
+			"id": "Halberd",
+			"name": "Hallebarde",
+			"description": ""
+		},
+		{
+			"id": "Hallucinations",
+			"name": "Hallucinations"
+		},
+		{
+			"id": "Hallucinogenic Poison",
+			"name": "Poison hallucinogène",
+			"description": "Virulence 3. Chaque augmentation de Virulence double le prix."
+		},
+		{
+			"id": "Hammer",
+			"name": "Marteau",
+			"description": ""
+		},
+		{
+			"id": "Hammer Fighter",
+			"name": "Hammer Fighter"
+		},
+		{
+			"id": "Hand of Doom",
+			"name": "Hand of Doom"
+		},
+		{
+			"id": "Hand run through",
+			"name": "Hand run through"
+		},
+		{
+			"id": "Handaxe",
+			"name": "Hache",
+			"description": ""
+		},
+		{
+			"id": "Hard to Catch (Halfling)",
+			"name": "Hard to Catch (Halfling)"
+		},
+		{
+			"id": "Harp",
+			"name": "Harpe",
+			"description": "Bonus d'équipement de +2 en Performance."
+		},
+		{
+			"id": "Hawk's Eye",
+			"name": "Hawk's Eye"
+		},
+		{
+			"id": "Healing Hands",
+			"name": "Healing Hands"
+		},
+		{
+			"id": "Heart attack",
+			"name": "Heart attack"
+		},
+		{
+			"id": "Heavy Crossbow",
+			"name": "Arbalète lourde",
+			"description": ""
+		},
+		{
+			"id": "Heavy Warhammer",
+			"name": "Marteau lourd",
+			"description": ""
+		},
+		{
+			"id": "Herbalist",
+			"name": "Herbalist"
+		},
+		{
+			"id": "Herbs",
+			"name": "Herbes"
+		},
+		{
+			"id": "Hireling - Baker",
+			"name": "Hireling - Baker"
+		},
+		{
+			"id": "Hireling - Bowyer",
+			"name": "Hireling - Bowyer"
+		},
+		{
+			"id": "Hireling - Carpenter",
+			"name": "Hireling - Carpenter"
+		},
+		{
+			"id": "Hireling - Executioner",
+			"name": "Hireling - Executioner"
+		},
+		{
+			"id": "Hireling - Farmer",
+			"name": "Hireling - Farmer"
+		},
+		{
+			"id": "Hireling - Guard",
+			"name": "Hireling - Guard"
+		},
+		{
+			"id": "Hireling - Handyman",
+			"name": "Hireling - Handyman"
+		},
+		{
+			"id": "Hireling - Hunter",
+			"name": "Hireling - Hunter"
+		},
+		{
+			"id": "Hireling - Innkeeper",
+			"name": "Hireling - Innkeeper"
+		},
+		{
+			"id": "Hireling - Jailer",
+			"name": "Hireling - Jailer"
+		},
+		{
+			"id": "Hireling - Lumberjack",
+			"name": "Hireling - Lumberjack"
+		},
+		{
+			"id": "Hireling - Master Builder",
+			"name": "Hireling - Master Builder"
+		},
+		{
+			"id": "Hireling - Miller",
+			"name": "Hireling - Miller"
+		},
+		{
+			"id": "Hireling - Miner",
+			"name": "Hireling - Miner"
+		},
+		{
+			"id": "Hireling - Quarry Worker",
+			"name": "Hireling - Quarry Worker"
+		},
+		{
+			"id": "Hireling - Smith",
+			"name": "Hireling - Smith"
+		},
+		{
+			"id": "Hireling - Tailor",
+			"name": "Hireling - Tailor"
+		},
+		{
+			"id": "Hireling - Tanner",
+			"name": "Hireling - Tanner"
+		},
+		{
+			"id": "Holy Symbol",
+			"name": "Symbole sacré",
+			"description": "Peut servir de composant de sort."
+		},
+		{
+			"id": "Homing Pigeon in Cage",
+			"name": "Pigeon voyageur en cage",
+			"description": "Vole jusqu'à son colombier lorsqu'il est relaché."
+		},
+		{
+			"id": "Horn",
+			"name": "Corne",
+			"description": "Bonus d'équipement de +1 en Performance"
+		},
+		{
+			"id": "Horrify",
+			"name": "Horrify"
+		},
+		{
+			"id": "Horseback Fighter",
+			"name": "Horseback Fighter"
+		},
+		{
+			"id": "Hourglass",
+			"name": "Sablier",
+			"description": "Peut servir de composant de sort."
+		},
+		{
+			"id": "Hunting Instincts (Wolfkin)",
+			"name": "Hunting Instincts (Wolfkin)"
+		},
+		{
+			"id": "Illusion",
+			"name": "Illusion"
+		},
+		{
+			"id": "Immolate",
+			"name": "Immolate"
+		},
+		{
+			"id": "Impaled neck",
+			"name": "Impaled neck"
+		},
+		{
+			"id": "Impaled shoulder",
+			"name": "Impaled shoulder"
+		},
+		{
+			"id": "Impaled thigh",
+			"name": "Impaled thigh"
+		},
+		{
+			"id": "Incorruptible",
+			"name": "Incorruptible"
+		},
+		{
+			"id": "Ink and Quill",
+			"name": "Plume et encrier",
+			"description": "Nécessaire pour écrire des sorts."
+		},
+		{
+			"id": "Inn",
+			"name": "Inn"
+		},
+		{
+			"id": "Inner Peace (Elf)",
+			"name": "Inner Peace (Elf)"
+		},
+		{
+			"id": "Intuition",
+			"name": "Intuition"
+		},
+		{
+			"id": "Iron",
+			"name": "Fer"
+		},
+		{
+			"id": "Iron Ore",
+			"name": "Minerai de fer"
+		},
+		{
+			"id": "Iron Song",
+			"name": "Iron Song"
+		},
+		{
+			"id": "Ivelde",
+			"name": "Ivelde"
+		},
+		{
+			"id": "Knife",
+			"name": "Couteau",
+			"description": ""
+		},
+		{
+			"id": "Knife Fighter",
+			"name": "Knife Fighter"
+		},
+		{
+			"id": "Knocked out teeth",
+			"name": "Dents cassées"
+		},
+		{
+			"id": "Lamp Oil",
+			"name": "Huile de lampe",
+			"description": "Se consomme en 1 quart"
+		},
+		{
+			"id": "Lantern",
+			"name": "Lanterne",
+			"description": "Illumine à portée PROCHE pendant 1 quart. Fonctionne avec de l'huile de lampe."
+		},
+		{
+			"id": "Large Shield",
+			"name": "Grand bouclier",
+			"description": ""
+		},
+		{
+			"id": "Large Tent",
+			"name": "Grande tente",
+			"description": "6 places. Bonus d'équipement de  +2 pour Monter le camp."
+		},
+		{
+			"id": "Large Wooden Club",
+			"name": "Massue lourde",
+			"description": ""
+		},
+		{
+			"id": "Leather",
+			"name": "Cuir"
+		},
+		{
+			"id": "Leather Armor",
+			"name": "Armure de cuir",
+			"description": ""
+		},
+		{
+			"id": "Lethal Poison",
+			"name": "Poison mortel",
+			"description": "Virulence 3. Chaque augmentation de Virulence double le prix."
+		},
+		{
+			"id": "Library",
+			"name": "Library"
+		},
+		{
+			"id": "Light Crossbow",
+			"name": "Arbalète légère",
+			"description": ""
+		},
+		{
+			"id": "Lightbringer",
+			"name": "Lightbringer"
+		},
+		{
+			"id": "Lightning Fast",
+			"name": "Lightning Fast"
+		},
+		{
+			"id": "Lockpicker",
+			"name": "Lockpicker"
+		},
+		{
+			"id": "Lockpicks",
+			"name": "Outils de crochetage",
+			"description": "Bonus d'équipement de +1 en Escamotage pour crocheter des serrures."
+		},
+		{
+			"id": "Long Spear",
+			"name": "Lance",
+			"description": ""
+		},
+		{
+			"id": "Longbow",
+			"name": "Arc long",
+			"description": ""
+		},
+		{
+			"id": "Longsword",
+			"name": "Epée longue",
+			"description": ""
+		},
+		{
+			"id": "Lucky",
+			"name": "Lucky"
+		},
+		{
+			"id": "Lute",
+			"name": "Luth",
+			"description": "Bonus d'équipement de +1 en Performance."
+		},
+		{
+			"id": "Lyre",
+			"name": "Lyre",
+			"description": "Bonus d'équipement de +1 en Performance."
+		},
+		{
+			"id": "Mace",
+			"name": "Mace",
+			"description": ""
+		},
+		{
+			"id": "Magical Seal",
+			"name": "Magical Seal"
+		},
+		{
+			"id": "Magnifying Glass",
+			"name": "Loupe",
+			"description": "Peut servir de composant de sort."
+		},
+		{
+			"id": "Map",
+			"name": "Carte",
+			"description": "Peut servir de composant de sort."
+		},
+		{
+			"id": "Marketplace",
+			"name": "Marketplace"
+		},
+		{
+			"id": "Master of the Hunt",
+			"name": "Master of the Hunt"
+		},
+		{
+			"id": "Meat",
+			"name": "VIande"
+		},
+		{
+			"id": "Melee Charge",
+			"name": "Melee Charge"
+		},
+		{
+			"id": "Mend Wounds",
+			"name": "Mend Wounds"
+		},
+		{
+			"id": "Menkaura's Tooth",
+			"name": "Menkaura's Tooth"
+		},
+		{
+			"id": "Metal Chalice",
+			"name": "Calice en métal",
+			"description": ""
+		},
+		{
+			"id": "Metal Plate",
+			"name": "Plat en métal",
+			"description": ""
+		},
+		{
+			"id": "Mill",
+			"name": "Mill"
+		},
+		{
+			"id": "Mind Trick",
+			"name": "Mind Trick"
+		},
+		{
+			"id": "Mine",
+			"name": "Mine"
+		},
+		{
+			"id": "Moat",
+			"name": "Moat"
+		},
+		{
+			"id": "Morningstar",
+			"name": "Morningstar",
+			"description": ""
+		},
+		{
+			"id": "Mythomania",
+			"name": "Mythomania"
+		},
+		{
+			"id": "Nature's Cure",
+			"name": "Nature's Cure"
+		},
+		{
+			"id": "Needle and Thread",
+			"name": "Fil et aiguille",
+			"description": ""
+		},
+		{
+			"id": "Nightmares",
+			"name": "Nightmares"
+		},
+		{
+			"id": "Nocturnal",
+			"name": "Nocturnal"
+		},
+		{
+			"id": "Nocturnal (Goblin)",
+			"name": "Nocturnal (Goblin)"
+		},
+		{
+			"id": "Obscure Magic",
+			"name": "Obscure Magic"
+		},
+		{
+			"id": "Oil Lamp",
+			"name": "Lampe à huile",
+			"description": "Illumine à portée proche pendant 1 quart.Ne peut être utilisé qu'en intérieur. Fonctionne avec de l'huile de lampe."
+		},
+		{
+			"id": "Open Helmet",
+			"name": "Casque ouvert",
+			"description": ""
+		},
+		{
+			"id": "Pack Rat",
+			"name": "Pack Rat"
+		},
+		{
+			"id": "Pain Resistant",
+			"name": "Pain Resistant"
+		},
+		{
+			"id": "Palace",
+			"name": "Palace",
+			"description": ""
+		},
+		{
+			"id": "Paralyze",
+			"name": "Paralyze"
+		},
+		{
+			"id": "Paralyzing Poison",
+			"name": "Poison paralysant",
+			"description": "Virulence 3. Chaque augmentation de Virulence double le prix."
+		},
+		{
+			"id": "Paranoia",
+			"name": "Paranoia"
+		},
+		{
+			"id": "Parchment",
+			"name": "Parchmemin",
+			"description": "Nécessaire pour écrire des sort."
+		},
+		{
+			"id": "Pasture",
+			"name": "Pasture"
+		},
+		{
+			"id": "Path of Blood",
+			"name": "Path of Blood"
+		},
+		{
+			"id": "Path of Death",
+			"name": "Path of Death"
+		},
+		{
+			"id": "Path of Gold",
+			"name": "Path of Gold"
+		},
+		{
+			"id": "Path of Healing",
+			"name": "Path of Healing"
+		},
+		{
+			"id": "Path of Lies",
+			"name": "Path of Lies"
+		},
+		{
+			"id": "Path of Many Things",
+			"name": "Path of Many Things"
+		},
+		{
+			"id": "Path of Poison",
+			"name": "Path of Poison"
+		},
+		{
+			"id": "Path of Shifting Shapes",
+			"name": "Path of Shifting Shapes"
+		},
+		{
+			"id": "Path of Sight",
+			"name": "Path of Sight"
+		},
+		{
+			"id": "Path of Signs",
+			"name": "Path of Signs"
+		},
+		{
+			"id": "Path of Stone",
+			"name": "Path of Stone"
+		},
+		{
+			"id": "Path of the Arrow",
+			"name": "Path of the Arrow"
+		},
+		{
+			"id": "Path of the Beast",
+			"name": "Path of the Beast"
+		},
+		{
+			"id": "Path of the Blade",
+			"name": "Path of the Blade"
+		},
+		{
+			"id": "Path of the Companion",
+			"name": "Path of the Companion"
+		},
+		{
+			"id": "Path of the Enemy",
+			"name": "Path of the Enemy"
+		},
+		{
+			"id": "Path of the Face",
+			"name": "Path of the Face"
+		},
+		{
+			"id": "Path of the Forest",
+			"name": "Path of the Forest"
+		},
+		{
+			"id": "Path of the Hymn",
+			"name": "Path of the Hymn"
+		},
+		{
+			"id": "Path of the Killer",
+			"name": "Path of the Killer"
+		},
+		{
+			"id": "Path of the Knight",
+			"name": "Path of the Knight"
+		},
+		{
+			"id": "Path of the Plains",
+			"name": "Path of the Plains"
+		},
+		{
+			"id": "Path of the Shield",
+			"name": "Path of the Shield"
+		},
+		{
+			"id": "Path of the Song",
+			"name": "Path of the Song"
+		},
+		{
+			"id": "Path of the Warcry",
+			"name": "Path of the Warcry"
+		},
+		{
+			"id": "Pathfinder",
+			"name": "Pathfinder"
+		},
+		{
+			"id": "Pelt",
+			"name": "Peau"
+		},
+		{
+			"id": "Phantom Dagger",
+			"name": "Phantom Dagger"
+		},
+		{
+			"id": "Phobic",
+			"name": "Phobic"
+		},
+		{
+			"id": "Pickaxe",
+			"name": "Pioche",
+			"description": ""
+		},
+		{
+			"id": "Pierced cheek",
+			"name": "Pierced cheek"
+		},
+		{
+			"id": "Pierced ear",
+			"name": "Pierced ear"
+		},
+		{
+			"id": "Pierced eye",
+			"name": "Pierced eye"
+		},
+		{
+			"id": "Pierced heart",
+			"name": "Pierced heart"
+		},
+		{
+			"id": "Pig",
+			"name": "Cochon",
+			"description": ""
+		},
+		{
+			"id": "Pigsty",
+			"name": "Pigsty"
+		},
+		{
+			"id": "Pike",
+			"name": "Pique",
+			"description": ""
+		},
+		{
+			"id": "Plate Armor",
+			"name": "Armure de plate",
+			"description": ""
+		},
+		{
+			"id": "Pliers",
+			"name": "Pinces",
+			"description": ""
+		},
+		{
+			"id": "Poisoner",
+			"name": "Poisoner"
+		},
+		{
+			"id": "Portal",
+			"name": "Portal"
+		},
+		{
+			"id": "Portcullis",
+			"name": "Portcullis"
+		},
+		{
+			"id": "Power Rune",
+			"name": "Power Rune"
+		},
+		{
+			"id": "Precious Find",
+			"name": "Precious Find",
+			"description": ""
+		},
+		{
+			"id": "Primal Soul",
+			"name": "Primal Soul"
+		},
+		{
+			"id": "Psychic Power (Half-Elf)",
+			"name": "Psychic Power (Half-Elf)"
+		},
+		{
+			"id": "Punctured lung",
+			"name": "Punctured lung"
+		},
+		{
+			"id": "Puppeteer",
+			"name": "Puppeteer"
+		},
+		{
+			"id": "Purge Undead",
+			"name": "Purge Undead"
+		},
+		{
+			"id": "Quarry",
+			"name": "Quarry"
+		},
+		{
+			"id": "Quartermaster",
+			"name": "Quartermaster"
+		},
+		{
+			"id": "Queen Agatha's Twin Tablets",
+			"name": "Queen Agatha's Twin Tablets"
+		},
+		{
+			"id": "Quickdraw",
+			"name": "Quickdraw"
+		},
+		{
+			"id": "Quiver",
+			"name": "Carquois",
+			"description": "N'encombre pas le porteur."
+		},
+		{
+			"id": "Rags",
+			"name": "Guenilles",
+			"description": "Pénalité de -2 au jets de manpulation."
+		},
+		{
+			"id": "Raise the Dead",
+			"name": "Raise the Dead"
+		},
+		{
+			"id": "Ramparts",
+			"name": "Ramparts"
+		},
+		{
+			"id": "Resurrection",
+			"name": "Resurrection"
+		},
+		{
+			"id": "Riding Horse",
+			"name": "Cheval de monte",
+			"description": ""
+		},
+		{
+			"id": "Root Cellar",
+			"name": "Root Cellar"
+		},
+		{
+			"id": "Rope, 10 Meters",
+			"name": "Corde, 10 mètres",
+			"description": "Bonus d'équipement de +1 en Escalade."
+		},
+		{
+			"id": "Rowing Boat",
+			"name": "Rowing Boat",
+			"description": ""
+		},
+		{
+			"id": "Ruptured intestines",
+			"name": "Ruptured intestines"
+		},
+		{
+			"id": "Sack",
+			"name": "Sac",
+			"description": "N'encombre pas le porteur."
+		},
+		{
+			"id": "Sailing Boat",
+			"name": "Sailing Boat",
+			"description": ""
+		},
+		{
+			"id": "Sailor",
+			"name": "Sailor"
+		},
+		{
+			"id": "Saw",
+			"name": "Scie",
+			"description": ""
+		},
+		{
+			"id": "Scales",
+			"name": "Ecailles",
+			"description": "Peut servir de composant de sort."
+		},
+		{
+			"id": "Scarnesbane",
+			"name": "Scarnesbane"
+		},
+		{
+			"id": "Scimitar",
+			"name": "Cimeterre",
+			"description": ""
+		},
+		{
+			"id": "Scriptorium",
+			"name": "Scriptorium"
+		},
+		{
+			"id": "Sense Magic",
+			"name": "Sense Magic"
+		},
+		{
+			"id": "Serenity",
+			"name": "Serenity"
+		},
+		{
+			"id": "Severed arm",
+			"name": "Severed arm"
+		},
+		{
+			"id": "Severed arm artery",
+			"name": "Severed arm artery"
+		},
+		{
+			"id": "Severed ear",
+			"name": "Severed ear"
+		},
+		{
+			"id": "Severed finger",
+			"name": "Doigt coupé"
+		},
+		{
+			"id": "Severed foot",
+			"name": "Severed foot"
+		},
+		{
+			"id": "Severed leg",
+			"name": "Severed leg"
+		},
+		{
+			"id": "Severed leg artery",
+			"name": "Severed leg artery"
+		},
+		{
+			"id": "Severed nose",
+			"name": "Nez coupé"
+		},
+		{
+			"id": "Severed tendon",
+			"name": Tendon coupé"
+		},
+		{
+			"id": "Severed toe",
+			"name": "Orteille coupé"
+		},
+		{
+			"id": "Sharp Tongue",
+			"name": "Sharp Tongue"
+		},
+		{
+			"id": "Sharpshooter",
+			"name": "Sharpshooter"
+		},
+		{
+			"id": "Sheep",
+			"name": "Mouton",
+			"description": ""
+		},
+		{
+			"id": "Sheepfold",
+			"name": "Sheepfold"
+		},
+		{
+			"id": "Shield Fighter",
+			"name": "Shield Fighter"
+		},
+		{
+			"id": "Shooting Range",
+			"name": "Shooting Range"
+		},
+		{
+			"id": "Short Bow",
+			"name": "Arc court",
+			"description": ""
+		},
+		{
+			"id": "Short Spear",
+			"name": "Lance courte",
+			"description": ""
+		},
+		{
+			"id": "Shortsword",
+			"name": "Epée courte",
+			"description": ""
+		},
+		{
+			"id": "Shovel",
+			"name": "Pelle",
+			"description": ""
+		},
+		{
+			"id": "Shrine",
+			"name": "Shrine"
+		},
+		{
+			"id": "Silver",
+			"name": "Argent"
+		},
+		{
+			"id": "Silver Buckle",
+			"name": "Boucle en argent",
+			"description": "Bonus d'équipement de +1 en Manipluation."
+		},
+		{
+			"id": "Silver Coin",
+			"name": "Pièce d'argent",
+			"description": ""
+		},
+		{
+			"id": "Simple Clothes",
+			"name": "Vêtements simples",
+			"description": ""
+		},
+		{
+			"id": "Simple Find",
+			"name": "Simple Find",
+			"description": ""
+		},
+		{
+			"id": "Sixth Sense",
+			"name": "Sixth Sense"
+		},
+		{
+			"id": "Skewered foot",
+			"name": "Skewered foot"
+		},
+		{
+			"id": "Skewered groin",
+			"name": "Skewered groin"
+		},
+		{
+			"id": "Skewered skull",
+			"name": "Skewered skull"
+		},
+		{
+			"id": "Slashed eye",
+			"name": "Slashed eye"
+		},
+		{
+			"id": "Slashed mouth",
+			"name": "Entaille à la bouche"
+		},
+		{
+			"id": "Sledge Hammer",
+			"name": "Marteau de forgeron",
+			"description": ""
+		},
+		{
+			"id": "Sleeping Fur",
+			"name": "Fourrure",
+			"description": "Bonus d'équipement +2 contre le froid."
+		},
+		{
+			"id": "Sleeping Poison",
+			"name": "Poison somnifère",
+			"description": "Virulence 3. Chaque augmentation de Virulence double le prix."
+		},
+		{
+			"id": "Sling",
+			"name": "Fronde",
+			"description": ""
+		},
+		{
+			"id": "Slit throat",
+			"name": "Slit throat"
+		},
+		{
+			"id": "Small Shield",
+			"name": "Petit bouclier",
+			"description": ""
+		},
+		{
+			"id": "Small Tent",
+			"name": "Petite tente",
+			"description": "2 places. Bonus d'équipement de +2 pour Monter le camp"
+		},
+		{
+			"id": "Smith",
+			"name": "Forge"
+		},
+		{
+			"id": "Snares",
+			"name": "Collets",
+			"description": "Bonus d'équipement de +1 en Chasse lors des voyage"
+		},
+		{
+			"id": "Speak to the Dead",
+			"name": "Speak to the Dead"
+		},
+		{
+			"id": "Spear Fighter",
+			"name": "Spear Fighter"
+		},
+		{
+			"id": "Spoon",
+			"name": "Cuillère",
+			"description": ""
+		},
+		{
+			"id": "Spyglass",
+			"name": "Longue-vue",
+			"description": "Bonus d'équipement de +2 en Eclaireur à portée longue"
+		},
+		{
+			"id": "Stables",
+			"name": "Etables"
+		},
+		{
+			"id": "Staff",
+			"name": "Staff",
+			"description": ""
+		},
+		{
+			"id": "Steady Feet",
+			"name": "Steady Feet"
+		},
+		{
+			"id": "Steal Life",
+			"name": "Steal Life"
+		},
+		{
+			"id": "Stir the Blood",
+			"name": "Stir the Blood"
+		},
+		{
+			"id": "Stone",
+			"name": "Pierre"
+		},
+		{
+			"id": "Stone House",
+			"name": "Stone House",
+			"description": ""
+		},
+		{
+			"id": "Stone Storm",
+			"name": "Stone Storm"
+		},
+		{
+			"id": "Stonesmith",
+			"name": "Stonesmith"
+		},
+		{
+			"id": "Studded Leather",
+			"name": "Cuir cloutée",
+			"description": ""
+		},
+		{
+			"id": "Studded Leather Cap",
+			"name": "Capuchon de cuir",
+			"description": ""
+		},
+		{
+			"id": "Stun",
+			"name": "Stun"
+		},
+		{
+			"id": "Stunned",
+			"name": "Sonné",
+			"description": ""
+		},
+		{
+			"id": "Sullen",
+			"name": "Sullen"
+		},
+		{
+			"id": "Summon Golem",
+			"name": "Summon Golem"
+		},
+		{
+			"id": "Sword Fighter",
+			"name": "Sword Fighter"
+		},
+		{
+			"id": "Tailor",
+			"name": "Tailor"
+		},
+		{
+			"id": "Tailor Shop",
+			"name": "Tailor Shop"
+		},
+		{
+			"id": "Tallow",
+			"name": "Suif"
+		},
+		{
+			"id": "Tallow Candle",
+			"name": "Bougie de suif",
+			"description": "Illumine à portée contact pendant 1 quart."
+		},
+		{
+			"id": "Tankard",
+			"name": "Chope",
+			"description": ""
+		},
+		{
+			"id": "Tanner",
+			"name": "Tanner"
+		},
+		{
+			"id": "Tannery",
+			"name": "Tannery"
+		},
+		{
+			"id": "Telepathy",
+			"name": "Telepathy"
+		},
+		{
+			"id": "Terror",
+			"name": "Terror"
+		},
+		{
+			"id": "The Nightwalker's Hourglass",
+			"name": "The Nightwalker's Hourglass"
+		},
+		{
+			"id": "The Tezaur",
+			"name": "The Tezaur"
+		},
+		{
+			"id": "Threatening",
+			"name": "Threatening"
+		},
+		{
+			"id": "Throwing Arm",
+			"name": "Throwing Arm"
+		},
+		{
+			"id": "Throwing Axe",
+			"name": "Hache de lancer",
+			"description": ""
+		},
+		{
+			"id": "Throwing Knife",
+			"name": "Couteau de lancer",
+			"description": ""
+		},
+		{
+			"id": "Throwing Spear",
+			"name": "Lance (dist)",
+			"description": ""
+		},
+		{
+			"id": "Timber Axe",
+			"name": "Hache de bucheron",
+			"description": ""
+		},
+		{
+			"id": "Torches",
+			"name": "Torches",
+			"description": ""
+		},
+		{
+			"id": "Tower",
+			"name": "Tour",
+			"description": ""
+		},
+		{
+			"id": "Training Grounds",
+			"name": "Training Grounds"
+		},
+		{
+			"id": "Transfer",
+			"name": "Transfer"
+		},
+		{
+			"id": "Trembling",
+			"name": "Trembling"
+		},
+		{
+			"id": "Trident",
+			"name": "Trident",
+			"description": ""
+		},
+		{
+			"id": "True Grit (Dwarf)",
+			"name": "True Grit (Dwarf)"
+		},
+		{
+			"id": "True Path",
+			"name": "True Path"
+		},
+		{
+			"id": "True Sight",
+			"name": "True Sight"
+		},
+		{
+			"id": "Tunic",
+			"name": "Tunique",
+			"description": ""
+		},
+		{
+			"id": "Tvedra's Twin Rings",
+			"name": "Tvedra's Twin Rings"
+		},
+		{
+			"id": "Two-Handed Axe",
+			"name": "Hahce à deux mains",
+			"description": ""
+		},
+		{
+			"id": "Two-Handed Sword",
+			"name": "Epée à deux mains",
+			"description": ""
+		},
+		{
+			"id": "Unbreakable (Orc)",
+			"name": "Unbreakable (Orc)"
+		},
+		{
+			"id": "Valuable Find",
+			"name": "Valuable Find",
+			"description": ""
+		},
+		{
+			"id": "Vault",
+			"name": "Vault"
+		},
+		{
+			"id": "Vegetables",
+			"name": "Végétaux"
+		},
+		{
+			"id": "Visions of the Past",
+			"name": "Visions of the Past"
+		},
+		{
+			"id": "Voice of the Mountain",
+			"name": "Voice of the Mountain"
+		},
+		{
+			"id": "Voller's Helmet",
+			"name": "Voller's Helmet"
+		},
+		{
+			"id": "Wagon",
+			"name": "Wagon",
+			"description": ""
+		},
+		{
+			"id": "Wail's Horn",
+			"name": "Wail's Horn"
+		},
+		{
+			"id": "Wanderer",
+			"name": "Wanderer"
+		},
+		{
+			"id": "Warhammer",
+			"name": "Marteau de guerre",
+			"description": ""
+		},
+		{
+			"id": "Waterskin",
+			"name": "Outre",
+			"description": "Nécessaire pour transporter de l'eau."
+		},
+		{
+			"id": "Weathered Doll",
+			"name": "Poupée de chiffon",
+			"description": "Peut servir de composant de sort."
+		},
+		{
+			"id": "Weathermaster",
+			"name": "Weathermaster"
+		},
+		{
+			"id": "Weight of Ages",
+			"name": "Weight of Ages"
+		},
+		{
+			"id": "Well",
+			"name": "Puit"
+		},
+		{
+			"id": "Well of Tears",
+			"name": "Well of Tears"
+		},
+		{
+			"id": "White hair",
+			"name": "White hair"
+		},
+		{
+			"id": "Wither",
+			"name": "Wither"
+		},
+		{
+			"id": "Wood",
+			"name": "Bois"
+		},
+		{
+			"id": "Wooden Club",
+			"name": "massue",
+			"description": ""
+		},
+		{
+			"id": "Wool",
+			"name": "Laine"
+		},
+		{
+			"id": "Words on the Wind",
+			"name": "Words on the Wind"
+		},
+		{
+			"id": "Wounded shoulder",
+			"name": "Wounded shoulder"
+		},
+		{
+			"id": "Wyrm's Key",
+			"name": "Wyrm's Key"
+		}
+	]
+}
