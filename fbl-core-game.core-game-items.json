@@ -1,16 +1,23 @@
 {
 	"label": "Core Game Objets",
-	"mapping": {
-        "description": "data.description",
-	"effect":"data.effect",
-	"drawback": "data.drawback",
-	"appearance": "data.appearance"
-	
-    },
 	"entries": [
 		{
 			"id": "Adaptive (Human)",
-			"name": "Adaptive (Human)"
+			"name": "Adaptive (Human)",
+			"description": "Humans are new to the Forbidden Lands and are seen as intruders by the other kin. But no other kin  can  adapt  to  new  situations  and  living  conditions the way  the humans can. If you spend a Willpower  Point  when  you  are  about  to  roll  for  a  skill,  you  can  roll  for  any  skill  of  your  choice  to  achieve  the  same  result.  You  must  be  able  to  motivate how you use the chosen skill. The GM has final say, but should give you some leeway."
+		},
+		{
+			"id": "Drunkard",
+			"name": "Alcoolisme",
+			"effect": "Vous devez boire de l'alcool tous les jour ou sibr 1 point de dégâts à l'AGILITE."
+		},
+		{
+			"id": "Flint & Steel",
+			"name": "Allume-feu",
+			"description": "Bonus d'équipement de +1 pour MONTER LE CAMP durant les voyages.",
+			"effect": "Gear Bonus +1 to Making Camp during journeys.",
+			"drawback": "",
+			"appearance": ""
 		},
 		{
 			"id": "Altered personality",
@@ -19,7 +26,8 @@
 		},
 		{
 			"id": "Ambidextrous",
-			"name": "Ambidextrous"
+			"name": "Ambidextrous",
+			"description": "You are skilled in the art of fighting with one close combat weapon in each hand. You have a primary weapon in your favored (or sword) hand and a secondary weapon in your other hand. You can draw both weapons with a single DRAW WEAPON action.\n\n✥ Rank 1: You can use your secondary weapon to perform one extra attack per round, as a fast action. It must be a LIGHT weapon and the attack is modified by –2.\n\n✥ RANK 2: Same as per rank 1, but you can use a normal weapon as your secondary weapon.\n\n✥ RANK 3: Same as per rank 2, and your attack with your secondary weapon is not modified."
 		},
 		{
 			"id": "Amnesia",
@@ -28,11 +36,13 @@
 		},
 		{
 			"id": "Animal Form",
-			"name": "Animal Form"
+			"name": "Animal Form",
+			"description": "You can shapeshift completely, and take the form of an animal. Choose an animal from the table on page 124 in the Gamemaster’s Guide. You cannot choose an animal with a Strength higher than twice the Power Level. You get the Strength and Agility of the animal while you are in animal form. The downside is that you lose your ability to speak and a part of your mental capacity, with the consequence that your Wits and Empathy drop to 1 each while in animal form. You also get access to the animal’s natural attacks. Shifting back to your normal form requires that you cast the spell again."
 		},
 		{
 			"id": "Animal Speech",
-			"name": "Animal Speech"
+			"name": "Animal Speech",
+			"description": "This spell allows you to speak with a mammal. You can ask a number of questions equal to the Power Level of the spell. The animal can tell you what it has seen, heard, or smelled – but they do not perceive the world as humanoids do, so their answers are often hard to interpret. The main advantage is that they never lie."
 		},
 		{
 			"id": "Anxious",
@@ -40,165 +50,231 @@
 			"effect": "Pénalité de -1 aux jets d'ESPRIT."
 		},
 		{
+			"id": "Heavy Crossbow",
+			"name": "Arbalète lourde",
+			"description": "",
+			"effect": "",
+			"drawback": "",
+			"appearance": ""
+		},
+		{
+			"id": "Light Crossbow",
+			"name": "Arbalète légère",
+			"description": "",
+			"effect": "",
+			"drawback": "",
+			"appearance": ""
+		},
+		{
+			"id": "Short Bow",
+			"name": "Arc court",
+			"description": "",
+			"effect": "",
+			"drawback": "",
+			"appearance": ""
+		},
+		{
+			"id": "Longbow",
+			"name": "Arc long",
+			"description": "",
+			"effect": "",
+			"drawback": "",
+			"appearance": ""
+		},
+		{
+			"id": "Silver",
+			"name": "Argent"
+		},
+		{
+			"id": "Leather Armor",
+			"name": "Armure de cuir",
+			"description": "",
+			"effect": "",
+			"drawback": "",
+			"appearance": ""
+		},
+		{
+			"id": "Plate Armor",
+			"name": "Armure de plate",
+			"description": "",
+			"effect": "",
+			"drawback": "",
+			"appearance": ""
+		},
+		{
 			"id": "Arrow of the Fire Wyrm",
 			"name": "Arrow of the Fire Wyrm",
+			"description": "It is said that the volcano god Horn first awoke when the demons that Zygofer let loose had already laid waste to Aslene. So awful was his rage that magma and ash were spewed across the heavens. Brought before the god were three snakes, who had bitten three prophets to death. These prophets had seen the coming of the demon flood, and had wanted to warn the people and wake Horn. The snakes groveled before Horn and opined that they had not intended the desolation of the land, that they had only followed their nature as the gods had created them. When Horn’s priests still wanted to punish the reptiles by throwing them into the magma, they writhed, cried out and begged to atone for their crime by bringing vengeance to those who were truly responsible.\n\nHorn listened to them and called his servant from the magma depths of the volcano, the mighty fire wyrm, Erinya. She breathed on her lesser kin, whereupon they turned into arrows. These arrows would, when shot from a bow, mark the butchers of Aslene so that Erinya could find and devour them.",
+			"effect": "An Arrow of the Fire Wyrm flies badly and can only be fired up to SHORT range, no matter the weapon. Against most targets, it functions as a normal arrow but gives the user a D8 Artifact Die. It has a more specific purpose as well (see Raven's Purge).",
 			"drawback": "",
-			"description":,
-			"appearance": "",
-			"effect": ""
+			"appearance": "An Arrow of the Fire Wyrm is always hot and smells of sulfur. Its shaft is carved of dark wood and wrapped with copper in the shape of a writhing snake. The tail feathers are small and red. The arrow appears to be intended more for ceremonial use than for combat."
 		},
 		{
-			"id": "Arrows, Iron Head",
-			"name": "Flêches, Pointe de fer",
-			"description": "Augmente de 1 le dé de ressource Flèches."
+			"id": "Severed leg artery",
+			"name": "Artère de la jambe sectionnée",
+			"effect": "COURIR devient une action lente."
 		},
 		{
-			"id": "Arrows, Wooden Head",
-			"name": "Flêches, Pointe de bois",
-			"description": "Augmente de 1 le dé de ressource Flèches. Les armures sont doublées."
+			"id": "Severed arm artery",
+			"name": "Artère du bras sectionnée",
+			"effect": "Les armes à deux mains ne peuvent pas être utilisées."
 		},
 		{
 			"id": "Asina",
 			"name": "Asina",
+			"description": "Cette arme est très ancienne, et on dit que sa lame est le crochet d'un des gigantesques vers de terre qui a détruit les terres ancestrales des humains, les forçant à fuir vers Ravenland guidés par le dieu Corbeau. Raven avait strictement interdit aux humains de rapporter quoi que ce soit de la terre natale lors de leur voyage, afin de ne pas risquer de contaminer le nouveau monde.Le contrebandier qui avait apporté le croc fut sommairement jeté par-dessus bord pendant le voyage, mais les prêtres n'osèrent pas laisser la lame les suivre de peur de contaminer une créature marine.  Au lieu de cela, il a été décidé qu'ils apporteraient le croc sur la nouvelle terre et la garderaient sous clé dans un temple, jusqu'à ce qu’on puisse la détruire en toute sécurité. Au lieu de cela, une fois ses origines oubliées, il a été forgé en épée, puis perdu.",
+			"effect": "Maladie de Virulence 6 à chaque blessure + dégâts contre les démons.",
 			"drawback": "Le risque de se blesser avec l'épée est significatif, d'autant plus que Asina semble avoir une volonté propre lorsqu'on la brandit. Chaque crâne lancé (au premier jet de l'attaque) inflige un point de dommage (et le risque de maladie) sur l'agresseur lui-même ou sur un ami à portée de toucher. L'arme souille tout liquide dans lequelle elle est plongée, le rendant imbuvable.",
-			"description":"Cette arme est très ancienne, et on dit que sa lame est le crochet d'un des gigantesques vers de terre qui a détruit les terres ancestrales des humains, les forçant à fuir vers Ravenland guidés par le dieu Corbeau. Raven avait strictement interdit aux humains de rapporter quoi que ce soit de la terre natale lors de leur voyage, afin de ne pas risquer de contaminer le nouveau monde.Le contrebandier qui avait apporté le croc fut sommairement jeté par-dessus bord pendant le voyage, mais les prêtres n'osèrent pas laisser la lame les suivre de peur de contaminer une créature marine.  Au lieu de cela, il a été décidé qu'ils apporteraient le croc sur la nouvelle terre et la garderaient sous clé dans un temple, jusqu'à ce qu’on puisse la détruire en toute sécurité. Au lieu de cela, une fois ses origines oubliées, il a été forgé en épée, puis perdu.",
-			"appearance": "Un très vieux sabre qui semble avoir été taillé d'un seul morceau d'os ou d'une grande dent, son pommeau étant enveloppée d'une peau de serpent grossière. La lame enflamme et flétrit toute matière organique avec laquelle elle entre en contact.",
-			"effect": "Maladie de Virulence 6 à chaque blessure + dégâts contre les démons."
-
+			"appearance": "Un très vieux sabre qui semble avoir été taillé d'un seul morceau d'os ou d'une grande dent, son pommeau étant enveloppée d'une peau de serpent grossière. La lame enflamme et flétrit toute matière organique avec laquelle elle entre en contact."
+		},
+		{
+			"id": "Blind",
+			"name": "Aveugle",
+			"description": "The victim must make an INSIGHT roll with a negative modification equal to the Power Level. If the roll fails, the symbol blinds the victim. The effect of this blindness is the same as for being in total darkness (see @JournalEntry[Combat]). On victims without Wits, such as animals, the effect is automatic, but the spell has no effect on monsters."
 		},
 		{
 			"id": "Axe Fighter",
-			"name": "Axe Fighter"
-		},
-		{
-			"id": "Backpack",
-			"name": "Sac à dos",
-			"description": "N'encombre pas le porteur"
+			"name": "Axe Fighter",
+			"description": "Nothing splits a shield – or a skull – like a mighty axe.\n\n✥ RANK 1: Your attack rolls are modified by +1 when you fight with an axe.\n\n✥ RANK 2: When you hit an enemy with your axe and inflict at least one point of damage, you automatically inflict a critical injury (slash wound). The critical injury itself doesn’t break your opponent – unless it kills them of course. No effect against monsters or animals.\n\n✥ RANK 3: You can add a D8 Artifact Die to all attack rolls with an axe."
 		},
 		{
 			"id": "Bakery",
-			"name": "Bakery"
+			"name": "Bakery",
+			"description": "A bakery will feed many hungry mouths and spreads a welcoming smell across the stronghold. Your stronghold can have several bakeries.",
+			"effect": "Each Quarter Day that the BAKERY is staffed by a PC or NPC with the CHEF talent, or by the BAKER hireling, up to a dozen units of FLOUR can be converted into an equal number of units of FOOD (bread)."
 		},
 		{
 			"id": "Bandages",
 			"name": "Bandages",
-			"description": "Bonus d'équipement de +1 en GUERISON."
+			"description": "Bonus d'équipement de +1 en GUERISON.",
+			"effect": "Gear Bonus +1 to Healing.",
+			"drawback": "",
+			"appearance": ""
 		},
 		{
 			"id": "Banish Demon",
-			"name": "Banish Demon"
-		},
-		{
-			"id": "Barkhyde",
-			"name": "Barkhyde",
-			"drawback": "",
-			"description":,
-			"appearance": "",
-			"effect": ""
+			"name": "Banish Demon",
+			"description": "Demonic creatures from other worlds have been released into the Forbidden Lands and are defiling it. You know the art of driving these abominations back to where they belong. This spell inflicts damage to Strength equal to the Power Level on a demonic target. This includes demons that do not suffer damage from physical weapons. The spell has no effect on demon-tainted creatures, only on true demons."
 		},
 		{
 			"id": "Barrel",
 			"name": "Baril",
-			"description": "Contient 10 unités d'eau ou d'un autre liquide."
+			"description": "Contient 10 unités d'eau ou d'un autre liquide.",
+			"effect": "Contains 10 units of Water or other liquid.",
+			"drawback": "",
+			"appearance": ""
 		},
 		{
-			"id": "Battleaxe",
-			"name": "Hache de bataille",
-			"description": ""
-		},
-		{
-			"id": "Bear Trap",
-			"name": "Pège à ours",
-			"description": "Bonus d'équipement de +2 en Chasse durant les voyage."
+			"id": "Barkhyde",
+			"name": "Barkhyde",
+			"description": "Barkhyde is believed to be an old, sacrificial mask in honor of the goddess Heme, and is also known as Heme’s Devouring Mask. If placed over the face, tough tree roots will slither from it, enfolding the wearer in minutes, while they are subjected to a multitude of harmless, but unpleasant, pin pricks. The custom at the temples of Heme is to then remove the mask and sacrifice the individual.",
+			"effect": "In fact, the mask is not related to the goddess Heme at all, and is significantly older than most believe. It is an ancient, elven armor that grows by itself when the mask is placed against the face. The armor is a LIGHT item with Armor Rating 3 and a D10 Artifact Die (which is rolled with the armor roll). The many pin pricks that the wearer feels are tiny roots piercing the skin. They provide the wearer with WATER and FOOD as long a she sleeps standing up at night, so that the armor can root itself and draw sustenance from the soil. Some elder elves are aware of the misunderstanding and find it immensely amusing.",
+			"drawback": "",
+			"appearance": ""
 		},
 		{
 			"id": "Bear's Claw",
-			"name": "Bear's Claw"
+			"name": "Bear's Claw",
+			"description": "You can strike your enemy with the force of a great bear. You hit automatically and cause damage equal to the Power Level. The attack cannot be PARRIED or DODGED, but armor has normal effect."
 		},
 		{
 			"id": "Beastmaster",
-			"name": "Beastmaster"
+			"name": "Beastmaster",
+			"description": "You can bend animals, both wild and tame, to your will. The animal can, for example, break off an attack, track down an enemy, run to where you want it to and deliver a message, allow you to ride on it, or even attack your opponents. You cannot control an animal with a Strength higher than twice the Power Level. The Power Level must be one step higher if the animal is agitated, scared or in combat. If you force an animal to act in a way that is outside its normal behavior – like make it perform tricks, for example – the Power Level needs to be one step higher. You can only control one animal at a time. This spell cannot be used against monsters."
+		},
+		{
+			"id": "Fine Garments",
+			"name": "Beaux vêtements",
+			"description": "Bonus d'équipement de +2 aux jets de MANIPULATION.",
+			"effect": "Gear Bonus +2 to Manipulation.",
+			"drawback": "",
+			"appearance": ""
 		},
 		{
 			"id": "Befoul",
-			"name": "Befoul"
+			"name": "Befoul",
+			"description": "You can let death and decay seep into food. You can BEFOUL a unit of FOOD per Power Level making it unfit for consumption. The FOOD turns into a poison with a Potency equal to the Power Level multiplied by 3."
 		},
 		{
 			"id": "Berserker",
-			"name": "Berserker"
+			"name": "Berserker",
+			"description": "When you are Broken (see page 107), you can choose to unleash a primal rage upon the world. On your turn in the next round, you recover as many points in the attribute that has been decreased to zero as your rank in BERSERKER. You must immediately attack the nearest opponent in close combat, and keep fighting until you are Broken (again) or until all opponents within sight have been Broken. During your rage, you are immune to any attempts to MANIPULATE you and all your close combat attacks do one extra point of damage. If Broken during a BERSERKER rage, you cannot use this talent."
 		},
 		{
 			"id": "Bind Demon",
-			"name": "Bind Demon"
+			"name": "Bind Demon",
+			"description": "This spell allows you to bend demonic creatures from other worlds to your will. The demon can resist the spell with a successful INSIGHT roll with a negative modification equal to the Power Level. Keep in mind that demons rarely react well to magicians’ attempts to BIND them, so be ready for any consequences."
 		},
 		{
 			"id": "Bind Magic",
-			"name": "Bind Magic"
+			"name": "Bind Magic",
+			"description": "Skilled Sorcerers and Druids can BIND spells to dead objects to create magical traps or powerful magical artifacts. You cast the spell like any other and choose how many Willpower Points to spend, but you must also spend extra WP to   bindyour spell to an object instead of unleashing its power immediately. Rituals cannot be BOUND.\n\nRoll for any overcharge and mishap when the spell is BOUND. The extra WP do affect this roll, but don’t count toward the Power Level. If you spend one additional WP, the magic lingers for one day, or until the spell is triggered. If you spend two additional WP, the magic lingers forever, but dissipates when the spell is triggered. Spending five additional WP binds the spell to the object forever and it can be triggered once per day, at a cost in WP equal to the Power Level.\n\nYou can bind the spell in whatever manner you wish. You decide how the spell is triggered. Common methods include a certain phrase being uttered or that the object is opened, broken or thrown to the ground. Once the spell is triggered, it has the same effect as if it had been cast normally."
 		},
 		{
 			"id": "Bind Soul",
-			"name": "Bind Soul"
+			"name": "Bind Soul",
+			"description": "Through this ritual, you can extract a victim’s soul from his blood and capture it in a vessel of some kind (such as a mirror, a jewel, or a weapon). Your victim must make an INSIGHT roll with a negative modification equal to the Power Level. If the roll fails, the victim is bound to the vessel for a Quarter Day. Making the effect last one full day requires Power Level 2 or higher, and if you want the victim to remain in the vessel forever – or up to a time of your choosing – it requires Power Level 3. You can specify a condition that must be filled to free the soul. The victim can be freed by a @Item[Dispel Magic]. While the soul is bound, the body is unconscious and can be killed with a COUP DE GRACE or possessed by another restless spirit."
 		},
 		{
-			"id": "Blanket",
-			"name": "Couverture",
-			"description": "Bonus d'équipement de +1 contre le froid."
-		},
-		{
-			"id": "Bleeding forehead",
-			"name": "Saignement au front"
-		},
-		{
-			"id": "Bleeding gut",
-			"name": "Entaille à la gorge",
-			"effect": "1 point de dégâts à chaque jet de PUISSANCE, MANOEUVRES et MÊLEE"
-		},
-		{
-			"id": "Bleeding thigh",
-			"name": "Saignement de cuisse",
-			"effect": "COURIR devient une action lente."
-		},
-		{
-			"id": "Blind",
-			"name": "Aveugle"
+			"id": "Wounded shoulder",
+			"name": "Blessure à l'épaule",
+			"effect": "Les armes à deux mains ne peuvent pas être utilisées."
 		},
 		{
 			"id": "Blood Bond",
-			"name": "Blood Bond"
+			"name": "Blood Bond",
+			"description": "You can transfer blood, and the inherent energy of it, to or from another being of the same kin as yourself. You can transfer a number of attribute points (of any attribute) equal to the Power Level to or from the target. The starting attribute rating cannot be surpassed. Attribute points lost in this way can be recovered normally. An unwilling victim can make an INSIGHT roll, with a negative modification equal to the Power Level, to resist the spell. The spell can be used to get a Broken person up on their feet, but it has no effect on critical injuries."
 		},
 		{
 			"id": "Blood Channeling",
-			"name": "Blood Channeling"
+			"name": "Blood Channeling",
+			"description": "This spell concentrates the energy of the sorcerer’s own blood. You gain a number of Willpower Points equal to twice the Power Level. The effect is temporary, however. Your newly won Willpower Points must be used in the next round, or they are lost. If you use a living sacrifice as an ingredient for your spell, it must be sacrificed before you cast the spell. A small animal is enough."
 		},
 		{
 			"id": "Blood Curse",
-			"name": "Blood Curse"
+			"name": "Blood Curse",
+			"description": "You place a blood curse on your victim, who must be a living humanoid. You must know your victim’s name and know where they are, at least approximately. The victim suffers damage to an attribute of your choice. The amount of damage equals the Power Level and the victim takes one point of damage per Quarter Day until the full effect is reached."
+		},
+		{
+			"id": "Wood",
+			"name": "Bois"
 		},
 		{
 			"id": "Boots",
 			"name": "Bottes",
-			"description": "Bonus d'équipement de +1 en Marche forcée."
+			"description": "Bonus d'équipement de +1 en MARCHE FORCEE durant les voyages.",
+			"effect": "Gear Bonus +1 when force marching (See @JournalEntry[Journeys].",
+			"drawback": "",
+			"appearance": ""
+		},
+		{
+			"id": "Silver Buckle",
+			"name": "Boucle en argent",
+			"description": "Bonus d'équipement de +1 aux jets de MANIPULATION.",
+			"effect": "Gear Bonus +1 to Manipulation.",
+			"drawback": "",
+			"appearance": ""
+		},
+		{
+			"id": "Tallow Candle",
+			"name": "Bougie de suif",
+			"description": "Illumine à portée contact pendant 1 quart.",
+			"effect": "Illuminates within Arm's Length for a Quarter Day.",
+			"drawback": "",
+			"appearance": ""
+		},
+		{
+			"id": "Crystal Ball",
+			"name": "Boule de cristal",
+			"description": "",
+			"effect": "Can be used as ingredient in spells.",
+			"drawback": "",
+			"appearance": ""
 		},
 		{
 			"id": "Bowyer",
-			"name": "Bowyer"
-		},
-		{
-			"id": "Brawler",
-			"name": "Brawler"
-		},
-		{
-			"id": "Bread",
-			"name": "Pain"
-		},
-		{
-			"id": "Breathless",
-			"name": "Souffle coupé"
-		},
-		{
-			"id": "Broadsword",
-			"name": "Glaive",
-			"description": ""
+			"name": "Bowyer",
+			"description": "You have learned how to turn wood and leather into lethal bows and slings.\n\n✥ RANK 1: You can use the CRAFTING skill to make ranged weapons from the weapons table (see page 103), with normal stats.\n\n✥ RANK 2: You can make ranged weapons with a Weapon Bonus that is one point higher than normal. This takes twice as long, and your roll is modified by –2.\n\n✥ RANK 3: You can make ranged weapons with a Weapon Bonus that is two points higher than normal. This takes four times as long and your roll is modified by –4."
 		},
 		{
 			"id": "Broken arm",
@@ -206,65 +282,96 @@
 			"effect": "Les armes à deux mains ne peuvent plus être utilisées."
 		},
 		{
-			"id": "Broken fingers",
-			"name": "Doigt cassé",
-			"effect": "Les armes à deux mains ne peuvent plus être utilisées."
+			"id": "Severed arm",
+			"name": "Bras coupé",
+			"effect": "Les armes à deux mains ne peuvent pas être utilisées."
 		},
 		{
-			"id": "Broken leg",
-			"name": "Jambe cassée",
-			"effect": "COURIR devient une action lente."
-		},
-		{
-			"id": "Broken neck",
-			"name": "Coup brisé",
-			"effect": "Paralysie à partir du cou. L'effet est permanenet si la blessure n'est pas soignée à temps."
-		},
-		{
-			"id": "Broken nose",
-			"name": "Nez cassé",
-			"effect": "-1 aux jets de MANIPULATION."
-		},
-		{
-			"id": "Broken ribs",
-			"name": "Côte cassée",
-			"effect": "-2 aux jets de MANOEUVRES et MÊLEE."
-		},
-		{
-			"id": "Broken toes",
-			"name": "Orteille cassé",
-			"effect": "COURIR devient une action lente."
+			"id": "Brawler",
+			"name": "Brawler",
+			"description": "You don’t need weapons to strike down your enemy.\n\n✥ RANK 1: All your unarmed attacks are modified by +1.\n\n✥ RANK 2: You can headbutt your enemy. It counts as a normal unarmed attack, but it is a fast action.\n\n✥ RANK 3: You can add a D8 Artifact Die to all your unarmed attacks."
 		},
 		{
 			"id": "Builder",
-			"name": "Builder"
+			"name": "Builder",
+			"description": "You are are a skilled engineer and can build advanced constructions in your stronghold.\n\n✥ RANK 1: You can build advanced functions in your stronghold. See Chapter 8.\n\n✥ RANK 2: You get a +1 modification when you build a function in a stronghold.\n\n✥ RANK 3: You can add a D8 Artifact Die to your roll when you build a function in your stronghold."
+		},
+		{
+			"id": "Metal Chalice",
+			"name": "Calice en métal",
+			"description": "",
+			"effect": "-",
+			"drawback": "",
+			"appearance": ""
 		},
 		{
 			"id": "Canoe",
 			"name": "Canoe",
-			"description": "Peut transporter 2 personnes et 10 objets."
+			"description": "Peut transporter 2 personnes et 10 objets.",
+			"effect": "Can carry two people and 10 items.",
+			"drawback": "",
+			"appearance": ""
+		},
+		{
+			"id": "Studded Leather Cap",
+			"name": "Capuchon de cuir",
+			"description": "",
+			"effect": "",
+			"drawback": "",
+			"appearance": ""
+		},
+		{
+			"id": "Quiver",
+			"name": "Carquois",
+			"description": "N'encombre pas le porteur.",
+			"effect": "Does not encumber the wearer.",
+			"drawback": "",
+			"appearance": ""
 		},
 		{
 			"id": "Carskenfoot's Boots",
 			"name": "Carskenfoot's Boots",
+			"description": "Five hundred years ago, the renowned stone singer and prospector Aras Carskenfoot of the Belderan clan forged a pair of climbing boots to help him traverse difficult mountain terrain. The boots worked perfectly, but since Carskenfoot suffered from a severe case of foot sweat, he slid out of them when the fastening straps broke half-way up a sheer cliff, and the stone singer fell to his death. The widow handed the boots off so as to never see them again and neither she nor anyone else has since.",
+			"effect": "Carskenfoot’s boots always give purchase, no matter how slippery or steep a surface is, and it is even possible to walk upside down on the ceiling. The surface must be able to support the climber, thus it is not possible to walk up a waterfall or other unnatural surfaces. The boots give a D10 Artifact Die to any MOVE rolls when climbing. The boots count as clothes and don’t encumber the wearer.",
 			"drawback": "",
-			"description":,
-			"appearance": "",
-			"effect": ""
+			"appearance": "A pair of sturdy hiking boots, each of which is fastened to the foot and calf with straps. The boots were made for dwarves, and fit neither long-of-feet elves, bigger-than-average humans or half-kin. The straps look worn, and should be replaced so that the wanderer won’t have to risk sharing Carskenfoot’s fate."
 		},
 		{
-			"id": "Cart",
-			"name": "Chariot",
-			"description": "Tiré par un animal. Peu transporter 2 personnes et 50 objets."
+			"id": "Map",
+			"name": "Carte",
+			"description": "Peut servir de composant de sort.",
+			"effect": "Can be used as ingredient in spells.",
+			"drawback": "",
+			"appearance": ""
+		},
+		{
+			"id": "Closed Helmet",
+			"name": "Casque fermé",
+			"description": "",
+			"effect": "",
+			"drawback": "",
+			"appearance": ""
+		},
+		{
+			"id": "Open Helmet",
+			"name": "Casque ouvert",
+			"description": "",
+			"effect": "",
+			"drawback": "",
+			"appearance": ""
 		},
 		{
 			"id": "Castle",
 			"name": "Castle",
-			"description": ""
+			"description": "",
+			"effect": "",
+			"drawback": "",
+			"appearance": ""
 		},
 		{
 			"id": "Cat's Paw",
-			"name": "Cat's Paw"
+			"name": "Cat's Paw",
+			"description": "You can meld your mind with the spirit of the cat, and move without a sound. You can cast this spell instead of rolling SNEAK, and you will succeed automatically. Each Power Level counts as one X."
 		},
 		{
 			"id": "Catatonic",
@@ -272,32 +379,80 @@
 			"effect": "Votre regard se perd dans le vide et vous ne répondez à aucun stimuli."
 		},
 		{
+			"id": "Nightmares",
+			"name": "Cauchemars",
+			"effect": "Faites un jet de PERSPICACITE pour chaque quart passé à DORMIR. En cas d'échec,  le SOMMEIL ne compte pas."
+		},
+		{
+			"id": "Cart",
+			"name": "Chariot",
+			"description": "Tiré par un animal. Peu transporter 2 personnes et 50 objets.",
+			"effect": "Pulled by one animal. Can carry two people and 50 items.",
+			"drawback": "",
+			"appearance": ""
+		},
+		{
 			"id": "Cauldron",
 			"name": "Chaudron",
-			"description": "Permet au chef de cuisiner d6+2 unités de Nourriture par quart."
+			"description": "Permet au chef de cuisiner d6+2 unités de Nourriture par quart.",
+			"effect": "Gear Bonus +1 when cooking Food. Makes it possible to cook D6+2 units of Food in a Quarter Day.",
+			"drawback": "",
+			"appearance": ""
+		},
+		{
+			"id": "Chef",
+			"name": "Chef",
+			"description": "You know how to cook using simple things, even while you are on a journey through the wilderness.\n\n✥ RANK 1: You can turn up to D6 units of VEGETABLES, MEAT, or FISH into FOOD (see Chapter 7). Cooking requires a fire and takes a Quarter Day (see page 144). In a proper kitchen, you can cook up to a dozen units of FOOD in a Quarter Day.\n\n✥ RANK 2: When you cook for a Quarter Day, you create an extra unit of FOOD.\n\n✥ RANK 3: The food you cook is so delicious that whoever eats it immediately recovers a point of lost Empathy."
 		},
 		{
 			"id": "Chainmail",
 			"name": "Chemise de maille",
-			"description": ""
+			"description": "",
+			"effect": "",
+			"drawback": "",
+			"appearance": ""
 		},
 		{
-			"id": "Chalk",
-			"name": "Craie",
-			"description": ""
+			"id": "Riding Horse",
+			"name": "Cheval de monte",
+			"description": "",
+			"effect": "See @Actor[Riding Horse]",
+			"drawback": "",
+			"appearance": ""
 		},
 		{
-			"id": "Chef",
-			"name": "Chef"
+			"id": "White hair",
+			"name": "Cheveux blancs",
+			"effect": "None."
 		},
 		{
-			"id": "Chicken",
-			"name": "Poulet",
-			"description": ""
+			"id": "Guard Dog",
+			"name": "Chien de garde",
+			"description": "",
+			"effect": "See @Actor[Canide War Hound]",
+			"drawback": "",
+			"appearance": ""
 		},
 		{
 			"id": "Chill of the Grave",
-			"name": "Chill of the Grave"
+			"name": "Chill of the Grave",
+			"description": "You let the unrelenting cold of death seep into your victim. The victim becomes COLD, immediately suffering 1 point of damage to both Strength and Wits as a result. The victim continues to suffer 1 point of damage to these attributes each round, until the total amount of damage (to each attribute) equals the Power Level. The spell has no effect on monsters."
+		},
+		{
+			"id": "Tankard",
+			"name": "Chope",
+			"description": "",
+			"effect": "-",
+			"drawback": "",
+			"appearance": ""
+		},
+		{
+			"id": "Scimitar",
+			"name": "Cimeterre",
+			"description": "",
+			"effect": "",
+			"drawback": "",
+			"appearance": ""
 		},
 		{
 			"id": "Claustrophobic",
@@ -305,77 +460,90 @@
 			"effect": "A chaque tour (15 min) passé dans un endroit clos, vous subissez 1 point de dégâts à l'ESPRIT."
 		},
 		{
-			"id": "Clay Jug",
-			"name": "Jarre",
-			"description": "Contient 1 unité d'eau ou d'un autre liquide."
-		},
-		{
 			"id": "Clay's Rosary",
 			"name": "Clay's Rosary",
-			"drawback": "",
-			"description":,
-			"appearance": "",
-			"effect": ""
+			"description": "It is said that Clay was much fatigued after having bridled the winds over Ravenland in ancient times. He needed to rest, but could not leave the newly tamed winds unattended. He therefore created a rosary of Maha signs that could control the weather and gave this to the maiden Thousand-Heart to use while he slept. Gargal, behemoth of the seas, who was used to playing at sea with the gales, was cross that his playmates had been taken from him and wanted to free them. While Clay slept, Gargal let himself rise from the sea foam at Maidenholm in the shape of the beautiful noble, Adembre. Thousand-Heart was so enamored that she forsook her duties to frolic with her guest. But Gargal let crabs sneak ashore to steal Clay’s rosary while she was distracted.\n\nWhen dawn broke, Adembre returned to the beach, where the crabs had hidden the rosary under a rock. He was just about to go into the sea with his loot when Clay woke. The god discovered the theft and turned the beach into a mire, trapping the thief. When Adembre found himself trapped, he threw the rosary into the ocean. But before Gargal’s gargantuan shape could catch it, it was snatched up by the mischievous dolphin Puld, who absconded with it. Clay furiously ripped Adembre to shreds, which can still be seen in the red algae that lines the shorelines of the ocean. The god let the shores of the sea, rivers and lakes partially remain as mires henceforth, as protection against thieves. It is said that Thousand-Heart wept so profusely on the shore for her lover that the sea has been salt ever since, but since Clay had woken he no longer needed the rosary. After mastering the winds, he bestowed them on the goddess Wail to use as she wanted.\n\nThe true origin of the rosary is unclear, but it may very well be divine.",
+			"effect": "Clay’s Rosary contains ten Maha signs carved into pieces fashioned from the tiger’s eye mineral, which are strung on a vine-like piece of string. On the vine, there is also a large tablet with five depressions, on which the Maha tablets can be placed to form a statement that controls the weather in the same way as the  WEATHERMASTERspell.\n\nThe rosary has a D12 Artifact Die and can be used once per day. When used, roll the Artifact Die – the number of x rolled is the Power Level of the spell. No WP are needed, and no mishap roll is made. The signs on the rosary are North, East, South, West, Strong, Weak, Water, Drought, Warm, and Cold. The combination of Cold and Water gives fog, Cold and Warm creates a thunderstorm, and so forth.\n\nClay’s Rosary is very beneficial to agriculture at a stronghold – continuous use of the rosary makes it possible to harvest GARDENS and FIELDS all year round (see the Stronghold chapter in the Player’s Handbook).",
+			"drawback": "Clay’s Rosary is a relic that is sought after by the druids of the Golden Bough (see page 55). If they learn its whereabouts, which abnormal weather patterns can alert them to, they will demand it be brought to the Stillmist, Pelagia or some other temple. If it’s not given freely, the druids will call on the Redrunners to claim it by force.",
+			"appearance": "The rosary looks like a vine on which ten gold-streaked Maha signs made from tiger’s eye are strung, along with a larger stone that bears the sign of the god Clay. On the vine, there is also a larger tablet of bluish stone with sockets."
 		},
 		{
 			"id": "Cleanse Spirit",
-			"name": "Cleanse Spirit"
+			"name": "Cleanse Spirit",
+			"description": "You can focus the forces of nature to enlighten dark souls. You immediately heal a number of Wits or Empathy points equal to the Power Level of your spell. You cannot heal yourself."
 		},
 		{
-			"id": "Cleft skull",
-			"name": "Crâne fendu",
-			"effect": "Vous mourez immédiatement."
+			"id": "Pig",
+			"name": "Cochon",
+			"description": "",
+			"effect": "Gives 6 units of Meat when slaughtered.",
+			"drawback": "",
+			"appearance": ""
 		},
 		{
-			"id": "Cloak",
-			"name": "Manteau",
-			"description": ""
-		},
-		{
-			"id": "Closed Helmet",
-			"name": "Casue fermé",
-			"description": ""
-		},
-		{
-			"id": "Cloth, Silk",
-			"name": "Tissu, soie"
-		},
-		{
-			"id": "Cloth, Wool",
-			"name": "Tissu, laine"
+			"id": "Pierced heart",
+			"name": "Coeur transpercé",
+			"effect": "C'est votre dernier battement de coeur..."
 		},
 		{
 			"id": "Cold Blooded",
-			"name": "Cold Blooded"
+			"name": "Cold Blooded",
+			"description": "You are completely callous and can kill defenseless enemies without so much as a second’s hesitation.\n\n✥ RANK 1: You can perform a COUP DE GRACE(see page 108) without needing to roll dice.\n\n✥ RANK 2: As per rank 1, and you also don’t need to spend a Willpower Point or suffer damage to Empathy.\n\n✥ RANK 3: As per rank 2, but you also recover a point of lost Empathy when you perform a COUP DE GRACE."
+		},
+		{
+			"id": "Snares",
+			"name": "Collets",
+			"description": "Bonus d'équipement de +1 en CHASSE durant des voyages",
+			"effect": "Gear Bonus +1 to Hunting during journeys.",
+			"drawback": "",
+			"appearance": ""
 		},
 		{
 			"id": "Combat Trained Horse",
 			"name": "Combat Trained Horse",
-			"description": ""
+			"description": "",
+			"effect": "See @Actor[War Horse]",
+			"drawback": "",
+			"appearance": ""
+		},
+		{
+			"id": "Contaminate",
+			"name": "Contaminate",
+			"description": "You can create horrid contagions with which to torment your enemies. Your victim, who must be a living humanoid, contracts a disease with a Virulence equal to the Power Level multiplied by 3. Feel free to describe the nature of the contagion in detail."
 		},
 		{
 			"id": "Concussion",
 			"name": "Contusion",
-			"effect": "-2 aux jets d'ECLAIREUR"
+			"effect": "Pénalité de -2 aux jets d'ECLAIREUR"
 		},
 		{
-			"id": "Contaminate",
-			"name": "Contaminate"
+			"id": "Rope, 10 Meters",
+			"name": "Corde, 10 mètres",
+			"description": "Bonus d'équipement de +1 en Escalade.",
+			"effect": "Gear Bonus +1 when climbing.",
+			"drawback": "",
+			"appearance": ""
 		},
 		{
-			"id": "Copper Coin",
-			"name": "pièce de cuivre",
-			"description": ""
+			"id": "Horn",
+			"name": "Corne",
+			"description": "Bonus d'équipement de +1 aux jets de PERFORMANCE",
+			"effect": "Gear Bonus +1 to Performance.",
+			"drawback": "",
+			"appearance": ""
 		},
 		{
 			"id": "Cottage",
 			"name": "Cottage",
-			"description": ""
+			"description": "",
+			"effect": "",
+			"drawback": "",
+			"appearance": ""
 		},
 		{
-			"id": "Cow",
-			"name": "Vache",
-			"description": ""
+			"id": "Impaled neck",
+			"name": "Cou transpercé",
+			"effect": "Pénalité de -2 aux jets d'ENDURANCE."
 		},
 		{
 			"id": "Crushed elbow",
@@ -383,268 +551,9 @@
 			"effect": "Les armes à deux mains ne peuvent pas être utilisées."
 		},
 		{
-			"id": "Crushed foot",
-			"name": "Pied écrasé",
-			"effect": "COURIR devient une action lente."
-		},
-		{
-			"id": "Crushed knee",
-			"name": "Genoux écrasé",
-			"effect": "COURIR devient une action lente."
-		},
-		{
-			"id": "Crushed skull",
-			"name": "Crâne écrabouillée",
-			"effect": "Votre aventure et votre vie s'achèvent ici."
-		},
-		{
-			"id": "Crystal Ball",
-			"name": "Boule de cristal",
-			"description": ""
-		},
-		{
-			"id": "Dagger",
-			"name": "Dague",
-			"description": ""
-		},
-		{
-			"id": "Decapitation",
-			"name": "Dééapitation",
-			"effect": "Votre tête se désolidarise de votre corps."
-		},
-		{
-			"id": "Deer's Dash",
-			"name": "Deer's Dash"
-		},
-		{
-			"id": "Defender",
-			"name": "Defender"
-		},
-		{
-			"id": "Delusion",
-			"name": "Désillusion",
-			"effect": "Vous êtes convaincu de quelque chose de faux, comme par exemple qu'un peuple n'existe pas."
-		},
-		{
-			"id": "Dispel Magic",
-			"name": "Dispel Magic"
-		},
-		{
-			"id": "Divination",
-			"name": "Divination"
-		},
-		{
-			"id": "Donkey",
-			"name": "Âne",
-			"description": ""
-		},
-		{
-			"id": "Dovecote",
-			"name": "Dovecote"
-		},
-		{
-			"id": "Dragonslayer",
-			"name": "Dragonslayer"
-		},
-		{
-			"id": "Drum",
-			"name": "Tambour",
-			"description": ""
-		},
-		{
-			"id": "Drunkard",
-			"name": "Alcoolisme",
-			"effect": "Vous devez boire de l'alcool tous les jour ou sibr 1 point de dégâts à l'AGILITE."
-		},
-		{
-			"id": "Dungeon",
-			"name": "Dungeon"
-		},
-		{
-			"id": "Dust from the Deep",
-			"name": "Dust from the Deep"
-		},
-		{
-			"id": "Earthquake",
-			"name": "Earthquake"
-		},
-		{
-			"id": "Entice",
-			"name": "Entice"
-		},
-		{
-			"id": "Executioner",
-			"name": "Executioner"
-		},
-		{
-			"id": "Falchion",
-			"name": "Fauchon",
-			"description": ""
-		},
-		{
-			"id": "Farm",
-			"name": "Ferme",
-			"description": ""
-		},
-		{
-			"id": "Farsight",
-			"name": "Farsight"
-		},
-		{
-			"id": "Fast Footwork",
-			"name": "Fast Footwork"
-		},
-		{
-			"id": "Fast Shooter",
-			"name": "Fast Shooter"
-		},
-		{
-			"id": "Fearless",
-			"name": "Fearless"
-		},
-		{
-			"id": "Feroxa's Claws",
-			"name": "Feroxa's Claws",
-			"drawback": "",
-			"description":,
-			"appearance": "",
-			"effect": ""
-		},
-		{
-			"id": "Field",
-			"name": "Field"
-		},
-		{
-			"id": "Field Kitchen",
-			"name": "Cuisine de poche",
-			"description": "Permet au chef de cuisiner 2d6 unités de Nourriture par quart."
-		},
-		{
-			"id": "Field Ration",
-			"name": "Rations",
-			"description": "Augmente de 1 le dé de ressources Nourriture."
-		},
-		{
-			"id": "Fine Garments",
-			"name": "Beaux vêtements",
-			"description": "Bonus d'équipement de +2 en Manipluation."
-		},
-		{
-			"id": "Fireplace",
-			"name": "Fireplace"
-		},
-		{
-			"id": "Firewalker",
-			"name": "Firewalker"
-		},
-		{
-			"id": "Firm Grip",
-			"name": "Firm Grip"
-		},
-		{
-			"id": "Fish",
-			"name": "Poisson"
-		},
-		{
-			"id": "Fisher",
-			"name": "Fisher"
-		},
-		{
-			"id": "Fishing Hook and Line",
-			"name": "Hameçon et ligne",
-			"description": "Bonus d'équipement de +1 pour Pêcher."
-		},
-		{
-			"id": "Fishing Net",
-			"name": "Filet de pêche",
-			"description": "Bonus d'équipement de +2 pour Pêcher."
-		},
-		{
-			"id": "Flail",
-			"name": "Fléau",
-			"description": ""
-		},
-		{
-			"id": "Flint & Steel",
-			"name": "Flint & Steel",
-			"description": ""
-		},
-		{
-			"id": "Flour",
-			"name": "Farine"
-		},
-		{
-			"id": "Flute",
-			"name": "Flûte",
-			"description": "Bonus d'équipement de +1 en Performance."
-		},
-		{
-			"id": "Food Knife",
-			"name": "Couteau de cuisine",
-			"description": ""
-		},
-		{
-			"id": "Forge",
-			"name": "Forge"
-		},
-		{
-			"id": "Fort",
-			"name": "Fort",
-			"description": ""
-		},
-		{
-			"id": "Fortress",
-			"name": "Forteresse",
-			"description": ""
-		},
-		{
-			"id": "Gallows",
-			"name": "Gallows"
-		},
-		{
-			"id": "Garden",
-			"name": "Jardin"
-		},
-		{
-			"id": "Ghoulish Glare",
-			"name": "Ghoulish Glare"
-		},
-		{
-			"id": "Glass",
-			"name": "Verre"
-		},
-		{
-			"id": "Gold",
-			"name": "Or"
-		},
-		{
-			"id": "Gold Coin",
-			"name": "Pièce d'or",
-			"description": ""
-		},
-		{
-			"id": "Gouged eye",
-			"name": "Oeil poché",
-			"effect": "Pénalité de -2 aux jets de TIR DE PRECISION et d'ECLAIREUR."
-		},
-		{
-			"id": "Grain",
-			"name": "Grain"
-		},
-		{
-			"id": "Grappling Hook",
-			"name": "Crochet d'escalalde",
-			"description": "Bonus d'équipement de +1 pour escalalder."
-		},
-		{
-			"id": "Great Fur",
-			"name": "Manteau de fourrure",
-			"description": "Bonus d'équipement de +2 contre le froid."
-		},
-		{
-			"id": "Great Helm",
-			"name": "Grand casque",
-			"description": ""
+			"id": "Broken neck",
+			"name": "Coup brisé",
+			"effect": "Paralysie à partir du cou. L'effet est permanenet si la blessure n'est pas soignée à temps."
 		},
 		{
 			"id": "Groin hit",
@@ -652,67 +561,44 @@
 			"effect": "1 point de dégâts à chaque jet de PISSANCE, MANOEUVRES et MÊLEE"
 		},
 		{
-			"id": "Guard Dog",
-			"name": "Chien de garde",
-			"description": ""
+			"id": "Knife",
+			"name": "Couteau",
+			"description": "",
+			"effect": "",
+			"drawback": "",
+			"appearance": ""
 		},
 		{
-			"id": "Guard Tower",
-			"name": "Guard Tower"
+			"id": "Food Knife",
+			"name": "Couteau de cuisine",
+			"description": "",
+			"effect": "-",
+			"drawback": "",
+			"appearance": ""
 		},
 		{
-			"id": "Halberd",
-			"name": "Hallebarde",
-			"description": ""
+			"id": "Throwing Knife",
+			"name": "Couteau de lancer",
+			"description": "",
+			"effect": "",
+			"drawback": "",
+			"appearance": ""
 		},
 		{
-			"id": "Hallucinations",
-			"name": "Hallucinations",
-			"effect": "Faites un jet de PERSPICACITE à chaque quart.Si vous râtez, vous subissez de puissantes hallucinations."
+			"id": "Blanket",
+			"name": "Couverture",
+			"description": "Bonus d'équipement de +1 contre le froid.",
+			"effect": "Gear Bonus +1 against cold.",
+			"drawback": "",
+			"appearance": ""
 		},
 		{
-			"id": "Hallucinogenic Poison",
-			"name": "Poison hallucinogène",
-			"description": "Virulence 3. Chaque augmentation de Virulence double le prix."
-		},
-		{
-			"id": "Hammer",
-			"name": "Marteau",
-			"description": ""
-		},
-		{
-			"id": "Hammer Fighter",
-			"name": "Hammer Fighter"
-		},
-		{
-			"id": "Hand of Doom",
-			"name": "Hand of Doom"
-		},
-		{
-			"id": "Hand run through",
-			"name": "Hand run through"
-		},
-		{
-			"id": "Handaxe",
-			"name": "Hache",
-			"description": ""
-		},
-		{
-			"id": "Hard to Catch (Halfling)",
-			"name": "Hard to Catch (Halfling)"
-		},
-		{
-			"id": "Harp",
-			"name": "Harpe",
-			"description": "Bonus d'équipement de +2 en Performance."
-		},
-		{
-			"id": "Hawk's Eye",
-			"name": "Hawk's Eye"
-		},
-		{
-			"id": "Healing Hands",
-			"name": "Healing Hands"
+			"id": "Chalk",
+			"name": "Craie",
+			"description": "",
+			"effect": "Can be used by Symbolists.",
+			"drawback": "",
+			"appearance": ""
 		},
 		{
 			"id": "Heart attack",
@@ -720,144 +606,55 @@
 			"effect": "Votre coeur s'arrête et vous mourrez de frayeur."
 		},
 		{
-			"id": "Heavy Crossbow",
-			"name": "Arbalète lourde",
-			"description": ""
+			"id": "Grappling Hook",
+			"name": "Crochet d'escalalde",
+			"description": "Bonus d'équipement de +1 pour escalalder.",
+			"effect": "Gear Bonus +1 when climbing.",
+			"drawback": "",
+			"appearance": ""
 		},
 		{
-			"id": "Heavy Warhammer",
-			"name": "Marteau lourd",
-			"description": ""
+			"id": "Cleft skull",
+			"name": "Crâne fendu",
+			"effect": "Vous mourez immédiatement."
 		},
 		{
-			"id": "Herbalist",
-			"name": "Herbalist"
+			"id": "Skewered skull",
+			"name": "Crâne transpercé",
+			"effect": "Vous mourez sur le champ."
 		},
 		{
-			"id": "Herbs",
-			"name": "Herbes"
+			"id": "Crushed skull",
+			"name": "Crâne écrabouillé",
+			"effect": "Votre aventure et votre vie s'achèvent ici."
 		},
 		{
-			"id": "Hireling - Baker",
-			"name": "Hireling - Baker"
+			"id": "Spoon",
+			"name": "Cuillère",
+			"description": "",
+			"effect": "-",
+			"drawback": "",
+			"appearance": ""
 		},
 		{
-			"id": "Hireling - Bowyer",
-			"name": "Hireling - Bowyer"
+			"id": "Leather",
+			"name": "Cuir"
 		},
 		{
-			"id": "Hireling - Carpenter",
-			"name": "Hireling - Carpenter"
+			"id": "Studded Leather",
+			"name": "Cuir cloutée",
+			"description": "",
+			"effect": "",
+			"drawback": "",
+			"appearance": ""
 		},
 		{
-			"id": "Hireling - Executioner",
-			"name": "Hireling - Executioner"
-		},
-		{
-			"id": "Hireling - Farmer",
-			"name": "Hireling - Farmer"
-		},
-		{
-			"id": "Hireling - Guard",
-			"name": "Hireling - Guard"
-		},
-		{
-			"id": "Hireling - Handyman",
-			"name": "Hireling - Handyman"
-		},
-		{
-			"id": "Hireling - Hunter",
-			"name": "Hireling - Hunter"
-		},
-		{
-			"id": "Hireling - Innkeeper",
-			"name": "Hireling - Innkeeper"
-		},
-		{
-			"id": "Hireling - Jailer",
-			"name": "Hireling - Jailer"
-		},
-		{
-			"id": "Hireling - Lumberjack",
-			"name": "Hireling - Lumberjack"
-		},
-		{
-			"id": "Hireling - Master Builder",
-			"name": "Hireling - Master Builder"
-		},
-		{
-			"id": "Hireling - Miller",
-			"name": "Hireling - Miller"
-		},
-		{
-			"id": "Hireling - Miner",
-			"name": "Hireling - Miner"
-		},
-		{
-			"id": "Hireling - Quarry Worker",
-			"name": "Hireling - Quarry Worker"
-		},
-		{
-			"id": "Hireling - Smith",
-			"name": "Hireling - Smith"
-		},
-		{
-			"id": "Hireling - Tailor",
-			"name": "Hireling - Tailor"
-		},
-		{
-			"id": "Hireling - Tanner",
-			"name": "Hireling - Tanner"
-		},
-		{
-			"id": "Holy Symbol",
-			"name": "Symbole sacré",
-			"description": "Peut servir de composant de sort."
-		},
-		{
-			"id": "Homing Pigeon in Cage",
-			"name": "Pigeon voyageur en cage",
-			"description": "Vole jusqu'à son colombier lorsqu'il est relaché."
-		},
-		{
-			"id": "Horn",
-			"name": "Corne",
-			"description": "Bonus d'équipement de +1 en Performance"
-		},
-		{
-			"id": "Horrify",
-			"name": "Horrify"
-		},
-		{
-			"id": "Horseback Fighter",
-			"name": "Horseback Fighter"
-		},
-		{
-			"id": "Hourglass",
-			"name": "Sablier",
-			"description": "Peut servir de composant de sort."
-		},
-		{
-			"id": "Hunting Instincts (Wolfkin)",
-			"name": "Hunting Instincts (Wolfkin)"
-		},
-		{
-			"id": "Illusion",
-			"name": "Illusion"
-		},
-		{
-			"id": "Immolate",
-			"name": "Immolate"
-		},
-		{
-			"id": "Impaled neck",
-			"name": "Coup transpercé",
-			"effect": "-2 au jet d'ENDURANCE."
-		},
-		{
-			"id": "Impaled shoulder",
-			"name": "Epaule transpercée",
-			"effect": "les armes à deux mains ne peuvent pas être utilisées."
+			"id": "Field Kitchen",
+			"name": "Cuisine de poche",
+			"description": "Permet au chef de cuisiner 2d6 unités de Nourriture par quart.",
+			"effect": "Makes it possible to cook 2D6 units of Food in a Quarter Day.",
+			"drawback": "",
+			"appearance": ""
 		},
 		{
 			"id": "Impaled thigh",
@@ -865,292 +662,1057 @@
 			"effect": "COURIR  devient une action lente."
 		},
 		{
-			"id": "Incorruptible",
-			"name": "Incorruptible"
+			"id": "Broken ribs",
+			"name": "Côte cassée",
+			"effect": "Pénalité de -2 aux jets de MANOEUVRES et MÊLEE."
 		},
 		{
-			"id": "Ink and Quill",
-			"name": "Plume et encrier",
-			"description": "Nécessaire pour écrire des sorts."
+			"id": "Dagger",
+			"name": "Dague",
+			"description": "",
+			"effect": "",
+			"drawback": "",
+			"appearance": ""
 		},
 		{
-			"id": "Inn",
-			"name": "Inn"
+			"id": "Deer's Dash",
+			"name": "Deer's Dash",
+			"description": "You can run with the speed of a deer for a short distance. This spell allows you to RUN (one action) with a Movement Rate equal to the Power Level plus one. Casting this spell does not count as an action in itself. Roll for overcharge/mishap right before you actually move."
 		},
 		{
-			"id": "Inner Peace (Elf)",
-			"name": "Inner Peace (Elf)"
+			"id": "Defender",
+			"name": "Defender",
+			"description": "You are skilled at using weapons and shields to protect yourself in close combat.\n\n✥ RANK 1: You get one free PARRY every round of combat. The extra PARRY does not count as one of your actions in the round.\n\n✥ RANK 2: You get a +1 bonus to all PARRIES. \n\n✥ RANK 3: You can PARRY an unlimited number of times in the same round of combat, but only once against the same at-tack. Only the first PARRY counts towards your actions in the round."
 		},
 		{
-			"id": "Intuition",
-			"name": "Intuition"
+			"id": "Knocked out teeth",
+			"name": "Dents cassées",
+			"effect": "Pénalité de -1 aux jets de MANIPULATION"
+		},
+		{
+			"id": "Dispel Magic",
+			"name": "Dispel Magic",
+			"description": "You can interfere with the spells cast by other magic users. This spell is reactive and breaks the initiative order of combat in the round (see page 83). You decrease the Power Level of your opponent’s spell with the Power Level of your DISPEL. If the result is zero or less, your opponent’s spell has no effect at all. You must both roll for overcharge and mishaps, as with any other spell. You must decide how many WP you spend on your DISPEL before you both roll."
+		},
+		{
+			"id": "Divination",
+			"name": "Divination",
+			"description": "If you perform a seance, you can see visions of the future. You ask the GM questions about yourself or someone else present at the seance. The GM answers as best she can. The answer must be brief, and is often ambiguous and cryptic. The answer can also come in the form of a sign of happiness, or a foreboding sign of ill fortune."
+		},
+		{
+			"id": "Broken fingers",
+			"name": "Doigt cassé",
+			"effect": "Les armes à deux mains ne peuvent plus être utilisées."
+		},
+		{
+			"id": "Severed finger",
+			"name": "Doigt coupé",
+			"effect": "Les armes à deux mains ne peuvent pas être utilisées."
+		},
+		{
+			"id": "Dovecote",
+			"name": "Dovecote",
+			"description": "Homing pigeons are useful for quickly sending messages home to the stronghold from other parts of the Forbidden Lands.",
+			"effect": "The DOVECOTE contains about a dozen pigeons. These can be transported in cages during journeys. When a homing pigeon is released, it flies home to the DOVECOTE in the stronghold."
+		},
+		{
+			"id": "Dragonslayer",
+			"name": "Dragonslayer",
+			"description": "Dragonslayer is the title given to those who seek honor and fame by killing beasts and monsters.\n\n✥ RANK 1: All your attacks against monsters are modified by +1.\n\n✥ RANK 2: Your attacks against monsters cause 1 additional point of damage.\n\n✥ RANK 3: You can add a D8 Artifact Die to your roll in attacks against monsters."
+		},
+		{
+			"id": "Dungeon",
+			"name": "Dungeon",
+			"description": "A dark and damp place where you can lock up miscreants and other displeasing individuals. Your stronghold can have several dungeons.",
+			"effect": "Holds up to four prisoners securely locked away. As long as a PC or the JAILER hireling watches the prisoners, they have slim chances of escape."
+		},
+		{
+			"id": "Dust from the Deep",
+			"name": "Dust from the Deep",
+			"description": "The spell blows a thick cloud of rock dust from the ground to cover the Zone you are in. The dust blocks sight through the Zone and lets you flee combat (see @JournalEntry[Combat]) without rolling for MOVE. This spell can only be used in the MOUNTAIN terrain type or inside a CAVE."
+		},
+		{
+			"id": "Decapitation",
+			"name": "Décapitation",
+			"effect": "Votre tête se désolidarise de votre corps."
+		},
+		{
+			"id": "Delusion",
+			"name": "Désillusion",
+			"effect": "Vous êtes convaincu de quelque chose de faux, comme par exemple qu'un peuple n'existe pas."
+		},
+		{
+			"id": "Earthquake",
+			"name": "Earthquake",
+			"description": "Your song is charged with so much power that you make the very ground shake and tear. You can use the spell to tear down a wall or fortifications or inflict damage on a victim. The damage caused (to Strength) is equal to the Power Level."
+		},
+		{
+			"id": "Scales",
+			"name": "Ecailles",
+			"description": "Peut servir de composant de sort.",
+			"effect": "Can be used as ingredient in spells.",
+			"drawback": "",
+			"appearance": ""
+		},
+		{
+			"id": "Slashed mouth",
+			"name": "Entaille à la bouche",
+			"effect": "Pénalité de -2 aux jets de MANIPULATION."
+		},
+		{
+			"id": "Bleeding gut",
+			"name": "Entaille à la gorge",
+			"effect": "1 point de dégâts à chaque jet de PUISSANCE, MANOEUVRES et MÊLEE"
+		},
+		{
+			"id": "Entice",
+			"name": "Entice",
+			"description": "The symbol lures the victim, who must make an INSIGHT roll with a negative modification equal to the Power Level. If the roll fails, the victim must RUN to within ARM’S LENGTH of the symbol, spending all their normal actions to do so (bonus actions from talents can still be used normally). When the victim reaches the symbol, or if the symbol is moved, the effect is broken. No effect on monsters."
+		},
+		{
+			"id": "Impaled shoulder",
+			"name": "Epaule transpercée",
+			"effect": "les armes à deux mains ne peuvent pas être utilisées."
+		},
+		{
+			"id": "Shortsword",
+			"name": "Epée courte",
+			"description": "",
+			"effect": "",
+			"drawback": "",
+			"appearance": ""
+		},
+		{
+			"id": "Longsword",
+			"name": "Epée longue",
+			"description": "",
+			"effect": "",
+			"drawback": "",
+			"appearance": ""
+		},
+		{
+			"id": "Two-Handed Sword",
+			"name": "Epée à deux mains",
+			"description": "",
+			"effect": "",
+			"drawback": "",
+			"appearance": ""
+		},
+		{
+			"id": "Stables",
+			"name": "Etables",
+			"description": "A place to keep your riding animals safe from rain, wind and predators.",
+			"effect": "Protects and feeds all riding animals in the stronghold."
+		},
+		{
+			"id": "Executioner",
+			"name": "Executioner",
+			"description": "You know where to strike to make sure your opponent falls and does not get up again. Ever.\r\n\r\n✥ RANK 1: When you inflict a critical injury on your opponent, you can reroll once. The highest roll counts.\r\n\r\n✥ RANK 2: As per rank 1, but you can also reverse the D66 roll for the critical injury – a roll of 16 becomes 61, for example.\r\n\r\n✥ RANK 3: When you inflict a critical injury on your enemy, you may choose freely from the relevant list.\r\n\r\nCOMMENT: If your opponent has the talent LUCKY, these talents cancel each other out. One rank in LUCKY cancels out one rank of EXECUTIONER."
+		},
+		{
+			"id": "Flour",
+			"name": "Farine"
+		},
+		{
+			"id": "Farsight",
+			"name": "Farsight",
+			"description": "You can let your inner eye wander across vast distances, over oceans and land, mountains, and valleys, and see what is happening there right now. FARSIGHT does not help you find a place – you must know where it is located to be able to see it. Power Level 1 lets you view a place at LONG range. Power Level 2 reaches across the same map hex where you are. Further away requires Power Level 3. Viewing a location that you haven’t been to before increases the required Power Level by 2. Your visions are often fragmented and cryptic – the GM decides exactly what you can see."
+		},
+		{
+			"id": "Fast Footwork",
+			"name": "Fast Footwork",
+			"description": "You are fast and quick on your feet, and hard to hit in combat.\n\n✥ RANK 1: You can DODGE for free once in every round of combat. The extra DODGE doesn’t count toward your actions in the round.\n\n✥ RANK 2: You get a +1 bonus whenever you DODGE.\n\n✥ RANK 3: You can DODGE an unlimited number of times in the same round of combat, but only once against each attack. No matter how many times you DODGE, it will never count as more than one action."
+		},
+		{
+			"id": "Fast Shooter",
+			"name": "Fast Shooter",
+			"description": "You can fire your bow or sling lightning fast. Hunters can combine this talent with PATH OF THE ARROW.\n\n✥ RANK 1: You don’t need to READY WEAPON before you SHOOT with a ranged weapon. Does not apply to crossbows.\n\n✥ RANK 2: You can SHOOT with a ranged weapon and RUN at the same time.\n\n✥ RANK 3: You only need to spend a fast action to SHOOT with a ranged weapon, meaning you can SHOOT twice in a round."
+		},
+		{
+			"id": "Falchion",
+			"name": "Fauchon",
+			"description": "",
+			"effect": "",
+			"drawback": "",
+			"appearance": ""
+		},
+		{
+			"id": "Fearless",
+			"name": "Fearless",
+			"description": "Not even the horrors that lurk in the Forbidden Lands scare you.\n\n✥ RANK 1: You can roll an INSIGHT roll as “armor” against fear attacks – each X rolled eliminates one X rolled in the fear attack. The INSIGHT roll does not count as an action.\n\n✥ RANK 2: You can choose to have damage from a fear attack decrease your Empathy instead of your Wits.\n\n✥ RANK 3: You are immune to fear attacks."
 		},
 		{
 			"id": "Iron",
 			"name": "Fer"
 		},
 		{
-			"id": "Iron Ore",
-			"name": "Minerai de fer"
-		},
-		{
-			"id": "Iron Song",
-			"name": "Iron Song"
-		},
-		{
-			"id": "Ivelde",
-			"name": "Ivelde",
+			"id": "Farm",
+			"name": "Ferme",
+			"description": "",
+			"effect": "",
 			"drawback": "",
-			"description":,
-			"appearance": "",
-			"effect": ""
+			"appearance": ""
 		},
 		{
-			"id": "Knife",
-			"name": "Couteau",
-			"description": ""
+			"id": "Feroxa's Claws",
+			"name": "Feroxa's Claws",
+			"description": "Within the Rust Church, the tale is told of how the gods Rust and Heme first celebrated their wedding before the exultant fathers of the Rust Brothers and the praising mothers of the Sisters of Heme. From the divine embrace was eventually born the daughter, Feroxa, a beautiful child of the blackest hematite with freckles of rust on her stone skin. But their happiness made the Raven god jealous. The bird of carrion swept down, stole the child from its cradle, and settled on a high cliff to devour it. Desperate and furious, the god Rust let his limb lengthen into an arrow of iron and the goddess Heme sacrificed a finger to form a bow, strung with Feroxa’s umbilical cord. They sent their ironclad servant Teramalda to the crag and she shot the arrow at the Raven god, who gravely injured and terrified, fled to the woods. Raven took off with such force that Feroxa was pushed off the cliff and fell to the ground, shattering into shards beyond count that spread across the world as pieces of hematite. Teramalda tried to break her fall but was mortally wounded by the weight of the stone child. Feroxa’s decapitated head came to rest next to Teramalda. It was bereft of sight since the raven god had already pecked out its eyes, but the god-child sensed its helper’s lips and breathed her spirit into her. Ever since that day, Teramalda roams the world in search of vengeance on the Raven god and his followers. The god Rust wished to bury the head of his dead daughter, but his wife Heme said that now was the time for vengeance, not sorrow. Together, they forged a set of hematite claws from Feroxa’s remains, to be worn by the champion of the Rust Church in the hunt for the scum of the Raven god. The claws were lost, however, when their wielder – Gardkan, captain of the Iron Guard – fell in battle during the Alder Wars. The claws were forged during Teramalda’s invasion of Ravenland, but the legend of the gods and their child is just a myth. Teramalda’s suit of armor came to life when the dwarven lord Garmar Four-Beard had the woman cooked over embers in it, and it is possible that it was the god Rust who woke her. Anyhow, she prefers to hunt dwarves rather than worshippers of the Raven.",
+			"effect": "The claws ignore all metal armor. Each time the claws cause one or more points of damage in combat, their Weapon Damage increases by one. This bonus dissipates at the end of the combat. All of the effects above assume that both claws are used. A single claw counts as a normal knife.",
+			"drawback": "The Rust Church will demand Feroxa’s Claws be returned if they learn that they have been found, and will send Iron Guards to seize them by force, if necessary. If the adventurers hand over the claws freely to a Rust temple, they will be treated as heroes and allies of the church.",
+			"appearance": "Two aged, but well-kept leather gloves with large metal claws mounted on knuckles. The claws are cut  from heavy, black stone, interspersed with red spots. In the palm of each glove, there are embossed the signs of the god Rust and the goddess Heme, respectively. Straps secure the gloves to the wrists of the wearer."
 		},
 		{
-			"id": "Knife Fighter",
-			"name": "Knife Fighter"
-		},
-		{
-			"id": "Knocked out teeth",
-			"name": "Dents cassées",
-			"effect": "-1 aux jets de MANIPULATION"
-		},
-		{
-			"id": "Lamp Oil",
-			"name": "Huile de lampe",
-			"description": "Se consomme en 1 quart"
-		},
-		{
-			"id": "Lantern",
-			"name": "Lanterne",
-			"description": "Illumine à portée PROCHE pendant 1 quart. Fonctionne avec de l'huile de lampe."
-		},
-		{
-			"id": "Large Shield",
-			"name": "Grand bouclier",
-			"description": ""
-		},
-		{
-			"id": "Large Tent",
-			"name": "Grande tente",
-			"description": "6 places. Bonus d'équipement de  +2 pour Monter le camp."
-		},
-		{
-			"id": "Large Wooden Club",
-			"name": "Massue lourde",
-			"description": ""
-		},
-		{
-			"id": "Leather",
-			"name": "Cuir"
-		},
-		{
-			"id": "Leather Armor",
-			"name": "Armure de cuir",
-			"description": ""
-		},
-		{
-			"id": "Lethal Poison",
-			"name": "Poison mortel",
-			"description": "Virulence 3. Chaque augmentation de Virulence double le prix."
-		},
-		{
-			"id": "Library",
-			"name": "Library"
-		},
-		{
-			"id": "Light Crossbow",
-			"name": "Arbalète légère",
-			"description": ""
-		},
-		{
-			"id": "Lightbringer",
-			"name": "Lightbringer"
-		},
-		{
-			"id": "Lightning Fast",
-			"name": "Lightning Fast"
-		},
-		{
-			"id": "Lockpicker",
-			"name": "Lockpicker"
-		},
-		{
-			"id": "Lockpicks",
-			"name": "Outils de crochetage",
-			"description": "Bonus d'équipement de +1 en Escamotage pour crocheter des serrures."
-		},
-		{
-			"id": "Long Spear",
-			"name": "Lance",
-			"description": ""
-		},
-		{
-			"id": "Longbow",
-			"name": "Arc long",
-			"description": ""
-		},
-		{
-			"id": "Longsword",
-			"name": "Epée longue",
-			"description": ""
-		},
-		{
-			"id": "Lucky",
-			"name": "Lucky"
-		},
-		{
-			"id": "Lute",
-			"name": "Luth",
-			"description": "Bonus d'équipement de +1 en Performance."
-		},
-		{
-			"id": "Lyre",
-			"name": "Lyre",
-			"description": "Bonus d'équipement de +1 en Performance."
-		},
-		{
-			"id": "Mace",
-			"name": "Mace",
-			"description": ""
-		},
-		{
-			"id": "Magical Seal",
-			"name": "Magical Seal"
-		},
-		{
-			"id": "Magnifying Glass",
-			"name": "Loupe",
-			"description": "Peut servir de composant de sort."
-		},
-		{
-			"id": "Map",
-			"name": "Carte",
-			"description": "Peut servir de composant de sort."
-		},
-		{
-			"id": "Marketplace",
-			"name": "Marketplace"
-		},
-		{
-			"id": "Master of the Hunt",
-			"name": "Master of the Hunt"
-		},
-		{
-			"id": "Meat",
-			"name": "Viande"
-		},
-		{
-			"id": "Melee Charge",
-			"name": "Melee Charge"
-		},
-		{
-			"id": "Mend Wounds",
-			"name": "Mend Wounds"
-		},
-		{
-			"id": "Menkaura's Tooth",
-			"name": "Menkaura's Tooth",
-			"drawback": "",
-			"description":,
-			"appearance": "",
-			"effect": ""
-		},
-		{
-			"id": "Metal Chalice",
-			"name": "Calice en métal",
-			"description": ""
-		},
-		{
-			"id": "Metal Plate",
-			"name": "Plat en métal",
-			"description": ""
-		},
-		{
-			"id": "Mill",
-			"name": "Mill"
-		},
-		{
-			"id": "Mind Trick",
-			"name": "Mind Trick"
-		},
-		{
-			"id": "Mine",
-			"name": "Mine"
-		},
-		{
-			"id": "Moat",
-			"name": "Moat"
-		},
-		{
-			"id": "Morningstar",
-			"name": "Morningstar",
-			"description": ""
-		},
-		{
-			"id": "Mythomania",
-			"name": "Mythomania"
-		},
-		{
-			"id": "Nature's Cure",
-			"name": "Nature's Cure"
+			"id": "Field",
+			"name": "Field",
+			"description": "In an agricultural field, you can grow crops for your own use or to sell. Your stronghold can have several fields, but they must be located outside of the stronghold itself.",
+			"effect": "At one occasion during the FALL, you can harvest 300 units of GRAIN. The work takes one week and can be done by a PC or a FARMER hireling. Several people can share the work."
 		},
 		{
 			"id": "Needle and Thread",
 			"name": "Fil et aiguille",
-			"description": ""
+			"description": "",
+			"effect": "",
+			"drawback": "",
+			"appearance": ""
 		},
 		{
-			"id": "Nightmares",
-			"name": "Nightmares"
+			"id": "Fishing Net",
+			"name": "Filet de pêche",
+			"description": "Bonus d'équipement de +2 pour PÊCHER durant les voyages.",
+			"effect": "Gear Bonus +2 to Fishing during journeys.",
+			"drawback": "",
+			"appearance": ""
 		},
 		{
-			"id": "Nocturnal",
-			"name": "Nocturnal"
+			"id": "Fireplace",
+			"name": "Fireplace",
+			"description": "A warm fire will chase away the darkness and the cold from your stronghold.",
+			"effect": "Eliminates the effects of cold (see page 111) and darkness (see page 112) in the stronghold."
 		},
 		{
-			"id": "Nocturnal (Goblin)",
-			"name": "Nocturnal (Goblin)"
+			"id": "Firewalker",
+			"name": "Firewalker",
+			"description": "You can make yourself completely immune to heat and cold (see @JournalEntry[Combat]). You take no damage from fire."
 		},
 		{
-			"id": "Obscure Magic",
-			"name": "Obscure Magic"
+			"id": "Firm Grip",
+			"name": "Firm Grip",
+			"description": "It takes a lot for you to lose your grip on your weapon.\n\n✥ RANK 1: DISARMING you requires an extra X – that is, two X for a one-handed weapon and three x for a two-handed weapon.\n\n✥ RANK 2: DISARMING you requires two extra X – three X for a one-handed weapon and four X for a two-handed weapon.\n\n✥ RANK 3: You cannot be DISARMED."
+		},
+		{
+			"id": "Fisher",
+			"name": "Fisher",
+			"description": "You have mastered the art of pulling fish from rivers and lakes. You need a net, a rod, or some other piece of fishing equipment. Read more about fishing in Chapter 7.\n\n✥ RANK 1: Your roll for SURVIVAL is modified by +1 when you FISH.\n\n✥ RANK 2: Fishing sets you at ease. A Quarter Day spent FISHING counts as RESTING for you.\n\n✥ RANK 3: The amount of FISH you catch is doubled."
+		},
+		{
+			"id": "Flail",
+			"name": "Fléau",
+			"description": "",
+			"effect": "",
+			"drawback": "",
+			"appearance": ""
+		},
+		{
+			"id": "Arrows, Wooden Head",
+			"name": "Flêches, Pointe de bois",
+			"description": "Augmente de 1 le dé de ressource Flèches. Les armures sont doublées.",
+			"effect": "Increases the Arrows Resource Die by one step. Armor counts double.",
+			"drawback": "",
+			"appearance": ""
+		},
+		{
+			"id": "Arrows, Iron Head",
+			"name": "Flêches, Pointe de fer",
+			"description": "Augmente de 1 le dé de ressource Flèches.",
+			"effect": "Increases the Arrows Resource Die by one step.",
+			"drawback": "",
+			"appearance": ""
+		},
+		{
+			"id": "Flute",
+			"name": "Flûte",
+			"description": "Bonus d'équipement de +1 aux jets de PERFORMANCE.",
+			"effect": "Gear Bonus +1 to Performance.",
+			"drawback": "",
+			"appearance": ""
+		},
+		{
+			"id": "Forge",
+			"name": "Forge",
+			"description": "The noise and the smoke from a smithy is a sure sign that your stronghold is ready to defend itself.",
+			"effect": "Each Quarter Day during whichthe FORGE is staffed by a PC or an NPCwith the SMITH talent, or the hireling ofthe same name, up to a dozen units ofIRON ORE can be turned into the samenumber of units of IRON."
+		},
+		{
+			"id": "Fort",
+			"name": "Fort",
+			"description": "",
+			"effect": "",
+			"drawback": "",
+			"appearance": ""
+		},
+		{
+			"id": "Fortress",
+			"name": "Forteresse",
+			"description": "",
+			"effect": "",
+			"drawback": "",
+			"appearance": ""
+		},
+		{
+			"id": "Sleeping Fur",
+			"name": "Fourrure",
+			"description": "Bonus d'équipement +2 contre le froid.",
+			"effect": "Gear Bonus +2 against cold.",
+			"drawback": "",
+			"appearance": ""
+		},
+		{
+			"id": "Sling",
+			"name": "Fronde",
+			"description": "",
+			"effect": "",
+			"drawback": "",
+			"appearance": ""
+		},
+		{
+			"id": "Gallows",
+			"name": "Gallows",
+			"description": "The Forbidden Lands are a harsh place, and execution is a common punishment for even lesser crimes.",
+			"effect": "A PC or the EXECUTIONER hireling can execute people at the GALLOWS. In this case, a defenseless person can be killed without requiring a coup de grace (see page 108). After a public execution, the risk of unwelcome visitors to your stronghold decreases. Your Reputation score counts as two steps lower for the next roll for events at the stronghold. Read more on page 12 in the Gamemaster?s Guide."
+		},
+		{
+			"id": "Crushed knee",
+			"name": "Genoux écrasé",
+			"effect": "COURIR devient une action lente."
+		},
+		{
+			"id": "Ghoulish Glare",
+			"name": "Ghoulish Glare",
+			"description": "Your murky appearance instills unease and fear in your victim. They suffer damage to Empathy equal to the Power Level. This spell can only be used against living humanoids."
+		},
+		{
+			"id": "Broadsword",
+			"name": "Glaive",
+			"description": "",
+			"effect": "",
+			"drawback": "",
+			"appearance": ""
+		},
+		{
+			"id": "Slit throat",
+			"name": "Gorge tranchée",
+			"effect": "Pénalité de -2 aux jets d'ENDURANCE."
+		},
+		{
+			"id": "Grain",
+			"name": "Grain"
+		},
+		{
+			"id": "Large Shield",
+			"name": "Grand bouclier",
+			"description": "",
+			"effect": "",
+			"drawback": "",
+			"appearance": ""
+		},
+		{
+			"id": "Great Helm",
+			"name": "Grand casque",
+			"description": "",
+			"effect": "",
+			"drawback": "",
+			"appearance": ""
+		},
+		{
+			"id": "Large Tent",
+			"name": "Grande tente",
+			"description": "6 places. Bonus d'équipement de +2 pour MONTER LE CAMP durant les voyages.",
+			"effect": "Room for six. Gear Bonus +2 to Making Camp during journeys.",
+			"drawback": "",
+			"appearance": ""
+		},
+		{
+			"id": "Guard Tower",
+			"name": "Guard Tower",
+			"description": "An elevated vantage point is useful for spotting enemies approaching your stronghold.",
+			"effect": "Gives +2 to SCOUTING and increases the Defense Rating of the stronghold by +1 (see page 175)."
+		},
+		{
+			"id": "Rags",
+			"name": "Guenilles",
+			"description": "Pénalité de -2 au jets de MANIPULATION.",
+			"effect": "Penalty –2 to Manipulation.",
+			"drawback": "",
+			"appearance": ""
+		},
+		{
+			"id": "Handaxe",
+			"name": "Hache",
+			"description": "",
+			"effect": "",
+			"drawback": "",
+			"appearance": ""
+		},
+		{
+			"id": "Battleaxe",
+			"name": "Hache de bataille",
+			"description": "",
+			"effect": "",
+			"drawback": "",
+			"appearance": ""
+		},
+		{
+			"id": "Timber Axe",
+			"name": "Hache de bucheron",
+			"description": "",
+			"effect": "",
+			"drawback": "",
+			"appearance": ""
+		},
+		{
+			"id": "Throwing Axe",
+			"name": "Hache de lancer",
+			"description": "",
+			"effect": "",
+			"drawback": "",
+			"appearance": ""
+		},
+		{
+			"id": "Two-Handed Axe",
+			"name": "Hache à deux mains",
+			"description": "",
+			"effect": "",
+			"drawback": "",
+			"appearance": ""
+		},
+		{
+			"id": "Halberd",
+			"name": "Hallebarde",
+			"description": "",
+			"effect": "",
+			"drawback": "",
+			"appearance": ""
+		},
+		{
+			"id": "Hallucinations",
+			"name": "Hallucinations",
+			"effect": "Faites un jet de PERSPICACITE à chaque quart.Si vous râtez, vous subissez de puissantes hallucinations."
+		},
+		{
+			"id": "Fishing Hook and Line",
+			"name": "Hameçon et ligne",
+			"description": "Bonus d'équipement de +1 pour PÊCHER durant les voyages.",
+			"effect": "Gear Bonus +1 to Fishing during journeys.",
+			"drawback": "",
+			"appearance": ""
+		},
+		{
+			"id": "Hammer Fighter",
+			"name": "Hammer Fighter",
+			"description": "Bashing heads in with a sturdy warhammer is your idea of a good day in the Forbidden Lands.\n\n✥ RANK 1: You get +1 to all attack rolls with a BLUNT melee weapon.\n\n✥ RANK 2: All attacks with a BLUNT weapon inflict at least 1 point of damage, even if the target’s armor absorbs all damage.\n\n✥ RANK 3: You can add a D8 Artifact Die to all attack rolls with a BLUNT weapon."
+		},
+		{
+			"id": "Hand of Doom",
+			"name": "Hand of Doom",
+			"description": "You can claw your way to your victim’s heart magically and squeeze the life from him. This spell inflicts damage to Strength equal to the Power Level. You can extend the range to SHORT if you spend an extra Willpower Point (this does not count towards the Power Level). This spell can only be used against living humanoids."
+		},
+		{
+			"id": "Hard to Catch (Halfling)",
+			"name": "Hard to Catch (Halfling)",
+			"description": "Halflings are notoriously hard to get a grip on, and they can easily evade even the most tenacious of pursuers. You can spend Willpower Points in combat to avoid being hit by physical attacks (see @JournalEntry[Combat]). Every WP spent eliminates one success the attacker rolls."
+		},
+		{
+			"id": "Harp",
+			"name": "Harpe",
+			"description": "Bonus d'équipement de +2 aux jets de PERFORMANCE.",
+			"effect": "Gear Bonus +2 to Performance.",
+			"drawback": "",
+			"appearance": ""
+		},
+		{
+			"id": "Hawk's Eye",
+			"name": "Hawk's Eye",
+			"description": "You can meld your mind with that of a hawk and gain its inhuman sight. You can see the details of anything within DISTANT range, everything from horizon to horizon. You see all details and can identify specific people."
+		},
+		{
+			"id": "Healing Hands",
+			"name": "Healing Hands",
+			"description": "You can heal damage to Strength or Agility by laying your hands on the wounded. You immediately heal a number of points equal to the Power Level. This spell does not affect critical injuries. You cannot heal yourself."
+		},
+		{
+			"id": "Herbalist",
+			"name": "Herbalist",
+			"description": "You know the difference between edible plants and regular weeds.\n\n✥ RANK 1: Your SURVIVAL roll is modified by +1 when you FORAGE during journeys. Read more about journeys in Chapter 7.\n\n✥ RANK 2: Walking the lands sets you at ease. A Quarter Day spent FORAGING counts as RESTING for you.\n\n✥ RANK 3: The amount of VEGETABLES you find when FORAGING is doubled."
+		},
+		{
+			"id": "Herbs",
+			"name": "Herbes"
+		},
+		{
+			"id": "Hireling - Baker",
+			"name": "Hireling - Baker",
+			"description": "Staffs the BAKERY."
+		},
+		{
+			"id": "Hireling - Bowyer",
+			"name": "Hireling - Bowyer",
+			"description": "Can craft arrows, bows, slings and crossbows for you. A BOWYER’S CRAFTING rolls succeed automatically, with one X."
+		},
+		{
+			"id": "Hireling - Carpenter",
+			"name": "Hireling - Carpenter",
+			"description": "Can craft items and functions made from WOOD. A CARPENTER’S CRAFTING rolls succeed automatically, with one X."
+		},
+		{
+			"id": "Hireling - Executioner",
+			"name": "Hireling - Executioner",
+			"description": "Executes prisoners at the GALLOWS."
+		},
+		{
+			"id": "Hireling - Farmer",
+			"name": "Hireling - Farmer",
+			"description": "Staffs the SHEEPFOLD, GARDENS and FIELDS."
+		},
+		{
+			"id": "Hireling - Guard",
+			"name": "Hireling - Guard",
+			"description": "An armed guard who watches your stronghold. Stats as for a typical soldier (see page 181 of the Gamemaster’s Guide). GUARDS affect the Defense Rating of your stronghold (see page 175). Your stronghold can have several GUARDS. A GUARD is always on call, even when off duty."
+		},
+		{
+			"id": "Hireling - Handyman",
+			"name": "Hireling - Handyman",
+			"description": "Handles the general upkeep of the stronghold (see page 164)."
+		},
+		{
+			"id": "Hireling - Hunter",
+			"name": "Hireling - Hunter",
+			"description": "Produces one unit of MEAT and PELT per Quarter Day’s work in the wilderness. Roll one Base Die for each HUNTER each week. If you roll a l, the hunter is attacked by a wild beast. Roll the die again – if you roll l, the HUNTER is killed."
+		},
+		{
+			"id": "Hireling - Innkeeper",
+			"name": "Hireling - Innkeeper",
+			"description": "Staffs the INN."
+		},
+		{
+			"id": "Hireling - Jailer",
+			"name": "Hireling - Jailer",
+			"description": "Guards the DUNGEON."
+		},
+		{
+			"id": "Hireling - Lumberjack",
+			"name": "Hireling - Lumberjack",
+			"description": "Produces two units of WOOD per Quarter Day’s work in the FOREST or DARK FOREST terrain types."
+		},
+		{
+			"id": "Hireling - Master Builder",
+			"name": "Hireling - Master Builder",
+			"description": "The MASTER BUILDER can build functions in the stronghold, so you don’t have to do it yourselves. The MASTER BUILDER has the BUILDER talent (see page 74) and access to all of the tools on page 192. The MASTER BUILDER automatically succeeds at building a function. No dice are rolled."
+		},
+		{
+			"id": "Hireling - Miller",
+			"name": "Hireling - Miller",
+			"description": "Staffs the MILL."
+		},
+		{
+			"id": "Hireling - Miner",
+			"name": "Hireling - Miner",
+			"description": "Works in the MINE."
+		},
+		{
+			"id": "Hireling - Quarry Worker",
+			"name": "Hireling - Quarry Worker",
+			"description": "Works in the QUARRY."
+		},
+		{
+			"id": "Hireling - Smith",
+			"name": "Hireling - Smith",
+			"description": "Staffs the FORGE. Can also craft weapons, armor and other iron items. A SMITH’S CRAFTING rolls succeed automatically, with one X."
+		},
+		{
+			"id": "Hireling - Tailor",
+			"name": "Hireling - Tailor",
+			"description": "Staffs the TAILOR SHOP. Can also sew clothes and other items made from cloth. A TAILOR’S CRAFTING rolls succeed automatically, with one x."
+		},
+		{
+			"id": "Hireling - Tanner",
+			"name": "Hireling - Tanner",
+			"description": "Staffs the TANNERY. Can also craft leather armor and other leather items. A TANNER’S CRAFTING rolls succeed automatically, with one x."
+		},
+		{
+			"id": "Horrify",
+			"name": "Horrify",
+			"description": "The symbol awakens a deep fear in the victim, who suffers damage to Wits equal to the Power Level. No effect on monsters."
+		},
+		{
+			"id": "Horseback Fighter",
+			"name": "Horseback Fighter",
+			"description": "You are trained in the art of fightning from the back of a mount. All of the effects below require you to be in an OPEN zone (see page 88).\n\n✥ RANK 1: You can fire a short bow or sling from a mount.\n\n✥ RANK 2: You get a +1 bonus to all melee attacks from a mount.\n\n✥ RANK 3: You can make a MOUNTED CHARGE attack from a mount. This combines a full movement action by the mount (from at least SHORT range to ARM’S LENGTH) with a melee attack by you. You can add a D8 Artifact Die to the melee attack."
+		},
+		{
+			"id": "Lamp Oil",
+			"name": "Huile de lampe",
+			"description": "Se consomme en 1 quart",
+			"effect": "Lasts a Quarter Day.",
+			"drawback": "",
+			"appearance": ""
+		},
+		{
+			"id": "Hunting Instincts (Wolfkin)",
+			"name": "Hunting Instincts (Wolfkin)",
+			"description": "The  wolfkin  have  a  powerful  sense  of  smell  and  can  track  their  prey  for  days  once  they  have  caught  their  scent.  You  can  spend  Willpower  Points to designate a person or a creature as your prey.  Your  prey  must  be  within  line  of  sight,  or  there  must  be  a  scent  to  follow.  The  number  of  WP you spend equals the number of days that you can follow your prey’s scent. In combat, all your attacks  against  your  prey  get  a  +1  bonus  per  WP  spent,  until  the  creature  is  Broken  or  until  you  choose to let your prey go."
+		},
+		{
+			"id": "Illusion",
+			"name": "Illusion",
+			"description": "You make the victim see or hear something that isn’t there, or hide something that otherwise would be seen. A small item requires a Power Level of 1, while an object of humanoid size requires Power Level 2, and an illusion the size of a house requires Power Level 3. Only one person is affected. The victim can see through the illusion with an INSIGHT roll, but gets a penalty equal to the Power Level. This spell has no effect on monsters."
+		},
+		{
+			"id": "Immolate",
+			"name": "Immolate",
+			"description": "You can heat up your victim’s blood to the point where they literally burst into flames. The spell inflicts damage to Strength equal to the Power  Level and keeps inflicting one point of damage per round until the victim puts the fire out with a successful MOVE roll (slow action). Armor does not protect against this spell."
+		},
+		{
+			"id": "Incorruptible",
+			"name": "Incorruptible",
+			"description": "When others try to affect you, you are as immovable as a mighty oak in the wind.\n\n✥ RANK 1: Your INSIGHT roll is modified by +1 when someone attempts to MANIPULATE you.\n\n✥ RANK 2: You can add a D8 Artifact Die  to your roll when someone MANIPULATES you.\n\n✥ RANK 3: You cannot be MANIPULATED."
+		},
+		{
+			"id": "Inn",
+			"name": "Inn",
+			"description": "A warm and friendly tavern in your stronghold can draw guests from near and far.",
+			"effect": "Each Quarter Day during which the INN is staffed by a PC or the INNKEEPER hireling, up to a dozen units of MEAT or VEGETABLES can be turned into an equal number of units of FOOD."
+		},
+		{
+			"id": "Inner Peace (Elf)",
+			"name": "Inner Peace (Elf)",
+			"description": "Elves have a connection to the inner nature of their own, far beyond that of any of the other kin. Their immortality makes them less susceptible to the trials of the world compared to the other kin. By spending a Willpower Point, you can enter a state of deep meditation. This lasts for a Quarter of a day (see @JournalEntry[Journeys]) during which you must remain undisturbed. When you emerge from the meditation, you have healed all damage to all attributes as well as any critical injuries."
+		},
+		{
+			"id": "Intuition",
+			"name": "Intuition",
+			"description": "You can ask a short “yes” or “no” question about anything in the world. The GM must answer “yes,” “no,” or “maybe.” She cannot lie. The GM can choose “maybe” even if she knows the answer, but believes that the true answer may disrupt the game. Note that true or false is not an objective fact, but is defined by who is asking the question. This person’s morals and beliefs can make something that is true for her false for someone else."
+		},
+		{
+			"id": "Iron Song",
+			"name": "Iron Song",
+			"description": "Your voice doesn’t only affect stone, but also metals that have been mined from the mountain. This ritual allows you to create weapons and other items of metal, but also, for example, to bend prison bars and open shackles. You can create all metal weapons from the weapons tables (see @JournalEntry[Combat]) with a Gear Bonus equal to the Power Level, up to a maximum of +3. The weapon’s other stats are according to the weapons table. When you use IRON SONG, you must have access to the right raw materials, as if you are using CRAFTING to create an object."
+		},
+		{
+			"id": "Ivelde",
+			"name": "Ivelde",
+			"description": "It is rumored that the humans who were spending their first day in Ravenland fought over whether the raven that had led them across the ocean was divine or if the divinity belonged to the snake in the raven’s claws. First of all, the new arrivals met a dwarven hermit and weaponsmith at a cliff by the beach, facing the sea. The first Raven Sister, she who was called Nightshroud, is said to have given herself to the dwarf so that he in return forged the magical spear Ivelde for her to benefit the worshippers of the raven. The first worshipper of the wyrm, Modreval, desired Nightshroud and was struck with jealousy. He cursed the weapon so that the shape of a black snake grew from the back of the spear head, with fangs like barbs. Furious, Nightshroud suggested that the wyrm worshippers could keep the desecrated spear and threw it among them. They instantly started fighting each other until several lay dead. Both Nightshroud and Modreval were horrified and agreed to make peace between the factions. They married and ordered the spear locked away.",
+			"effect": "In addition, it sows discord. If thrown toward an individual, regardless of whether it hits, all living beings within NEAR range of the target must immediately attack a random person within the group of affected individuals and keep fighting until only one remains standing.",
+			"drawback": "The spear Ivelde is shaped like a black snake with three fangs. One of these fangs falls out each time the spear is thrown. When all three fangs are gone, the spear shatters and cannot be used again.",
+			"appearance": "An ancient and worn black spear that is crooked and seems not to be useful for much of anything. On closer inspection, it exudes hate and discomfort. Its copper head is shaped like that of a snake, with three fangs."
+		},
+		{
+			"id": "Broken leg",
+			"name": "Jambe cassée",
+			"effect": "COURIR devient une action lente."
+		},
+		{
+			"id": "Severed leg",
+			"name": "Jambe coupée",
+			"effect": "COURIR devient une action lente."
+		},
+		{
+			"id": "Garden",
+			"name": "Jardin",
+			"description": "In a garden, you can grow vegetables for your own use or to sell. Your stronghold can have several gardens.",
+			"effect": "During the Summer and Spring, you can harvest 10 units of VEGETABLES or HERBS per week from the GARDEN. The work takes one Quarter Day and can be carried out by a PC or a FARMER."
+		},
+		{
+			"id": "Clay Jug",
+			"name": "Jarre",
+			"description": "Contient 1 unité d'eau ou d'un autre liquide.",
+			"effect": "Contains one unit of Water or other liquid.",
+			"drawback": "",
+			"appearance": ""
+		},
+		{
+			"id": "Pierced cheek",
+			"name": "Joue transpercée",
+			"effect": "Pénalité de -1 aux jets de MANIPULATION."
+		},
+		{
+			"id": "Knife Fighter",
+			"name": "Knife Fighter",
+			"description": "You are lethal with a knife in hand.\n\n✥ RANK 1: Your attack rolls are modified by +1 when you fight with a knife or a dagger.\n\n✥ RANK 2: You can STAB as a fast action using a knife or a dagger.\n\n✥ RANK 3: You can add a D8 Artifact Die to all attacks with a knife or a dagger."
+		},
+		{
+			"id": "Wool",
+			"name": "Laine"
 		},
 		{
 			"id": "Oil Lamp",
 			"name": "Lampe à huile",
-			"description": "Illumine à portée proche pendant 1 quart.Ne peut être utilisé qu'en intérieur. Fonctionne avec de l'huile de lampe."
+			"description": "Illumine à portée PROCHE pendant 1 quart.Ne peut être utilisé qu'en intérieur. Fonctionne avec de l'huile de lampe.",
+			"effect": "Illuminates within Near range. Can only be used indoors. Requires lamp oil.",
+			"drawback": "",
+			"appearance": ""
 		},
 		{
-			"id": "Open Helmet",
-			"name": "Casque ouvert",
-			"description": ""
+			"id": "Long Spear",
+			"name": "Lance",
+			"description": "",
+			"effect": "",
+			"drawback": "",
+			"appearance": ""
+		},
+		{
+			"id": "Throwing Spear",
+			"name": "Lance (dist)",
+			"description": "",
+			"effect": "",
+			"drawback": "",
+			"appearance": ""
+		},
+		{
+			"id": "Short Spear",
+			"name": "Lance courte",
+			"description": "",
+			"effect": "",
+			"drawback": "",
+			"appearance": ""
+		},
+		{
+			"id": "Lantern",
+			"name": "Lanterne",
+			"description": "Illumine à portée PROCHE pendant 1 quart. Fonctionne avec de l'huile de lampe.",
+			"effect": "Illuminates within Near range. Requires lamp oil.",
+			"drawback": "",
+			"appearance": ""
+		},
+		{
+			"id": "Library",
+			"name": "Library",
+			"description": "A collection of books and scrolls from far and near.",
+			"effect": "Gives Gear Bonus +2 to LORE during a visit."
+		},
+		{
+			"id": "Lightbringer",
+			"name": "Lightbringer",
+			"description": "You summon a bright light that dispels all shadows within NEAR range, i.e., in the same Zone as you."
+		},
+		{
+			"id": "Lightning Fast",
+			"name": "Lightning Fast",
+			"description": "You react with the speed of a snake, and usually strike before your opponent.\n\n✥ Rank 1: You can draw two initiative cards instead of one during the initiative draw. Choose the one you want to use, and shuffle the other one back into the deck before others draw their cards.\n\n✥ RANK 2: You can draw three initiative cards instead of one during the initiative draw.\n\n✥ RANK 3: You can draw four initiative cards instead of one during the initiative draw."
+		},
+		{
+			"id": "Lockpicker",
+			"name": "Lockpicker",
+			"description": "You have mastered the art of picking locks. You need some sort of tool. Lockpicks can give you a bonus.\n\n✥ RANK 1: Your SLEIGHT OF HAND roll is modified by +1 when you pick a lock.\n\n✥ RANK 2: You can roll for SLEIGHT OF HAND to get out of chains or ropes even when you are bound yourself.\n\n✥ RANK 3: You can add a D8 Artifact Die to your roll when you pick a lock."
+		},
+		{
+			"id": "Spyglass",
+			"name": "Longue-vue",
+			"description": "Bonus d'équipement de +2 aux jets d'ECLAIREUR à portée LONGUE.",
+			"effect": "Gear Bonus +2 to Scouting at Long range.",
+			"drawback": "",
+			"appearance": ""
+		},
+		{
+			"id": "Magnifying Glass",
+			"name": "Loupe",
+			"description": "Peut servir de composant de sort.",
+			"effect": "Can be used as ingredient in spells.",
+			"drawback": "",
+			"appearance": ""
+		},
+		{
+			"id": "Lucky",
+			"name": "Lucky",
+			"description": "No matter how bad the odds are, you always get away unscathed.\n\n✥ RANK 1: When you suffer a critical injury, you can reroll once. The lowest roll counts.\n\n✥ RANK 2: As per rank 1, but you can also reverse the D66 roll for the critical injury – a roll of 16 becomes 61, for example.\n\n✥ RANK 3: When you suffer a critical injury, you may choose your injury freely from the relevant list.\n\nCOMMENT: If your opponent has the talent EXECUTIONER, these talents cancel each other out. One rank in EXECUTIONER cancels out one rank of LUCKY."
+		},
+		{
+			"id": "Lute",
+			"name": "Luth",
+			"description": "Bonus d'équipement de +1 aux jets de PERFORMANCE.",
+			"effect": "Gear Bonus +1 to Performance",
+			"drawback": "",
+			"appearance": ""
+		},
+		{
+			"id": "Lyre",
+			"name": "Lyre",
+			"description": "Bonus d'équipement de +1 aux jets de PERFORMANCE.",
+			"effect": "Gear Bonus +1 to Performance.",
+			"drawback": "",
+			"appearance": ""
+		},
+		{
+			"id": "Mace",
+			"name": "Mace",
+			"description": "",
+			"effect": "",
+			"drawback": "",
+			"appearance": ""
+		},
+		{
+			"id": "Magical Seal",
+			"name": "Magical Seal",
+			"description": "Using this spell, you protect a person (no bigger than a human) or a location (no bigger than a human) from magic. The Power Level of any spells cast against that person or place during the Quarter Day is decreased by the Power Level of the MAGICAL SEAL."
+		},
+		{
+			"id": "Hand run through",
+			"name": "Main perforée",
+			"effect": "Les armes à deux mains ne peuvent pas être utilisées."
+		},
+		{
+			"id": "Cloak",
+			"name": "Manteau",
+			"description": "",
+			"effect": "",
+			"drawback": "",
+			"appearance": ""
+		},
+		{
+			"id": "Great Fur",
+			"name": "Manteau de fourrure",
+			"description": "Bonus d'équipement de +2 contre le froid.",
+			"effect": "Gear Bonus +2 against cold.",
+			"drawback": "",
+			"appearance": ""
+		},
+		{
+			"id": "Marketplace",
+			"name": "Marketplace",
+			"description": "An area with market stands, where peddlers from near and far can come and sell their wares.",
+			"effect": "The traders in your stronghold can offer all kinds of goods. The supply is the same as in a normal VILLAGE (see page 179). You don?t need to pay any salary to the peddlers."
+		},
+		{
+			"id": "Hammer",
+			"name": "Marteau",
+			"description": "",
+			"effect": "",
+			"drawback": "",
+			"appearance": ""
+		},
+		{
+			"id": "Sledge Hammer",
+			"name": "Marteau de forgeron",
+			"description": "",
+			"effect": "",
+			"drawback": "",
+			"appearance": ""
+		},
+		{
+			"id": "Warhammer",
+			"name": "Marteau de guerre",
+			"description": "",
+			"effect": "",
+			"drawback": "",
+			"appearance": ""
+		},
+		{
+			"id": "Heavy Warhammer",
+			"name": "Marteau lourd",
+			"description": "",
+			"effect": "",
+			"drawback": "",
+			"appearance": ""
+		},
+		{
+			"id": "Large Wooden Club",
+			"name": "Massue lourde",
+			"description": "",
+			"effect": "",
+			"drawback": "",
+			"appearance": ""
+		},
+		{
+			"id": "Master of the Hunt",
+			"name": "Master of the Hunt",
+			"description": "You are a skilled hunter and can find prey where others cannot.\n\n✥ RANK 1: Your SURVIVAL roll is modified by +1 when you HUNT during journeys. Read more about journeys in Chapter 7.\n\n✥ RANK 2: Hunting sets you at ease. A Quarter Day spent HUNTING counts as RESTING.\n\n✥ Rank 3: When HUNTING, you may roll two D6s on the animals table (see page 152) and choose which result you want to use."
+		},
+		{
+			"id": "Melee Charge",
+			"name": "Melee Charge",
+			"description": "You throw yourself into combat without any concern for the risk involved.\n\n✥ RANK 1: When you move from NEAR to ARM’S LENGTH range you can, as the same action, SLASH, STAB, PUNCH, or SHOVE. This is called a CHARGE (slow action).\n\n✥ RANK 2: Your attack is modified by +1 when you CHARGE.\n\n✥ RANK 3: When you CHARGE, you can add a D8 Artifact Die to the roll."
+		},
+		{
+			"id": "Mend Wounds",
+			"name": "Mend Wounds",
+			"description": "You can use magic to heal broken bones and bleeding wounds. This spell immediately heals a critical injury. A lethal injury requires Power Level 2. Lost limbs cannot be regrown, however."
+		},
+		{
+			"id": "Menkaura's Tooth",
+			"name": "Menkaura's Tooth",
+			"description": "It is said that the spider queen Menkaura and her thousandfold brood ruled over the Dankwood between Entwater and the Crombe river for a hundred years. The elves grew tired of them after a group of botanizing melders were slaughtered by the beasts, and sent twenty war ents into the queendom of the spiders. The ents weren’t susceptible to both the fangs and poison of the spiders, and possessed the strength to tear all their webs to shreds. They slew Menkaura but allowed the remaining spiders to live, since the unity of the beasts died with their queen. Menkaura’s gleaming carapace was brought to the city of Stridehome where it was used in jewelry, weapons and other objects. One of these objects is her tooth.",
+			"effect": "The tooth has two abilities: \n\n✥ Firstly, the user can touch something with the tip of the container and then pull out a rope up to 50 meters long, made from very durable spider’s web. The rope gives the user a D8 Artifact Die to MOVE rolls for climbing, but will disintegrate after an hour.\n\n✥ Secondly, the user can open the container and spill some of the living liquid, which then swells into a spider (see @Actor[Scorpion/Spider]that attacks the enemies of the tooth’s owner. There is enough liquid for ten uses. It might be possible to refill, but who knows how? The spider dies after an hour.",
+			"drawback": "",
+			"appearance": "Menkaura’s Tooth is hollowed out, a pointed container plugged with a sculpted spider. Looking inside, it appears to be filled with an oily, almost writhing fluid – like boiling tar. The actual tip is sticky and if one touches it, a thick strand of web is drawn out when the finger is pulled away."
+		},
+		{
+			"id": "Mill",
+			"name": "Mill",
+			"description": "If you want to make your own flour in the stronghold, you?ll need a mill. These can be powered manually, by animals, by wind, or by water. Your stronghold can have several mills.",
+			"effect": "The MILL converts up to a dozen units of GRAIN to FLOUR each Quarter Day, assuming it?s staffed by a PC or a MILLER."
+		},
+		{
+			"id": "Mind Trick",
+			"name": "Mind Trick",
+			"description": "You can force an NPC to refrain from an action they would otherwise have performed. It must be a minor action, something you can forget by being absent-minded. An example could be that a guard lets a PC pass without confirming who they are or that someone leaves their keys on a table. The spell cannot be used in combat."
+		},
+		{
+			"id": "Mine",
+			"name": "Mine",
+			"description": "Digging into the ground to extract iron ore is a large, tedious and cumbersome project, but it can be very lucrative. Your stronghold can have several MINES.",
+			"effect": "Up to a dozen people can work in the MINE at the same time. Each miner produces two units of IRON ORE per Quarter Day. Roll one Gear Die for each week of work. If you roll a l, there is a tunnel collapse. Roll another Gear Die for each worker in the mine. Another l means that the worker is trapped in the collapse. Trapped NPCs are automatically killed. For each PC, the GM rolls for an attack using ten Base Dice (Weapon Damage 1, blunt force). If the PC survives, she must make a MIGHT roll to dig herself out. A failed roll means that the PC suffocates, unless she gets help from the outside."
+		},
+		{
+			"id": "Iron Ore",
+			"name": "Minerai de fer"
+		},
+		{
+			"id": "Moat",
+			"name": "Moat",
+			"description": "Digging a water-filled trench around the entire stronghold is heavy work, but provides extra protection against attackers.",
+			"effect": "Increases the Defense Rating of the stronghold by +1."
+		},
+		{
+			"id": "Morningstar",
+			"name": "Morningstar",
+			"description": "",
+			"effect": "",
+			"drawback": "",
+			"appearance": ""
+		},
+		{
+			"id": "Sullen",
+			"name": "Morosité",
+			"effect": "Pénbalité de -1 aux jets d'EMPATHIE."
+		},
+		{
+			"id": "Sheep",
+			"name": "Mouton",
+			"description": "",
+			"effect": "Gives 2 units of Wool when sheared and 5 units of Meat when slaughtered.",
+			"drawback": "",
+			"appearance": ""
+		},
+		{
+			"id": "Mythomania",
+			"name": "Mythomanie",
+			"effect": "Vous ne pouvez pas vous empêcher de mentir, tout le temps et à propos de tout."
+		},
+		{
+			"id": "Nature's Cure",
+			"name": "Nature's Cure",
+			"description": "You heal a sickness or cure the effects of poison in yourself or someone else. The Power Level of your spell must be equal to or higher than the Virulence or Potency rating (see @JournalEntry[Combat]) divided by 3. Round down."
+		},
+		{
+			"id": "Broken nose",
+			"name": "Nez cassé",
+			"effect": "Pénalité de -1 aux jets de MANIPULATION."
+		},
+		{
+			"id": "Severed nose",
+			"name": "Nez coupé",
+			"effect": "Pénalité de -1 aux jets de MANIPULATION."
+		},
+		{
+			"id": "Skewered groin",
+			"name": "Nez embroché",
+			"effect": "1 point de dégâts à chaque jet de MANOEUVRES et de MÊLEE."
+		},
+		{
+			"id": "Nocturnal (Goblin)",
+			"name": "Nocturnal (Goblin)",
+			"description": "Goblin prefer the night and hate daylight, which hurts their eyes. They can see in the dark and are thus not affected by darkness at all (see @JournalEntry[Combat]). Also, when rolling for STEALTH in a dark or dimly lit environment, you can spend Willpower Points which are automatically turned into extra Successes. You may even roll first and spend WP after you see how the roll goes."
+		},
+		{
+			"id": "Nocturnal",
+			"name": "Nocturne",
+			"effect": "Vous ne pouvez DORMIR que durant la partie illuminée de la journée."
+		},
+		{
+			"id": "Obscure Magic",
+			"name": "Obscure Magic",
+			"description": "If you want to cast a spell unnoticed, you must OBSCURE your magic. This requires 1 extra Willpower Point that does not count toward the Power Level of the spell. OBSCURING magic does not count as an action in itself. To detect your OBSCURED spell, another magic user must actively survey the area by casting SENSE MAGIC"
+		},
+		{
+			"id": "Pierced eye",
+			"name": "Oeil crevé",
+			"effect": "Pénalité de -2 aux jets de TIR DE PRECTISION et ECLAIREUR."
+		},
+		{
+			"id": "Gouged eye",
+			"name": "Oeil poché",
+			"effect": "Pénalité de -2 aux jets de TIR DE PRECISION et d'ECLAIREUR."
+		},
+		{
+			"id": "Slashed eye",
+			"name": "Oeil sectionné",
+			"effect": "Pénalité de -2 aux jets de TIR DE PRECISION et d'ECALIREUR."
+		},
+		{
+			"id": "Gold",
+			"name": "Or"
+		},
+		{
+			"id": "Severed ear",
+			"name": "Oreille coupée",
+			"effect": "Pénalité de -1 aux jets d'ECLAIREUR."
+		},
+		{
+			"id": "Pierced ear",
+			"name": "Oreille percée",
+			"effect": "None"
+		},
+		{
+			"id": "Broken toes",
+			"name": "Orteil cassé",
+			"effect": "COURIR devient une action lente."
+		},
+		{
+			"id": "Severed toe",
+			"name": "Orteil coupé",
+			"effect": "COURIR devient une action lente."
+		},
+		{
+			"id": "Lockpicks",
+			"name": "Outils de crochetage",
+			"description": "Bonus d'équipement de +1 aux jets d'ESCAMOTAGE pour crocheter des serrures.",
+			"effect": "Gear Bonus +1 to Sleight of Hand when picking locks.",
+			"drawback": "",
+			"appearance": ""
+		},
+		{
+			"id": "Waterskin",
+			"name": "Outre",
+			"description": "Nécessaire pour transporter de l'eau.",
+			"effect": "Does not encumber the wearer.",
+			"drawback": "",
+			"appearance": ""
 		},
 		{
 			"id": "Pack Rat",
-			"name": "Pack Rat"
+			"name": "Pack Rat",
+			"description": "You know how to pack your belongings so they don’t take up much space and your gear becomes easy to carry.\n\n✥ RANK 1: You can carry two more items than normal without being encumbered (@JournalEntry[Character Creation]).\n\n✥ RANK 2: You can carry five more items than normal without being encumbered.\n\n✥ RANK 3: You can carry ten more items than normal without being encumbered."
+		},
+		{
+			"id": "Bread",
+			"name": "Pain"
 		},
 		{
 			"id": "Pain Resistant",
-			"name": "Pain Resistant"
+			"name": "Pain Resistant",
+			"description": "You have learned to endure pain that would make others lose their minds. This talent can only be used if you use the advanced close combat rules.\n\n✥ RANK 1: If you take a single point of damage from a close combat attack, you don’t lose your attack in the same step (see page 96).\n\n✥ RANK 2: You never lose your own attack because of pain.\n\n✥ RANK 3: You recover one lost point of Agility, Wits or Empathy for every point of damage to Strength that you suffer."
 		},
 		{
 			"id": "Palace",
 			"name": "Palace",
-			"description": ""
+			"description": "",
+			"effect": "",
+			"drawback": "",
+			"appearance": ""
 		},
 		{
 			"id": "Paralyze",
-			"name": "Paralyze"
-		},
-		{
-			"id": "Paralyzing Poison",
-			"name": "Poison paralysant",
-			"description": "Virulence 3. Chaque augmentation de Virulence double le prix."
+			"name": "Paralyze",
+			"description": "The hypnotizing power of the symbol mesmerizes your opponent. At Power Level 1, the victim loses their fast action in the round, or in the next round if they have already used it. At Power Level 2, they lose their slow action. At Power Level 3, they lose both actions, and at Power Level 4, they also lose any bonus actions from talents. The spell has no effect on monsters."
 		},
 		{
 			"id": "Paranoia",
@@ -1160,127 +1722,182 @@
 		{
 			"id": "Parchment",
 			"name": "Parchmemin",
-			"description": "Nécessaire pour écrire des sort."
+			"description": "Nécessaire pour écrire des sort.",
+			"effect": "Can be used to write down spells.",
+			"drawback": "",
+			"appearance": ""
 		},
 		{
 			"id": "Pasture",
-			"name": "Pasture"
+			"name": "Pasture",
+			"description": "A tract of land grazed by cattle, which can provide both meat and milk. Your stronghold can have several pastures.",
+			"effect": "The cows need to be tended to daily. Once per day, a PC or a FARMER can milk the cows. This takes a Quarter Day and gives one unit of FOOD per cow. You can slaughter cows at any time, and this provides eight units of MEAT per cow. If you have a bull, D6 calves are born in the PASTURE each year."
 		},
 		{
 			"id": "Path of Blood",
-			"name": "Path of Blood"
+			"name": "Path of Blood",
+			"description": "The rank of this talent determines which spells you can use. Read more about magic in Chapter 6.\n\n✥ RANK 1: You can cast rank 1 spells from the Blood Magic discipline.\n\n✥ RANK 2: You can also cast rank 2 spells from the Blood Magic discipline.\n\n✥ RANK 3: You can also cast rank 3 spells from the Blood Magic discipline."
 		},
 		{
 			"id": "Path of Death",
-			"name": "Path of Death"
+			"name": "Path of Death",
+			"description": "The rank of this talent determines which spells you can use. Read more about magic in Chapter 6.\n\n✥ RANK 1: You can cast rank 1 spells from the Death Magic discipline.\n\n✥ RANK 2: You can also cast rank 2 spells from the Death Magic discipline.\n\n✥ RANK 3: You can also cast rank 3 spells from the Death Magic discipline."
 		},
 		{
 			"id": "Path of Gold",
-			"name": "Path of Gold"
+			"name": "Path of Gold",
+			"description": "You are a master at bargaining and have an unerring ability to sniff out gold and jewels.\n\n✥ RANK 1: When you are about to buy an item, you can spend a Willpower Point to automatically negotiate the price down. The price is decreased by one-fifth for every WP you spend. You can spend a maximum of 4 WP per item, which decreases the price to one-fifth.\n\n✥ RANK 2: When you enter a new room, you can spend a WP to detect if there are valuables in the room and if so, where. This talent only applies to gold and jewels, not unique artifacts.\n\n✥ RANK 3: You always have gold hidden somewhere. For every WP you spend, you find 1 piece of gold in one of your \n pockets,even if you were recently searched or something similar."
 		},
 		{
 			"id": "Path of Healing",
-			"name": "Path of Healing"
+			"name": "Path of Healing",
+			"description": "Your calling is to use the forces of nature to heal and nurture the injured and the lost souls. The rank of this talent determines which spells you can use. Read more about magic in Chapter 6.\n\n✥ RANK 1: You can cast rank 1 spells from the Healing discipline.\n\n✥ RANK 2: You can also cast rank 2 spells from the Healing discipline.\n\n✥ RANK 3: You can also cast rank 3 spells from the Healing discipline."
 		},
 		{
 			"id": "Path of Lies",
-			"name": "Path of Lies"
+			"name": "Path of Lies",
+			"description": "You are a master liar, skilled at both seeing through lies and telling them yourself without being discovered.\n\n✥ RANK 1: If you spend a Willpower Point when speaking with an NPC, the GM must reveal if the NPC is lying or not. The GM does not have to reveal what exactly the NPC is lying about.\n\n✥ RANK 2: When you MANIPULATE an NPC to make him believe what you are saying (regardless of whether it’s true or not), you can spend a WP to succeed automatically. You can roll first and use this talent if you fail.\n\n✥ RANK 3: When you MANIPULATE someone and succeed, you can spend a WP to avoid doing something in return (see page 99) and your opponent also loses the ability to attack you. What you are asking must still be reasonable according to the GM’s assessment."
 		},
 		{
 			"id": "Path of Many Things",
-			"name": "Path of Many Things"
+			"name": "Path of Many Things",
+			"description": "You carry a knapsack that contains a seemingly endless supply of stuff and knick knacks. The knapsack is a HEAVY item (@JournalEntry[Character Creation]).\n\n✥ RANK 1: When you spend Willpower Points, you can find almost any item from the list of trade goods (see page 182). It cannot be a HEAVY object and it cannot cost more than 1 piece of silver per WP spent.\n\n✥ RANK 2: As per rank 1, but you can also find a weapon (from the weapon tables) in your knapsack.\n\n✥ RANK 3: As per rank 2, but the item can cost up to 1 piece of gold per WP spent. \n\nCOMMENT: Once you have pulled an item from your knapsack, you must write it down on your character sheet, and you cannot put it back in your knapsack again. If you lose your knapsack, you must get a new one before you can use this talent again. This requires a visit to a trading post of some kind and that you spend a WP and 2D6 silver."
 		},
 		{
 			"id": "Path of Poison",
-			"name": "Path of Poison"
+			"name": "Path of Poison",
+			"description": "You always carry an assortment of poisons. Your collection counts as one TINY item and doesn’t encumber you.\n\n✥ RANK 1: By spending a Willpower Point, you can pull out one dose of lethal poison (see page 113) with a Potency equal to the number of WP you spend multiplied by 3.\n\n✥ RANK 2: As per rank 1, but you can also choose another kind of poison. See the examples on page 113.\n\n✥ RANK 3: As per rank 2, but you can also choose to have the poison already applied to one of your weapons, for example, right before an attack (see page 114). Using this talent does  not count as an action.\n\nCOMMENT: If you lose your collection of poisons, you must get a new one before you can use this talent again. This requires a visit to a trading post of some kind and that you spend a WP and 2D6 silver."
 		},
 		{
 			"id": "Path of Shifting Shapes",
-			"name": "Path of Shifting Shapes"
+			"name": "Path of Shifting Shapes",
+			"description": "You are one with the feral creatures of the world and can assume their attributes or even take their form. The rank of this talent determines which spells you can use. Read more about magic in Chapter 6.\n\n✥ RANK 1: You can cast rank 1 spells from the Shapeshifting discipline.\n\n✥ RANK 2: You can cast rank 1 and rank 2 spells from the Shapeshifting discipline.\n\n✥ RANK 3: You can cast rank 1, 2 and 3 spells from the Shapeshifting discipline."
 		},
 		{
 			"id": "Path of Sight",
-			"name": "Path of Sight"
+			"name": "Path of Sight",
+			"description": "You can see beyond sight, and your inner eye can see what has happened and what will happen. The rank of this talent determines which spells you can use. Read more about magic in Chapter 6.\n\n✥ RANK 1: You can cast rank 1 spells from the Awareness discipline.\n\n✥ RANK 2: You can also cast rank 2 spells from the Awareness discipline.\n\n✥ RANK 3: You can also cast rank 3 spells from the Awareness discipline."
 		},
 		{
 			"id": "Path of Signs",
-			"name": "Path of Signs"
+			"name": "Path of Signs",
+			"description": "The rank of this talent determines which spells you can use. Read more about magic in Chapter 6.\n\n✥ Rank 1: You can cast rank 1 spells from the Symbolism discipline.\n\n✥ Rank 2: You can also cast rank 2 spells from the Symbolism discipline.\n\n✥ Rank 3: You can also cast rank 3 spells from the Symbolism discipline."
 		},
 		{
 			"id": "Path of Stone",
-			"name": "Path of Stone"
+			"name": "Path of Stone",
+			"description": "The rank of this talent determines which spells you can use. Read more about magic in Chapter 6.\n\n✥ RANK 1: You can cast rank 1 spells from the Stone Song discipline.\n\n✥ RANK 2: You can also cast rank 2 spells from the Stone Song discipline.\n\n✥ RANK 3: You can also cast rank 3 spells from the Stone Song discipline."
 		},
 		{
 			"id": "Path of the Arrow",
-			"name": "Path of the Arrow"
+			"name": "Path of the Arrow",
+			"description": "You are a master archer and fire arrows as if they were controlled by your own will.\n\n✥ RANK 1: When you hit with a ranged weapon attack, you can spend a Willpower Point to find a weakness in your opponent’s armor or natural armor. The armor offers no protection against your attack.\n\n✥ RANK 2: Once you have used up all your actions during the round, you can spend a WP to immediately attack again using a ranged weapon. However, said weapon must have been PREPARED earlier, and you can only do this once per round.\n\n✥ RANK 3: When you hit with a ranged weapon attack, you can increase the damage. Every WP spent increases damage by one. You must state how many WP you use before your opponent rolls for any armor."
 		},
 		{
 			"id": "Path of the Beast",
-			"name": "Path of the Beast"
+			"name": "Path of the Beast",
+			"description": "You have an animal as a trusted companion. Pick the type of animal yourself from the table on page 126 of the Gamemaster’s Guide, and give your animal a name. You cannot choose a riding animal.\n\n✥ RANK 1: Your animal can scout for you. You can spend a Willpower Point to send the animal ahead to check out a place nearby, and the animal will warn you if there is a threat there.\n\n✥ RANK 2: Your animal can help you when you are Broken (see page 107). Every WP you spend recovers one point of the attribute that has reached zero. You cannot use this effect when you are not Broken.\n\n✥ RANK 3: You can send your animal to fight for you. If you spend a WP when it is your turn to fight, the animal will also fight and follow your orders for one round, at your turn in the initiative order. Roll normally for the animal’s attacks.\n\nCOMMENT: Your animal will protect itself if it is attacked, but if you want it to fight for you, you need rank 3 of this talent. If your animal dies, you can tame a new one (read more on page 58). Once you have tamed an animal, you can choose to use it as a new companion. You keep your rank of PATH OF THE BEAST."
 		},
 		{
 			"id": "Path of the Blade",
-			"name": "Path of the Blade"
+			"name": "Path of the Blade",
+			"description": "You are one with your blade. You practice with your  weapon  every  day  and  know  all  its  qualities, as if it were part of your own body.\n\n✥ RANK 1: When you hit with a close combat attack, you can spend a Willpower Point to find a weakness in your opponent’s armor or natural armor. The armor has no effect against your attack. \n\n✥ RANK 2: Once you have used up all your ac-tions during the round, you can spend a WP to immediately attack again in close combat. \n\n✥ RANK 3: When you hit with a close combat attack, you can increase the damage by spending WP. Every point spent increases damage by 1. You must state how many WP you use before your opponent rolls for armor."
 		},
 		{
 			"id": "Path of the Companion",
-			"name": "Path of the Companion"
+			"name": "Path of the Companion",
+			"description": "Your horse (or another riding animal) is your closest friend and companion, and will help you if you are in trouble.\n\n✥ RANK 1: If you spend a Willpower Point when you are Broken (see page 107), your horse will stay by your side and defend you. The horse will attack any opponents that attempt to attack or move you.\n\n✥ RANK 2: Your horse can help you get up on your feet when you are Broken. For every WP you spend, you recover one point of the attribute that has been reduced to zero. You cannot use this effect if you are not Broken.\n\n✥ RANK 3: Your horse can kick opponents when you are in the saddle. If you spend a WP when it is your turn to act in the round, the horse can also attack in close combat, right after your action. Roll normally for the horse’s attack.\n\nCOMMENT: If your mount is killed, you can buy or tame a new one and use your talent with the new mount."
 		},
 		{
 			"id": "Path of the Enemy",
-			"name": "Path of the Enemy"
+			"name": "Path of the Enemy",
+			"description": "You see through your opponent and anticipate his next move before it happens. Observe that this talent is only applicable if you use the system for hidden combinations in close combat (see page 94).\n\n✥ RANK 1: If you spend a Willpower Point when you and your opponent choose your hidden combinations, your opponent must choose his combination first and then reveal his first or second card to you before you choose your own combination. Your opponent chooses which card to show.\n\n✥ RANK 2: As per rank 1, but you decide if your opponent shows the first or second card of his combination.\n\n✥ RANK 3: As per rank 1, but your opponent must show both his actions before you choose your own actions."
 		},
 		{
 			"id": "Path of the Face",
-			"name": "Path of the Face"
+			"name": "Path of the Face",
+			"description": "You are a master of disguise and can easily assume the appearance of others.\n\n✥ RANK 1: By spending a Willpower Point and preparing for a moment, you can assume the appearance of another person, but not their voice or demeanor. The person must be of the same sex and kin as you are. Anyone who knows the person and sees you at NEAR range can discover your ruse by rolling INSIGHT. Every extra WP you spend when you create your disguise modifies any roll to see through it by –1.\n\n✥ RANK 2: As per rank 1, but you can also mimic voices and demeanors. If you talk to someone who knows the person you are imitating, he can see through your disguise as per rank 1 above.\n\n✥ RANK 3: You can assume another person’s appearance completely, even if they are of the opposite sex or another kin. In other respects, treat this the same as per rank 2."
 		},
 		{
 			"id": "Path of the Forest",
-			"name": "Path of the Forest"
+			"name": "Path of the Forest",
+			"description": "You are a master at surviving in the wilderness. Read more about journeys in Chapter 7.\n\n✥ RANK 1: When you FORAGE, HUNT, or LEAD THE WAY, you succeed automatically if you spend a Willpower Point. You can roll first and spend the point if you fail.\n\n✥ RANK 2: When rolling to endure cold (see page 111), you automatically succeed if you spend a WP. You can roll first and spend the point if you fail.\n\n✥ RANK 3: By spending a WP, you don’t need to eat or drink during one full day."
 		},
 		{
 			"id": "Path of the Hymn",
-			"name": "Path of the Hymn"
+			"name": "Path of the Hymn",
+			"description": "Your songs can help your comrades get up on their feet, even in the heat of combat. Using the talent in combat counts as a slow action.\n\n✥ RANK 1: You can help a Broken comrade within SHORT range to get up on her feet. For every WP you spend, your comrade recovers one point of the attribute that has been reduced to zero.\n\n✥ RANK 2: A number of your comrades, equal to the number of WP you spend and within SHORT range, each recover one point of damage to an attribute (see page 104). You decide which attribute they all recover.\n\n✥ RANK 3: Your song grants a portion of your power to one of your comrades within LONG distance. You simply give a number of WP of your choice to your friend. The half-elf kin talent PSYCHIC POWER cannot be combined with this effect."
 		},
 		{
 			"id": "Path of the Killer",
-			"name": "Path of the Killer"
+			"name": "Path of the Killer",
+			"description": "Battles are not always fought in the open and with steel clashing against steel. Another, less heroic type of fight takes place in the shadows, with hidden weapons and unsuspecting victims.\n\n✥ RANK 1: When you succeed with a SNEAK ATTACK (see page 90), you can spend Willpower Points to increase damage. Every WP you spend increases damage by 1.\n\n✥ RANK 2: By spending a WP, you can slither your way out of any restraints or push yourself through the smallest of openings, down to a few inches wide.\n\n✥ RANK 3: You can make others do your job for you through the power of hypnosis. By spending a WP, you can force your opponent to perform a specific action at a time of your choosing. However, you must speak to your opponent for a short time before you can use this talent."
 		},
 		{
 			"id": "Path of the Knight",
-			"name": "Path of the Knight"
+			"name": "Path of the Knight",
+			"description": "You are a master at fighting mounted. All the effects of this talent require that you are mounted and that you are in an OPEN zone in combat (see page 88).\n\n✥ RANK 1: You can spend Willpower Points to draw extra initiative cards during the initiative draw, and choose the best card. Every WP allows you to draw one extracard, and \n you can choose the best one. The cards you have discarded are shuffled back into the deck before the other combatants draw their cards. This talent can be combined with LIGHTNING FAST, letting you draw even more initiative cards.\n\n✥ RANK 2: When mounted, you can spend WP to defend against attacks. Every WP eliminates one x your enemy has rolled. You spend your WP before you roll for armor.\n\n✥ RANK 3: When you attack from a mount in close combat and your attack roll succeeds, you can spend WP to increase damage. Every point spent increases the damage by one. You must state how many WP you use before your opponent rolls for armor."
 		},
 		{
 			"id": "Path of the Plains",
-			"name": "Path of the Plains"
+			"name": "Path of the Plains",
+			"description": "Your mount is fast like the wind.\n\n✥ RANK 1: For every Willpower Point you spend, your mount can move one extra hex square in a Quarter Day (see page 144), in normal terrain. Difficult terrain requires two WP per extra hex square.\n\n✥ RANK 2: When you are mounted, you can spend a WP to escape from combat without rolling dice (see page 89). All other limitations apply.\n\n✥ RANK 3: You can coax your mount into running at breakneck speed for a short period of time. Every WP you spend increases the mount’s Movement Rate (see page 115) one step, but only during one round."
 		},
 		{
 			"id": "Path of the Shield",
-			"name": "Path of the Shield"
+			"name": "Path of the Shield",
+			"description": "You are a rock in the heat of battle, immovable and hard to kill. This talent affects how you PARRY attacks, regardless of whether you do it with a shield or a weapon.\n\n✥ RANK 1: When a friend within NEAR range is attacked, you can spend a Willpower Point to PARRY the attack for him. Your PARRY follows the normal rules and counts as one of your actions in the round. Any unparried damage continues to the intended target, not you.\n\n✥ RANK 2: When you PARRY, you can immediately spend a WP to not count the PARRY against your actions in the round, making it. You can do this several times in a round, as long as you have WP to spend.\n\n✥ RANK 3: When you PARRY successfully, you can decrease damage further by spending WP. Every point you spend decreases damage by one. You must state how many WP   you use before you roll for armor."
 		},
 		{
 			"id": "Path of the Song",
-			"name": "Path of the Song"
+			"name": "Path of the Song",
+			"description": "Your  beautiful  voice  can  captivate  any  audi-ence, and can even torment the listeners if you so choose.\n\n✥ RANK 1: By spending Willpower Points and singing, you can draw the attention of everyone in NEAR range to yourself for a few minutes. They stop what they are doing, and any SCOUTING roll they make is modified negatively by the number of WP you spend. This has no effect in combat.\n\n✥ RANK 2: As per rank 1, but you can also persuade your audience to pay for your singing. They will pay what they can, up to a number of silver pieces equal to the number of WP you spend.\n\n✥ RANK 3: You can sing so powerfully that your song cuts into the ears of any listeners within SHORT range. Your song causes 1 point of damage to Strength per WP you spend. You can distribute the damage across as many opponents as you want. The targets may attempt to resist the effect by rolling for INSIGHT –  each X rolled negates 1 point of damage. No effect against monsters."
 		},
 		{
 			"id": "Path of the Warcry",
-			"name": "Path of the Warcry"
+			"name": "Path of the Warcry",
+			"description": "Your voice inspires your comrades and strikes fear into the hearts of your enemies. Using this talent in combat counts as a slow action (see page 85).\n\n✥ RANK 1: You can emit a warcry that grants all your comrades within SHORT range a bonus to all attacks during one round, until it’s your turn to act again in the next round. Their rolls are modified by +1 for every WP you spend.\n\n✥ RANK 2: You can emit a roar that modifies the close combat attacks of all opponents within SHORT range until it’s your turn to act again in the next round. Their rolls are modified by –1 for every WP you spend. Note this has no effect against monsters.\n\n✥ RANK 3: Your cry can strike fear into the heart of the most savage of opponents. Your cry inflicts one point of damage to Wits in a single opponent within SHORT range for everyWP \n you spend. The target may attempt to resist the effect by rolling for INSIGHT – each x rolled negates one point of damage. No effect against monsters."
 		},
 		{
 			"id": "Pathfinder",
-			"name": "Pathfinder"
+			"name": "Pathfinder",
+			"description": "You are a master at finding the right path through woods and over mountains in the wilderness.\r\n\r\n✥ RANK 1: Your SURVIVAL roll is modified by +1 when you LEAD THE WAY (see page 147).\r\n\r\n✥ RANK 2: You’re most comfortable in the wilds. LEADING THE WAY for a Quarter Day counts as REST for you.\r\n\r\n✥ RANK 3: You can add a D8 Artifact Die to your SURVIVAL rolls when you LEAD THE WAY."
 		},
 		{
 			"id": "Pelt",
 			"name": "Peau"
 		},
 		{
+			"id": "Shovel",
+			"name": "Pelle",
+			"description": "",
+			"effect": "",
+			"drawback": "",
+			"appearance": ""
+		},
+		{
+			"id": "Small Shield",
+			"name": "Petit bouclier",
+			"description": "",
+			"effect": "",
+			"drawback": "",
+			"appearance": ""
+		},
+		{
+			"id": "Small Tent",
+			"name": "Petite tente",
+			"description": "2 places. Bonus d'équipement de +2 pour MONTER LE CAMP durant les voyages.",
+			"effect": "Room for two. Gear Bonus +2 to Making Camp during journeys.",
+			"drawback": "",
+			"appearance": ""
+		},
+		{
 			"id": "Phantom Dagger",
 			"name": "Phantom Dagger",
-			"drawback": "",
-			"description":,
-			"appearance": "",
-			"effect": ""
+			"description": "It is said that when the Alderlanders invaded Ravenland, they sent the three siblings Vider to assassinate the leaders of the dwarves and elves. However, the elven masters ensnared the wouldbe assassins through their magic, slew them and bound their dark souls to three daggers.",
+			"effect": "The Phantom Daggers are dangerous concealed weapons, since they can be carried almost imperceptibly. If one is placed with the handle against the palm of the hand while pressing the index finger of the other hand against the tip until blood is drawn, the entire dagger will sink into the palm of the hand where it is only visible as a dark spot on the skin. With the proper flick of the wrist the dagger can be unsheathed into the hand again when the victim least expects it. It gives a +2 modification to all sneak attacks. It is not counted towards encumbrance at all.",
+			"drawback": "The Phantom Dagger erodes the user’s soul – every time an attack with it Breaks an opponent, the user suffers one point of damage to their Empathy score.",
+			"appearance": "A completely black and fuming dagger with slightly diaphanous edges. It is as if the shadow of a dagger has assumed solid shape."
 		},
 		{
 			"id": "Phobic",
@@ -1288,336 +1905,9 @@
 			"effect": "Vous êtes terrifié par quelques chose en rapport avec ce qui vous a brisé. Vous subissez 1 point de dégâts à l'ESPRIT à chaque round où vous êtes à portée PROCHE de l'objet de votre phobie."
 		},
 		{
-			"id": "Pickaxe",
-			"name": "Pioche",
-			"description": ""
-		},
-		{
-			"id": "Pierced cheek",
-			"name": "Joue tranpsercée",
-			"effect": "-1 aux jets de MANIPULATION."
-		},
-		{
-			"id": "Pierced ear",
-			"name": "Oreille percée"
-		},
-		{
-			"id": "Pierced eye",
-			"name": "Oeil creuvé",
-			"effect": "-2 aux jets de TIR DE PRECTISION et ECLAIREUR."
-		},
-		{
-			"id": "Pierced heart",
-			"name": "Coeur transpercé",
-			"effect": "C'est votre dernier battement de coeur..."
-		},
-		{
-			"id": "Pig",
-			"name": "Cochon",
-			"description": ""
-		},
-		{
-			"id": "Pigsty",
-			"name": "Pigsty"
-		},
-		{
-			"id": "Pike",
-			"name": "Pique",
-			"description": ""
-		},
-		{
-			"id": "Plate Armor",
-			"name": "Armure de plate",
-			"description": ""
-		},
-		{
-			"id": "Pliers",
-			"name": "Pinces",
-			"description": ""
-		},
-		{
-			"id": "Poisoner",
-			"name": "Poisoner"
-		},
-		{
-			"id": "Portal",
-			"name": "Portal"
-		},
-		{
-			"id": "Portcullis",
-			"name": "Portcullis"
-		},
-		{
-			"id": "Power Rune",
-			"name": "Power Rune"
-		},
-		{
-			"id": "Precious Find",
-			"name": "Precious Find",
-			"description": ""
-		},
-		{
-			"id": "Primal Soul",
-			"name": "Primal Soul"
-		},
-		{
-			"id": "Psychic Power (Half-Elf)",
-			"name": "Psychic Power (Half-Elf)"
-		},
-		{
-			"id": "Punctured lung",
-			"name": "Poumon perforé",
-			"effect": "-2 aux jets d'ENDURANCE et de MANOEUVRES."
-		},
-		{
-			"id": "Puppeteer",
-			"name": "Puppeteer"
-		},
-		{
-			"id": "Purge Undead",
-			"name": "Purge Undead"
-		},
-		{
-			"id": "Quarry",
-			"name": "Quarry"
-		},
-		{
-			"id": "Quartermaster",
-			"name": "Quartermaster"
-		},
-		{
-			"id": "Queen Agatha's Twin Tablets",
-			"name": "Queen Agatha's Twin Tablets",
-			"drawback": "",
-			"description":,
-			"appearance": "",
-			"effect": ""
-		},
-		{
-			"id": "Quickdraw",
-			"name": "Quickdraw"
-		},
-		{
-			"id": "Quiver",
-			"name": "Carquois",
-			"description": "N'encombre pas le porteur."
-		},
-		{
-			"id": "Rags",
-			"name": "Guenilles",
-			"description": "Pénalité de -2 au jets de MANIPULATION."
-		},
-		{
-			"id": "Raise the Dead",
-			"name": "Raise the Dead"
-		},
-		{
-			"id": "Ramparts",
-			"name": "Ramparts"
-		},
-		{
-			"id": "Resurrection",
-			"name": "Resurrection"
-		},
-		{
-			"id": "Riding Horse",
-			"name": "Cheval de monte",
-			"description": ""
-		},
-		{
-			"id": "Root Cellar",
-			"name": "Root Cellar"
-		},
-		{
-			"id": "Rope, 10 Meters",
-			"name": "Corde, 10 mètres",
-			"description": "Bonus d'équipement de +1 en Escalade."
-		},
-		{
-			"id": "Rowing Boat",
-			"name": "Rowing Boat",
-			"description": ""
-		},
-		{
-			"id": "Ruptured intestines",
-			"name": "Rupture des intestins",
-			"effect": "Maladie de Virulence 6"
-		},
-		{
-			"id": "Sack",
-			"name": "Sac",
-			"description": "N'encombre pas le porteur."
-		},
-		{
-			"id": "Sailing Boat",
-			"name": "Sailing Boat",
-			"description": ""
-		},
-		{
-			"id": "Sailor",
-			"name": "Sailor"
-		},
-		{
-			"id": "Saw",
-			"name": "Scie",
-			"description": ""
-		},
-		{
-			"id": "Scales",
-			"name": "Ecailles",
-			"description": "Peut servir de composant de sort."
-		},
-		{
-			"id": "Scarnesbane",
-			"name": "Scarnesbane",
-			"drawback": "",
-			"description":,
-			"appearance": "",
-			"effect": ""
-		},
-		{
-			"id": "Scimitar",
-			"name": "Cimeterre",
-			"description": ""
-		},
-		{
-			"id": "Scriptorium",
-			"name": "Scriptorium"
-		},
-		{
-			"id": "Sense Magic",
-			"name": "Sense Magic"
-		},
-		{
-			"id": "Serenity",
-			"name": "Serenity"
-		},
-		{
-			"id": "Severed arm",
-			"name": "Bras coupé",
-			"effect": "Les armes à deux mains ne peuvent pas être utilisées."
-		},
-		{
-			"id": "Severed arm artery",
-			"name": "Artère du bras sectionnée",
-			"effect": "Les armes à deux mains ne peuvent pas être utilisées."
-		},
-		{
-			"id": "Severed ear",
-			"name": "Oreille coupée",
-			"effect": "Pénalité de -1 aux jets d'ECLAIREUR."
-		},
-		{
-			"id": "Severed finger",
-			"name": "Doigt coupé",
-			"effect": "Les armes à deux mains ne peuvent pas être utilisées."
-		},
-		{
 			"id": "Severed foot",
 			"name": "Pied coupé",
 			"effect": "COURIR devient une action lente."
-		},
-		{
-			"id": "Severed leg",
-			"name": "Jambe coupée",
-			"effect": "COURIR devient une action lente."
-		},
-		{
-			"id": "Severed leg artery",
-			"name": "Artère de la jambe sectionnée",
-			"effect": "COURIR devient une action lente."
-		},
-		{
-			"id": "Severed nose",
-			"name": "Nez coupé",
-			"effect": "Pénalité de -1 aux jets de MANIPULATION."
-		},
-		{
-			"id": "Severed tendon",
-			"name": "Tendon coupé",
-			"effect": "COURIR devient une action lente."
-		},
-		{
-			"id": "Severed toe",
-			"name": "Orteille coupé",
-			"effect": "COURIR devient une action lente."
-		},
-		{
-			"id": "Sharp Tongue",
-			"name": "Sharp Tongue"
-		},
-		{
-			"id": "Sharpshooter",
-			"name": "Sharpshooter"
-		},
-		{
-			"id": "Sheep",
-			"name": "Mouton",
-			"description": ""
-		},
-		{
-			"id": "Sheepfold",
-			"name": "Sheepfold"
-		},
-		{
-			"id": "Shield Fighter",
-			"name": "Shield Fighter"
-		},
-		{
-			"id": "Shooting Range",
-			"name": "Shooting Range"
-		},
-		{
-			"id": "Short Bow",
-			"name": "Arc court",
-			"description": ""
-		},
-		{
-			"id": "Short Spear",
-			"name": "Lance courte",
-			"description": ""
-		},
-		{
-			"id": "Shortsword",
-			"name": "Epée courte",
-			"description": ""
-		},
-		{
-			"id": "Shovel",
-			"name": "Pelle",
-			"description": ""
-		},
-		{
-			"id": "Shrine",
-			"name": "Shrine"
-		},
-		{
-			"id": "Silver",
-			"name": "Argent"
-		},
-		{
-			"id": "Silver Buckle",
-			"name": "Boucle en argent",
-			"description": "Bonus d'équipement de +1 en Manipluation."
-		},
-		{
-			"id": "Silver Coin",
-			"name": "Pièce d'argent",
-			"description": ""
-		},
-		{
-			"id": "Simple Clothes",
-			"name": "Vêtements simples",
-			"description": ""
-		},
-		{
-			"id": "Simple Find",
-			"name": "Simple Find",
-			"description": ""
-		},
-		{
-			"id": "Sixth Sense",
-			"name": "Sixth Sense"
 		},
 		{
 			"id": "Skewered foot",
@@ -1625,255 +1915,602 @@
 			"effect": "COURIR devient une action lente."
 		},
 		{
-			"id": "Skewered groin",
-			"name": "SNez embroché",
-			"effect": "1 point de dégâts à chaque jet de MANOEUVRES et de MÊLEE."
-		},
-		{
-			"id": "Skewered skull",
-			"name": "Crâne transpercé",
-			"effect": "Vous mourez sur le champ."
-		},
-		{
-			"id": "Slashed eye",
-			"name": "Oeil sectionné",
-			"effect": "Pénalité de -2 aux jets de TIR DE PRECISION et d'ECALIREUR."
-		},
-		{
-			"id": "Slashed mouth",
-			"name": "Entaille à la bouche",
-			"effect": "Pénalité de -2 aux jets de MANIPULATION."
-		},
-		{
-			"id": "Sledge Hammer",
-			"name": "Marteau de forgeron",
-			"description": ""
-		},
-		{
-			"id": "Sleeping Fur",
-			"name": "Fourrure",
-			"description": "Bonus d'équipement +2 contre le froid."
-		},
-		{
-			"id": "Sleeping Poison",
-			"name": "Poison somnifère",
-			"description": "Virulence 3. Chaque augmentation de Virulence double le prix."
-		},
-		{
-			"id": "Sling",
-			"name": "Fronde",
-			"description": ""
-		},
-		{
-			"id": "Slit throat",
-			"name": "Gorge tranchée",
-			"effect": "Pénalité de -2 aux jets d'ENDURANCE."
-		},
-		{
-			"id": "Small Shield",
-			"name": "Petit bouclier",
-			"description": ""
-		},
-		{
-			"id": "Small Tent",
-			"name": "Petite tente",
-			"description": "2 places. Bonus d'équipement de +2 pour Monter le camp"
-		},
-		{
-			"id": "Smith",
-			"name": "Forge"
-		},
-		{
-			"id": "Snares",
-			"name": "Collets",
-			"description": "Bonus d'équipement de +1 en Chasse lors des voyage"
-		},
-		{
-			"id": "Speak to the Dead",
-			"name": "Speak to the Dead"
-		},
-		{
-			"id": "Spear Fighter",
-			"name": "Spear Fighter"
-		},
-		{
-			"id": "Spoon",
-			"name": "Cuillère",
-			"description": ""
-		},
-		{
-			"id": "Spyglass",
-			"name": "Longue-vue",
-			"description": "Bonus d'équipement de +2 en Eclaireur à portée longue"
-		},
-		{
-			"id": "Stables",
-			"name": "Etables"
-		},
-		{
-			"id": "Staff",
-			"name": "Staff",
-			"description": ""
-		},
-		{
-			"id": "Steady Feet",
-			"name": "Steady Feet"
-		},
-		{
-			"id": "Steal Life",
-			"name": "Steal Life"
-		},
-		{
-			"id": "Stir the Blood",
-			"name": "Stir the Blood"
+			"id": "Crushed foot",
+			"name": "Pied écrasé",
+			"effect": "COURIR devient une action lente."
 		},
 		{
 			"id": "Stone",
 			"name": "Pierre"
 		},
 		{
-			"id": "Stone House",
-			"name": "Stone House",
-			"description": ""
+			"id": "Homing Pigeon in Cage",
+			"name": "Pigeon voyageur en cage",
+			"description": "Vole jusqu'à son colombier lorsqu'il est relaché.",
+			"effect": "Flies home to its Dovecote when released.",
+			"drawback": "",
+			"appearance": ""
 		},
 		{
-			"id": "Stone Storm",
-			"name": "Stone Storm"
+			"id": "Pigsty",
+			"name": "Pigsty",
+			"description": "A pen with pigs is a good source of food for the\r\ninhabitants of the stronghold. Your stronghold\r\ncan have several pigsties.",
+			"effect": "You can slaughter the pigs at anytime. This gives six units of MEAT per pig.2D6 piglets are born in the PIGSTY each year."
 		},
 		{
-			"id": "Stonesmith",
-			"name": "Stonesmith"
+			"id": "Pliers",
+			"name": "Pinces",
+			"description": "",
+			"effect": "",
+			"drawback": "",
+			"appearance": ""
 		},
 		{
-			"id": "Studded Leather",
-			"name": "Cuir cloutée",
-			"description": ""
+			"id": "Pickaxe",
+			"name": "Pioche",
+			"description": "",
+			"effect": "",
+			"drawback": "",
+			"appearance": ""
 		},
 		{
-			"id": "Studded Leather Cap",
-			"name": "Capuchon de cuir",
-			"description": ""
+			"id": "Pike",
+			"name": "Pique",
+			"description": "",
+			"effect": "",
+			"drawback": "",
+			"appearance": ""
 		},
 		{
-			"id": "Stun",
-			"name": "Stun"
+			"id": "Silver Coin",
+			"name": "Pièce d'argent",
+			"description": "",
+			"effect": "",
+			"drawback": "",
+			"appearance": ""
+		},
+		{
+			"id": "Gold Coin",
+			"name": "Pièce d'or",
+			"description": "",
+			"effect": "",
+			"drawback": "",
+			"appearance": ""
+		},
+		{
+			"id": "Metal Plate",
+			"name": "Plat en métal",
+			"description": "",
+			"effect": "-",
+			"drawback": "",
+			"appearance": ""
+		},
+		{
+			"id": "Ink and Quill",
+			"name": "Plume et encrier",
+			"description": "Nécessaire pour écrire des sorts.",
+			"effect": "Can be used to write down spells.",
+			"drawback": "",
+			"appearance": ""
+		},
+		{
+			"id": "Hallucinogenic Poison",
+			"name": "Poison hallucinogène",
+			"description": "Virulence 3. Chaque augmentation de Virulence double le prix.",
+			"effect": "Potency 3. Each increase in Potency doubles the price.",
+			"drawback": "",
+			"appearance": ""
+		},
+		{
+			"id": "Lethal Poison",
+			"name": "Poison mortel",
+			"description": "Virulence 3. Chaque augmentation de Virulence double le prix.",
+			"effect": "Potency 3. Each increase in Potency doubles the price.",
+			"drawback": "",
+			"appearance": ""
+		},
+		{
+			"id": "Paralyzing Poison",
+			"name": "Poison paralysant",
+			"description": "Virulence 3. Chaque augmentation de Virulence double le prix.",
+			"effect": "Potency 3. Each increase in Potency doubles the price.",
+			"drawback": "",
+			"appearance": ""
+		},
+		{
+			"id": "Sleeping Poison",
+			"name": "Poison somnifère",
+			"description": "Virulence 3. Chaque augmentation de Virulence double le prix.",
+			"effect": "Potency 3. Each increase in Potency doubles the price.",
+			"drawback": "",
+			"appearance": ""
+		},
+		{
+			"id": "Poisoner",
+			"name": "Poisoner",
+			"description": "You have mastered the art of brewing poisons of every kind. Read more about poisons in Chapter 5.\n\n✥ RANK 1: You can use the CRAFTING skill to concoct poisons and antidotes. See the table on page 186 for required raw materials. The Potency of the poison increases by one for every x you roll beyond the first.\n\n✥ RANK 2: As per rank 1, and all your rolls to concoct poisons are modified by +1.\n\n✥ RANK 3: As per rank 2, and you can add a D8 Artifact Die to your rolls to concoct poisons."
+		},
+		{
+			"id": "Fish",
+			"name": "Poisson"
+		},
+		{
+			"id": "Portal",
+			"name": "Portal",
+			"description": "This powerful ritual tears a hole in the veil between worlds and opens a path between them. This is a very risky undertaking, since you run the risk of running into all sorts of demons and other malevolent creatures on the other side – perhaps you can use them for your own purposes, but it is just as likely they will attempt to use you for their own. Or perhaps devour you. The spell BIND DEMON (see blood magic) is very useful here. The details are up to the GM. Another use for this spell is creating a new PORTAL on the other side, which can lead you anywhere you want in the Forbidden Lands."
+		},
+		{
+			"id": "Portcullis",
+			"name": "Portcullis",
+			"description": "A sturdy metal barrier in the gate to your castle is useful for keeping unwelcome guests out.",
+			"effect": "Increases the Defense Rating of the stronghold by +1 (see page 175)."
+		},
+		{
+			"id": "Chicken",
+			"name": "Poulet",
+			"description": "",
+			"effect": "Gives 1 unit of Meat when slaughtered.",
+			"drawback": "",
+			"appearance": ""
+		},
+		{
+			"id": "Punctured lung",
+			"name": "Poumon perforé",
+			"effect": "Pénalité de -2 aux jets d'ENDURANCE et de MANOEUVRES."
+		},
+		{
+			"id": "Weathered Doll",
+			"name": "Poupée de chiffon",
+			"description": "Peut servir de composant de sort.",
+			"effect": "Can be used as ingredient in spells.",
+			"drawback": "",
+			"appearance": ""
+		},
+		{
+			"id": "Power Rune",
+			"name": "Power Rune",
+			"description": "You can charge a symbol with power. The symbol must be drawn on or carved into an object, which is then charged with a number of Willpower Points equal to the Power Level. You can use the symbol later to cast spells, emptying its stored Willpower Points. You don’t need to BIND magic to use this spell. Other spellbinders skilled in the art of runes can use your POWER RUNES if they can access them, so keep them to yourself!"
+		},
+		{
+			"id": "Precious Find",
+			"name": "Precious Find",
+			"description": "",
+			"effect": "",
+			"drawback": "",
+			"appearance": ""
+		},
+		{
+			"id": "Primal Soul",
+			"name": "Primal Soul",
+			"description": "You can awaken primal emotions in the minds of others. The Power Level must be equal to or higher than the victim’s current Wits score. For example, you can bring out the rage of a boar, the laziness of a cat or the timidity of a sparrow. Exactly how the victim reacts is up to the GM. If you want to affect the mood of a crowd in a more general way, a small crowd requires a Power Level of 2, a big crowd requires 3, and a whole village 4. Doing so requires a ritual."
+		},
+		{
+			"id": "Psychic Power (Half-Elf)",
+			"name": "Psychic Power (Half-Elf)",
+			"description": "The dual heritage of the half-elves makes them particularly suited to channel their force of will to achieve feats beyond the natural. Every time you spend one or more Willpower Points to activate a talent or cast a spell, the first WP count as two. If you spend two WP it counts as three, and so on. Note that this also increases the risk of magic mishaps (see @JournalEntry[Magic])."
+		},
+		{
+			"id": "Well",
+			"name": "Puit",
+			"description": "With a well in the stronghold, you?ll never go\r\nthirsty.",
+			"effect": "Everyone in the stronghold hasfree access to WATER and can fill theirwaterskins to Resource Die D12 at anytime."
+		},
+		{
+			"id": "Puppeteer",
+			"name": "Puppeteer",
+			"description": "You can take complete control of your victim’s actions. The victim must make an INSIGHT roll with a negative modification equal to the Power Level. If the roll fails, the victim becomes a puppet without control of their own body. This control only lasts until the victim’s next ordinary turn in the initiative order, and covers one fast and one slow action. The victim cannot perform reactive actions or bonus actions from talents before the PUPPETEER’S actions are performed. The spell has no effect on monsters."
+		},
+		{
+			"id": "Purge Undead",
+			"name": "Purge Undead",
+			"description": "Dead rising from their graves is a violation of the order of nature and they must be stopped. This spell inflicts damage to Strength equal to the Power Level on one undead target."
+		},
+		{
+			"id": "Bear Trap",
+			"name": "Pège à ours",
+			"description": "Bonus d'équipement de +2 en CHASSE durant les voyages.",
+			"effect": "Gear Bonus +2 to Hunting during journeys.",
+			"drawback": "",
+			"appearance": ""
+		},
+		{
+			"id": "Quarry",
+			"name": "Quarry",
+			"description": "Stone is needed to build many different functions in the stronghold. Breaking stone is hard work, but not very complicated. Your stronghold can have several quarries.",
+			"effect": "Up to a dozen people can work in the QUARRY at the same time. Each worker produces two units of STONE per Quarter Day."
+		},
+		{
+			"id": "Quartermaster",
+			"name": "Quartermaster",
+			"description": "You can find good campsites and can make sure your party are comfortable by the campfire.\n\n✥ RANK 1: Your SURVIVAL roll is modified by +1 when you MAKE  CAMP during journeys. Read more about journeys in Chapter 7.\n\n✥ RANK 2: When you have MADE CAMP, the person KEEPING WATCH gets a +2 bonus to SCOUTING.\n\n✥ RANK 3: You can add a D8 Artifact Die to your roll when you MAKE CAMP."
+		},
+		{
+			"id": "Queen Agatha's Twin Tablets",
+			"name": "Queen Agatha's Twin Tablets",
+			"description": "Queen Agatha of Dragon’s Tooth was once a beloved queen of the dwarven Crombe clan. She wished to favor the stone singers of the clan so that their skill would rival that of the Belderans. When the gifted apprentice, Torwyld Gravel, by chance managed to return a slab of agate to its primordial, living form – the feat has never been reproduced – and the masters saw how the veins of agate surged beautifully like northern lights in the mountain, they decided to shape a tablet for the queen from the living rock, thanking her for her faith in them.\n\nThe work was done with a degree of anguish, for the living stone screeched and cried when cut, but after some time, the beautiful tablet could be presented to the regent. To the embarrassment of the stone singers, the agate veins would no longer surge, but it was discovered that when someone managed to move a vein on the stone tablet the same change appeared on the slab from which it had been taken. Master Homb realized that the stone tablet was missing its other piece and set out to form a second tablet from the remainder of the slab. Once it had been completed, and the tablets were brought together, they seemed to be more at ease and the agate veins became more fluid. They assumed the same pattern, and it soon became clear that if the pattern was changed by hand on one tablet, the same change immediately appeared on the other. Master Homb noticed that this occurred even if the tablets were separated, and realized that they could be used to send messages across long distances. After some years, one of the tablets was lost, however, at which time the other was forgotten, since it no longer served any purpose. The second tablet eventually went missing, too, lost to the unknown.\n\nThe legend is true.",
+			"effect": "The tablets do not have an artifact die. Instead their effects are described below:\n\nQueen Agatha’s Twin Tablets are identical and made from agate, with the flowing pattern of the mineral clearly visible on the surfaces of the two tablets. This pattern can be altered by tracing a finger across one tablet, and the second tablet will display the same change in the agate pattern. This effect occurs no matter how far apart the two tablets are. It’s not possible to write on the tablets, only to move the pattern. To use the tablets for communication, the adventurers will need to agree beforehand what different types of changes in the pattern mean.",
+			"drawback": "",
+			"appearance": "Two identical stone tablets of agate with tight, wavy lines in yellow, brown, white, and grey. On the top of each tablet there is carved a dwarven clan sign (of the Crombe clan). The observer will notice that the pattern in the stone is not solid, but shifts like a slowly rolling sea. If a finger is traced along the surface, the lines will move with it simultaneously on both tablets."
+		},
+		{
+			"id": "Quickdraw",
+			"name": "Quickdraw",
+			"description": "You draw your weapon quicker than the enemy can blink.\r\n\r\n✥ RANK 1: You can draw a LIGHT weapon without spending an action. This includes picking up a weapon from the ground.\r\n\r\n✥ RANK 2: As per rank 1, but also applicable to normal weapons.\r\n\r\n✥ RANK 3: As per rank 2, but also applicable to HEAVY weapons."
+		},
+		{
+			"id": "Raise the Dead",
+			"name": "Raise the Dead",
+			"description": "The main task of Death Magic is awakening the dead. In its simplest form, this ritual is used to reanimate one dead humanoid or animal, which will become a rank 1 undead. For each Power Level beyond the first, you can reanimate one more undead, or increase the rank of all undead raised by the spell by one. A ritual with Power Level 2 can raise two undead of rank 1, Power Level 3 can raise two undead of rank 2, and so on. A rank 1 undead has little to no mental capacity, but will obey simple commands and can use weapons and simple tools. The undead has the same Strength it did in life, Agility is decreased by one (no lower than 1), and it has no Wits or Empathy. Skills based on Strength and Agility are retained. A rank 2 undead can be enhanced in one of the following ways:\n\n✥ STRONGER. The Strength score increases by 1. This effect can be chosen several times for undead of higher ranks.\n\n✥ SMARTER. The undead regains some of its lost mental capacity, in the form of both Wits and Empathy and skills associated with these attributes. All the scores are lowered by one (no lower than 1). The undead can answer questions about its life both before and after death, but it often has an unclear sense of time and can be very forgetful. It obeys its maker and can perform slightly more advanced tasks.\n\n✥ DURABLE. The Duration of the spell is doubled. This effect can be chosen several times for undead of higher levels. A rank 3 undead gets two of the effects above. A rank 4 undead gets three effects, a rank 5 gets four effects, and so on. Note that the Strong  and Durable effects can be chosen several times over.\n\nRAISE THE DEAD can also be used to take control of “restless dead,” beings that have died but are still walking about, unaware of the fact that they are dead."
+		},
+		{
+			"id": "Ramparts",
+			"name": "Ramparts",
+			"description": "Solid stone walls with parapets, crenellations, and arrow slits are very useful to keep enemies at bay when your stronghold is attacked.",
+			"effect": "Increases the Defense Rating of the stronghold by +2."
+		},
+		{
+			"id": "Field Ration",
+			"name": "Rations",
+			"description": "Augmente de 1 le dé de ressources Nourriture.",
+			"effect": "One unit of Food. Increases the Food Resource Die one step.",
+			"drawback": "",
+			"appearance": ""
+		},
+		{
+			"id": "Resurrection",
+			"name": "Resurrection",
+			"description": "You can channel nature’s forces to resurrect a dead person – not as undead, but truly alive. The more time that has passed since the target died, the more difficult it is. Within the same Quarter Day requires Power Level 1, within a full day requires Power Level 2, and within a week requires Power Level 3. If over a week has passed, the body is too decomposed to be RESURRECTED. A person brought back to life loses one point of Empathy permanently, as having seen the world beyond the veil will change their outlook on life forever."
+		},
+		{
+			"id": "Rock",
+			"name": "Rock",
+			"description": "",
+			"effect": "",
+			"drawback": "",
+			"appearance": ""
+		},
+		{
+			"id": "Root Cellar",
+			"name": "Root Cellar",
+			"description": "A dark and chilly cellar is the best place to store food to keep it from spoiling.",
+			"effect": "In the ROOT CELLAR, GRAIN, FLOUR, MEAT, and VEGETABLES can be stored ten times longer without spoiling (see page 192)."
+		},
+		{
+			"id": "Rowing Boat",
+			"name": "Rowing Boat",
+			"description": "",
+			"effect": "Can carry four people and 50 items.",
+			"drawback": "",
+			"appearance": ""
+		},
+		{
+			"id": "Ruptured intestines",
+			"name": "Rupture des intestins",
+			"effect": "Maladie de Virulence 6"
+		},
+		{
+			"id": "Hourglass",
+			"name": "Sablier",
+			"description": "Peut servir de composant de sort.",
+			"effect": "Can be used as ingredient in spells.",
+			"drawback": "",
+			"appearance": ""
+		},
+		{
+			"id": "Sack",
+			"name": "Sac",
+			"description": "N'encombre pas le porteur.",
+			"effect": "Does not encumber the wearer.",
+			"drawback": "",
+			"appearance": ""
+		},
+		{
+			"id": "Backpack",
+			"name": "Sac à dos",
+			"description": "N'encombre pas le porteur",
+			"effect": "Does not encumber the wearer.",
+			"drawback": "",
+			"appearance": ""
+		},
+		{
+			"id": "Bleeding forehead",
+			"name": "Saignement au front",
+			"effect": "None"
+		},
+		{
+			"id": "Bleeding thigh",
+			"name": "Saignement de cuisse",
+			"effect": "COURIR devient une action lente."
+		},
+		{
+			"id": "Sailing Boat",
+			"name": "Sailing Boat",
+			"description": "",
+			"effect": "Can carry six people and 200 items.",
+			"drawback": "",
+			"appearance": ""
+		},
+		{
+			"id": "Sailor",
+			"name": "Sailor",
+			"description": "You know how to steer rafts and boats over unknown waters.\n\n✥ RANK 1: Your SURVIVAL roll is modified by +1 when you LEAD THE WAY at sea (see page 147).\n\n✥ RANK 2: Life at sea is soothing to you. A Quarter Day spent LEADING THE WAY on a boat counts as REST for you.\n\n✥ RANK 3: You can add a D8 Artifact Die to your SURVIVAL rolls when you LEAD THE WAY at sea."
+		},
+		{
+			"id": "Scarnesbane",
+			"name": "Scarnesbane",
+			"description": "The legends tell of how Scarne, the ancient mother of dragons, ruled in Ravenland when the dwarves arrived in an age long forgotten, and that her armor was of impregnable obsidian that she herself had melted around her body. But Oramund, the commander of the dwarves, prayed to the god Huge, who sent him a hammer the blows of which could crush anything. With it, Oramund slew the she-dragon. The dwarves then chased the serpent’s offspring up into the mountains from whence they still plague the land. Oramund named the hammer Scarnesbane.",
+			"effect": "Scarnesbane is a heavy warhammer with Weapon Bonus +2, Weapon Damage 3, and Artifact Die D10 (D12 against dragons). The weapon ignores all armor, including natural armor. Worn armor is destroyed if an attack from Scarnesbane inflicts three points of damage or more. Scarnesbane can even shatter solid stone.",
+			"drawback": "The hammer is very unwieldy and requires Strength 6 to be handled without penalty. A fighter with Strength 5 can wield Scarnesbane, but suffers a –2 penalty to all attacks. Weaklings of Strength 4 or less cannot use the weapon.",
+			"appearance": "Scarnesbane is a heavy warhammer, with the sign of the god Huge carved into its iron head six-fold. The shaft is the color of bone, and is said to have been cut from a tooth of the ancient dragon mother, Scarne. It’s carved with the same veining that was found on Urtima – the first stone that the dwarves shaped in their creation of the world – and is supposed to be wrapped with ribbons made of Scarne’s hide."
+		},
+		{
+			"id": "Saw",
+			"name": "Scie",
+			"description": "",
+			"effect": "",
+			"drawback": "",
+			"appearance": ""
+		},
+		{
+			"id": "Scriptorium",
+			"name": "Scriptorium",
+			"description": "Sorcerers and other learned adventurers need a secluded place in the stronghold for contemplation, study and scribing.",
+			"effect": "Gives Gear Bonus +2 to a magic user who writes down a spell in a grimoire (see page 120)."
+		},
+		{
+			"id": "Sense Magic",
+			"name": "Sense Magic",
+			"description": "As a sorcerer or druid, you automatically sense whenever someone uses magic within SHORT range or if an item you hold is charged with magical power. If you want to know more about what kind of magic is involved, you must cast the SENSE MAGIC spell. Using this spell is also required to detect OBSCURED magic (see below) – your Power Level must then be equal to or higher than the Power Level of the OBSCURE MAGIC spell."
+		},
+		{
+			"id": "Serenity",
+			"name": "Serenity",
+			"description": "You spread harmony and serenity around  you with this spell, which helps you in social conflicts. The victim of the spell will do what you want, without a roll to MANIPULATE them and without you having to give them something in return. All other restrictions for social conflicts apply – for example, the victim will not act directly against his own interests. The spell can only be used against living humanoids."
+		},
+		{
+			"id": "Sharp Tongue",
+			"name": "Sharp Tongue",
+			"description": "You are a master at formulating scathing abuses that can unhinge even the most steadfast of enemies.\n\n✥ RANK 1: When you MANIPULATE someone, and roll more x than you need to win the opposed roll, you can inflict 1 point of damage to Empathy on your opponent per extra x.\n\n✥ RANK 2: Your MANIPULATE roll is modified by +1 if you insult your opponent.\n\n✥ RANK 3: You can add a D8 Artifact Die to your MANIPULATE roll if you insult your opponent in some way."
+		},
+		{
+			"id": "Sharpshooter",
+			"name": "Sharpshooter",
+			"description": "You are a master archer and your arrow almost always hits its target.\n\n✥ RANK 1: Your attack rolls are modified by +1 when you SHOOT a bow or a crossbow.\n\n✥ RANK 2: You can SHOOT a bow or a crossbow at SHORT and LONG range without any penalties (see page 97).\n\n✥ RANK 3: You can add a D8 Artifact Die to any attack with a bow or a crossbow."
+		},
+		{
+			"id": "Sheepfold",
+			"name": "Sheepfold",
+			"description": "A pen for sheep, which can provide both wool and meat to the inhabitants of the stronghold. Your stronghold can have several sheepfolds.",
+			"effect": "Twice per year, the sheep can be sheared by a PC or a FARMER. This takes one Quarter Day and gives two units of WOOL per sheep in the herd. You can slaughter the sheep at any time. This gives you five units of MEAT per sheep. D6 lambs are born in the SHEEPFOLD each year."
+		},
+		{
+			"id": "Shield Fighter",
+			"name": "Shield Fighter",
+			"description": "You are one with your shield, and it can protect you from any attack.\n\n✥ RANK 1: Your PARRY rolls are modified by +1 when you parry with a shield.\n\n✥ RANK 2: You can use your shield to SLASH as a fast action. The Weapon Damage is 1 (blunt trauma).\n\n✥ RANK 3: You can add a D8 Artifact Die to all PARRY rolls when you use a shield."
+		},
+		{
+			"id": "Shooting Range",
+			"name": "Shooting Range",
+			"description": "An open area where you can practice your skills with bows and other ranged weapons.",
+			"effect": "If you practice on the SHOOTING RANGE for a Quarter Day, you gain one extra XP that can only be used to increase your MARKSMANSHIP skill level. Mark this XP next to the MARKSMANSHIP skill on your character sheet. You can only gain one such bonus XP between each skill level increase."
+		},
+		{
+			"id": "Shrine",
+			"name": "Shrine",
+			"description": "A small temple dedicated to Rust, Heme or some other god of the Forbidden Lands can give you solace and attract visitors from near and far.",
+			"effect": "Gives each PC one additional Willpower Point when you return to your stronghold from a journey."
+		},
+		{
+			"id": "Simple Find",
+			"name": "Simple Find",
+			"description": "",
+			"effect": "",
+			"drawback": "",
+			"appearance": ""
+		},
+		{
+			"id": "Sixth Sense",
+			"name": "Sixth Sense",
+			"description": "The hairs on the back of your neck stand up when enemies lurk in the bushes.\r\n\r\n✥ RANK 1: Your SCOUT roll is modified by +1 when an enemy tries to ambush you or performs a sneak attack (see page 90).\r\n\r\n✥ RANK 2: When you spot an ambush or a sneak attack, you also see how many the attackers are, what kin they belong to, and what weapons they use.\r\n\r\n✥ RANK 3: You can add a D8 Artifact Die to your SCOUT roll when you try to spot an ambush or a sneak attack."
+		},
+		{
+			"id": "Smith",
+			"name": "Smith",
+			"description": "You know the art of hammering coarse iron into lethal blades and protective armor.\n\n✥ RANK 1: You can use the CRAFTING skill to make any close combat weapon, shield, or metal armor from the weapons tables in Chapter 5, with normal stats. You can also turn IRON ORE into IRON at a FORGE (see page 167).\n\n✥ RANK 2: You can make weapons, shields and metal armor with a Weapon Bonus or Armor Rating that is one point higher than normal. This takes twice as long, and your roll is modified by –2.\n\n✥ RANK 3: You can make weeapons, shields and metal armor with a Weapon Bonus or Armor Rating that is two points higher than normal. This takes four times as long and your roll is modified by –4."
 		},
 		{
 			"id": "Stunned",
-			"name": "Sonné"
+			"name": "Sonné",
+			"effect": "None"
 		},
 		{
-			"id": "Sullen",
-			"name": "Morosité",
-			"effect": "Pénbalité de -1 aux jets d'EMPATHIE."
+			"id": "Breathless",
+			"name": "Souffle coupé",
+			"effect": "None"
 		},
 		{
-			"id": "Summon Golem",
-			"name": "Summon Golem"
+			"id": "Speak to the Dead",
+			"name": "Speak to the Dead",
+			"description": "You can speak with the dead. You must be within NEAR range of where the victim died or lies buried. You must know the victim’s name. You can speak with the dead for a few minutes and ask a few simple questions. The GM decides what the dead can and will answer – the dead aren’t always cooperative! If the victim’s remains are reasonably intact you can speak directly with the corpse, otherwise you hear the dead as a disembodied ghost voice in your head. This spell cannot be used against undead."
 		},
 		{
-			"id": "Sword Fighter",
-			"name": "Sword Fighter"
+			"id": "Spear Fighter",
+			"name": "Spear Fighter",
+			"description": "A mighty spear can slay even the biggest of monsters.\n\n✥ RANK 1: You get +1 when you attack with a spear, pike, halberd, or trident.\n\n✥ RANK 2: When you wield a spear, pike, halberd, or trident, you may immediately strike an enemy who moves from NEAR range to ARM’S LENGTH from you. The attack counts towards your actions in the round, but breaks the turn order and occurs before the enemy can attack you.\n\n✥ RANK 3: You can add a D8 Artifact Die to attacks with a spear, halberd, or trident."
 		},
 		{
-			"id": "Tailor",
-			"name": "Tailor"
+			"id": "Staff",
+			"name": "Staff",
+			"description": "",
+			"effect": "",
+			"drawback": "",
+			"appearance": ""
 		},
 		{
-			"id": "Tailor Shop",
-			"name": "Tailor Shop"
+			"id": "Steady Feet",
+			"name": "Steady Feet",
+			"description": "You have good balance and cannot be knocked over easily.\n\n✥ RANK 1: SHOVING you to the ground requires two x instead of one.\n\n✥ RANK 2: You cannot be SHOVED to the ground.\n\n✥ RANK 3: You get up from a prone position without spending an action on it. It still needs to happen at your turn in the round."
+		},
+		{
+			"id": "Steal Life",
+			"name": "Steal Life",
+			"description": "You can suck the life from living plants and animals around you. You gain a number of Willpower Points equal to twice the Power Level. The ritual can only be used in an environment where there is vegetation and so cannot be used indoors or on a rocky mountain side. When you perform the ritual all animals and plants within NEAR range – in the same Zone as you – die. This also applies to humans and other kin."
+		},
+		{
+			"id": "Stir the Blood",
+			"name": "Stir the Blood",
+			"description": "Using this spell, you stir your victim’s blood and bring out strong emotions such as lust, fear or rage. The victim must give in to these emotions in some way – exactly how depends on the individual and the situation. The GM determines the details. The spell has no effect in combat and cannot be used against monsters."
+		},
+		{
+			"id": "Stone House",
+			"name": "Stone House",
+			"description": "",
+			"effect": "",
+			"drawback": "",
+			"appearance": ""
+		},
+		{
+			"id": "Stone Storm",
+			"name": "Stone Storm",
+			"description": "Your song can move rocks so fast that you can hurl stones and rocks at an enemy in combat. The damage (to Strength) from your attack is equal to the Power Level. Armor works normally. This spell can only be used where there are loose stones for you to throw."
+		},
+		{
+			"id": "Stonesmith",
+			"name": "Stonesmith",
+			"description": "Your song can shape stone according to your will. This spell lets you create a wall, build a bridge, or raise a staircase from the ground. You can only create crude constructions. Power Level 1 will summon a construction in the same Zone as you. Every Power Level beyond that allows you to create something that stretches into one more neighboring Zone. For example, Power Level 4 lets you summon a construction reaching across four Zones."
+		},
+		{
+			"id": "Stun",
+			"name": "Stun",
+			"description": "Your mighty voice is so strong that people around you are stunned. Your song causes 1 point of damage to Agility per Power Level. You can distribute the damage across as many opponents as you want. The targets may attempt to resist the effect by rolling for INSIGHT – each x rolled negates 1 point of damage. No effect against monsters."
 		},
 		{
 			"id": "Tallow",
 			"name": "Suif"
 		},
 		{
-			"id": "Tallow Candle",
-			"name": "Bougie de suif",
-			"description": "Illumine à portée contact pendant 1 quart."
+			"id": "Summon Golem",
+			"name": "Summon Golem",
+			"description": "Your song can summon servant creatures from the very rock. This golem obeys your orders during the present Quarter Day, then it turns into an inanimate statue. The golem can only perform basic tasks and it must remain within your view. The stats of the golem depend on the Power Level. Power Level 1 creates a small creature with Strength 2, Agility 1, and stone skin with an Armor Rating of 3. Every increase in Power Level increases both Strength and Armor Rating by 1. You can also use the Power Level to create more golems at the same time – every increase in Power Level creates an additional golem. For example, Power Level 4 allows you to create three golems with a Strength of 3 and Armor Rating 4. This spell can only be used in the terrain type MOUNTAIN or in a CAVE."
 		},
 		{
-			"id": "Tankard",
-			"name": "Chope",
-			"description": ""
+			"id": "Sword Fighter",
+			"name": "Sword Fighter",
+			"description": "You have practiced with a sword in hand since you were a child.\n\n✥ RANK 1: Your attack and PARRY rolls are modified by +1 when you fight with a sword.\n\n✥ RANK 2: You can SLASH two enemies with your sword with a single action. Roll separately for the two attacks. If you use hidden combinations (see page 94), the second attack occurs outside of the combination.\n\n✥ RANK 3: You can add a D8 Artifact Die to all attack and PARRY rolls with a sword."
+		},
+		{
+			"id": "Holy Symbol",
+			"name": "Symbole sacré",
+			"description": "Peut servir de composant de sort.",
+			"effect": "Can be used as ingredient in spells.",
+			"drawback": "",
+			"appearance": ""
+		},
+		{
+			"id": "Tailor",
+			"name": "Tailor",
+			"description": "You know the art of turning wool into cloth, and to craft that cloth into clothes.\n\n✥ RANK 1: With a successful CRAFTING roll, you can turn up to D6 units of WOOL into CLOTH. If you fail, the WOOL is destroyed. If you have access to a TAILOR SHOP (see page 171), you can create CLOTH faster and without rolling dice. You can also use CRAFTING to sew clothes of normal quality, similar to to what’s found in the equipment lists on page 190.\n\n✥ RANK 2: You can make clothes of superior quality, which can be sold at twice the normal price. Your roll is modified by –2.\n\n✥ RANK 3: You can make clothes of exceptional quality, which can be sold at four times the normal price. Your roll is modified by –4."
+		},
+		{
+			"id": "Tailor Shop",
+			"name": "Tailor Shop",
+			"description": "In a tailor shop, you can turn wool into cloth, and sew clothes from the cloth.",
+			"effect": "Can turn up to a dozen units of WOOL into an equal number of units of CLOTH per Quarter Day, assuming the TAILOR SHOP is staffed by a PC or an NPC with the TAILOR talent or the hireling of the same name. Also gives a Gear Bonus +2 to CRAFTING clothes and other cloth items."
+		},
+		{
+			"id": "Drum",
+			"name": "Tambour",
+			"description": "",
+			"effect": "Gear Bonus +1 to Performance.",
+			"drawback": "",
+			"appearance": ""
 		},
 		{
 			"id": "Tanner",
-			"name": "Tanner"
+			"name": "Tanner",
+			"description": "You know the art of turning pelts into leather, and to craft that leather into armor.\n\n✥ RANK 1: With a successful CRAFTING roll, you can turn up to D6 units of PELTS into LEATHER. If you fail, the PELTS are destroyed. If you have access to a TANNERY (see page 172), you can create LEATHER faster and without rolling dice. You can also use the CRAFTING skill to make leatherarmor with   normal stats according to the armor table on page 106.\n\n✥ RANK 2: You can make leather armor with an Armor Rating that is one point higher than normal. This takes twice as long, and your roll is modified by –2.\n\n✥ RANK 3: You can make leather armor with an Armor Rating that is two points higher than normal. This takes four times as long and your roll is modified by –4."
 		},
 		{
 			"id": "Tannery",
-			"name": "Tannery"
+			"name": "Tannery",
+			"description": "Here, artisans can create leather from skin and fur, and use leather to fashion armor and clothes. Your stronghold can have several tanneries.",
+			"effect": "In each Quarter Day in which the TANNERY is staffed by a PC or NPC with the TANNER talent, or a hireling of the same same name, up to a dozen units of PELTS can be converted into an equal amount of LEATHER."
 		},
 		{
 			"id": "Telepathy",
-			"name": "Telepathy"
+			"name": "Telepathy",
+			"description": "You can read the surface thoughts of another person for a few minutes. Digging deeper for memories is harder, and requires Power Level 2 or even more, depending on how fresh the memory is. You can also use this spell to send your own thoughts to another person. In that case, the range of the spell is LONG if you know the target well. By sending thoughts of pain and suffering, you can inflict damage to Wits or Empathy equal to the Power Level. No effect on monsters."
+		},
+		{
+			"id": "Severed tendon",
+			"name": "Tendon coupé",
+			"effect": "COURIR devient une action lente."
 		},
 		{
 			"id": "Terror",
-			"name": "Terror"
+			"name": "Terror",
+			"description": "You can instil a horrible, unbearable fear in your victim, whose mind is flooded by images of their own aging and death. The victim suffers damage to both Wits and Empathy equal to the Power Level. This spell only works on living humanoids."
 		},
 		{
 			"id": "The Nightwalker's Hourglass",
 			"name": "The Nightwalker's Hourglass",
-			"drawback": "",
-			"description":,
-			"appearance": "",
-			"effect": ""
+			"description": "It is said that the stone singer Dordela was so vexed late one night over a mistake she’d made on an anniversary statue, that she begged the Nightwalker to return the stone slab to its original form, such as it was before she marred it with her high note. At the same time, there was a knock on the door to the workshop, frightening her. Outside the door was a mysterious figure with the features of a bat. In his arms he held a box, which he handed over without a word before turning around to leave. The only answer to Dordela’s questions was a hiss:\n\n“Fracture time, unmake mistake, bone break,” and then the mysterious messenger was gone.\n\nIn the box, Dordela found three hourglasses lying in purple velvet and on the inside of the lid were the same words, written in black ink. She picked up one of the hourglasses, observed the sand running from the top to the bottom and, on a whim, broke the instrument in half. She immediately fainted, but when she woke the stone slab stood before her, untouched, just as she had wished. Delighted, she reached for her stone wand but found it impossible: her hand was missing.\n\nThey say that the second hourglass was broken when King Ardeburd had lost the battle against the Canides below the Icefang Mountains. He is then said to have allowed all the sand to flow from the hourglass and was never seen again. Without their leader, the dwarves lost the battle a second time.\n\nOnly one hourglass now remains in the box.",
+			"effect": "The hourglass does not have an artifact die. Its effects are described below:\n\nA person who breaks the hourglass will travel back in time, longer back the more sand has passed through the hourglass, but no more than three days. All living beings within NEAR are brought back in time.",
+			"drawback": "The time travel will cost the breaker of the hourglass a limb: a finger for an hour, an arm for a day, and his life for three days. A person can sacrifice himself in this way to make something undone.",
+			"appearance": "A jet black, undecorated lacquered box, the inside of which is covered with purple velvet. Within the velvet of the shrine, there is room for three hourglasses, but only one occupies the space. The hourglass is angular, decorated with the sign of the Nightwalker and filled with black sand. Inside the lid of the box is the inscription: “Fracture Time, Unmake Mistake, Bone Break.”"
 		},
 		{
 			"id": "The Tezaur",
 			"name": "The Tezaur",
-			"drawback": "",
-			"description":,
-			"appearance": "",
-			"effect": ""
+			"description": "It is told that Duke Fargalon of Aslene had a son who was named Ungule, after the god Horn’s master smith of the volcano, he who forges the hoofs of the holy steeds. After bones had been thrown in front of the newborn, the seeress proclaimed that it was the destiny of the duke’s son to fall in love with a flautist of the wandering folk and take her as his bride. The proclamation angered Fargalon, and he forbade all forms of music in his domain. Riders were even sent out to cut down the reeds that rustled too loudly on the river banks. Ungule grew up to be a handsome young man, and one day when he was out hunting in the forest, he caught the eye of Tezara of the Tarn, who became fiercely stricken with love.\n\nTezara was a masterful singer, but she could not sing her love to the duke’s son since he lived in a fortress of stone and always wore a helmet of silence when he ventured outside. Tezara sang her lament in the forest, where a naiad heard her. She took pity on Tezara, and gave the lovestruck maiden a silver flute, forged from the waters of a babbling brook. Anyone who plays the flute can walk through stone and iron and guards like light through water. With its help, Tezara made her way to Ungule and won his heart with her song.\n\nIn the morning, Duke Fargalon discovered the young lovers and went into a rage, threatening to imprison Tezara, but when she showed him her flute his thoughts were filled with the possibilities it presented. The duke had pawned his most treasured heirlooms in the capital to fund his military campaigns. When night fell, he went to the rich pawnbroker’s house, played himself into the treasury and soon waded through silver and gold in a jolly fashion. The pawnbroker’s guards heard him, however, and soon opened the gates to the vault. The duke had already gathered his heirlooms and wanted to play his way out with them, but in his fervor and greed he had dropped the flute and was unable to find it among the silver spread around him. The guards mistook him for a simple thief and killed him. Ungule was named duke and wed Tezara, but the flute was lost.\n\nThe legend of the flute is probably true. The flute is from Aslene.",
+			"effect": "Playing on the Tezaur requires a successful PERFORMANCE roll every round. The roll counts as a slow action, and the flute gives a D8 Artifact Die. If successful, the flautist gains the ability to move through solid matter – a sphere follows her and allows her to walk horizontally in any direction, even through solid stone or living beings. The world outside can be seen faintly from inside the sphere, but from the outside the sphere looks like a white mist passing through anything. If the music stops, or if the flautist fails a PERFORMANCE roll, the sphere dissipates. If the flautist is inside solid matter at that point, she is killed outright.",
+			"drawback": "The music from the Tezaur is addictive. Parting from the flute requires the owner to fail an Empathy roll (roll for the attribute only). One attempt can be made per day. Even if the roll fails, parting from the Tezaur costs one Willpower Point and one point of Empathy.\n\nAnyone else who hears the Tezaur play within NEAR range feels a strong desire to claim the instrument for themselves. They must each make an Empathy roll – if the roll succeeds, they must attempt to steal the Tezaur, by force, if necessary. A person who knows of this effect can cover his ears to avoid the effect.",
+			"appearance": "A simple, bluish silver flute with a clear tone. On close inspection, one can see how the patterns of the flute ripple like flowing water in which the silver twinkles as if from reflecting the sun."
 		},
 		{
 			"id": "Threatening",
-			"name": "Threatening"
+			"name": "Threatening",
+			"description": "You have a scary physical presence and can threaten people to make them do what you want.\n\n✥ RANK 1: You can roll MIGHT instead of MANIPULATE when you threaten someone to make them do what you want. If you succeed, your opponent cannot demand anything in return from you. He can still choose to attack you.\n\n✥ RANK 2: As per rank 1, and your MIGHT roll is modified by +1 when you threaten someone.\n\n✥ RANK 3: As per rank 2, and you can add a D8 Artifact Die to your roll when you threaten someone."
 		},
 		{
 			"id": "Throwing Arm",
-			"name": "Throwing Arm"
+			"name": "Throwing Arm",
+			"description": "You can hit anything with a thrown rock.\n\n✥ RANK 1: Your attack rolls are modified by +1 when you use a thrown weapon or a sling.\n\n✥ RANK 2: You can throw incredibly far. All attacks with a thrown weapon or a sling have LONG range.\n\n✥ RANK 3: You can add a D8 Artifact Die to attacks with a thrown weapon or a sling."
 		},
 		{
-			"id": "Throwing Axe",
-			"name": "Hache de lancer",
-			"description": ""
+			"id": "Cloth, Wool",
+			"name": "Tissu, laine"
 		},
 		{
-			"id": "Throwing Knife",
-			"name": "Couteau de lancer",
-			"description": ""
-		},
-		{
-			"id": "Throwing Spear",
-			"name": "Lance (dist)",
-			"description": ""
-		},
-		{
-			"id": "Timber Axe",
-			"name": "Hache de bucheron",
-			"description": ""
+			"id": "Cloth, Silk",
+			"name": "Tissu, soie"
 		},
 		{
 			"id": "Torches",
 			"name": "Torches",
-			"description": ""
+			"description": "",
+			"effect": "Increases the Torches Resource Die one step. Illuminates within Near range. Roll the Resource Die each Turn (15 minutes).",
+			"drawback": "",
+			"appearance": ""
 		},
 		{
 			"id": "Tower",
 			"name": "Tour",
-			"description": ""
+			"description": "",
+			"effect": "",
+			"drawback": "",
+			"appearance": ""
 		},
 		{
 			"id": "Training Grounds",
-			"name": "Training Grounds"
+			"name": "Training Grounds",
+			"description": "An open field were you can hone your close combat skills, practicing against each other or against wooden figures.",
+			"effect": "If you practice on the TRAINING GROUNDS for a Quarter Day, you gain one extra XP that can only be used to increase your MELEE skill level. Mark this XP next to the MELEE skill on your character sheet. You can only gain one such bonus XP between each skill level increase."
 		},
 		{
 			"id": "Transfer",
-			"name": "Transfer"
+			"name": "Transfer",
+			"description": "You can use this spell to steal Willpower Points from others or to give your WP to someone else. The base cost to cast the spell is one WP, and you can then take or give as many WP as you want. If your target opposes the TRANSFER, it is not so easy – in this case, you can transfer no more WP than the Power Level of the TRANSFER. The WP used to cast TRANSFER are spent and are not transferred."
 		},
 		{
 			"id": "Trembling",
@@ -1883,165 +2520,187 @@
 		{
 			"id": "Trident",
 			"name": "Trident",
-			"description": ""
+			"description": "",
+			"effect": "",
+			"drawback": "",
+			"appearance": ""
 		},
 		{
 			"id": "True Grit (Dwarf)",
-			"name": "True Grit (Dwarf)"
+			"name": "True Grit (Dwarf)",
+			"description": "Dwarves are far more stubborn than others, and can fight on when other kin have no strength left. You can push a dice roll multiple times (see @JournalEntry[Skills]) by spending Willpower Points. Every point spent allows you to push the roll one more time."
 		},
 		{
 			"id": "True Path",
-			"name": "True Path"
+			"name": "True Path",
+			"description": "This spell can guide you to the right path when you face a difficult decision. Once you have cast the spell, the GM must tell you which decision or choice she believes is the wisest."
 		},
 		{
 			"id": "True Sight",
-			"name": "True Sight"
+			"name": "True Sight",
+			"description": "You can enhance your vision to be unnaturally sharp, and see details at DISTANT range as if you stood right next to the object in question. TRUE SIGHT also lets you see in darkness, through smoke and fog, and automatically see through any kind of disguise or shapeshift. You must have a clear line of sight to whatever you want to look at."
 		},
 		{
 			"id": "Tunic",
 			"name": "Tunique",
-			"description": ""
+			"description": "",
+			"effect": "",
+			"drawback": "",
+			"appearance": ""
 		},
 		{
 			"id": "Tvedra's Twin Rings",
 			"name": "Tvedra's Twin Rings",
+			"description": "It is said that the witch Tvedra was so smitten with Hinrek of Falender that she gifted him with a ring that would protect him in the wars against the Alderlanders. She wore an identical ring herself, and claimed that her love would protect him even when they couldn’t be together. Captain Hinrek found himself able to absorb more cuts and hits in the field, just as she had said, but when he was eventually badly wounded despite the ring, he journeyed home to rest and heal. To his sorrow and despair, he found that Tvedra had died. They said that she had inexplicably suffered horrendous wounds, and Hinrek understood that the wounds he had suffered in the field had been shared with her across the distance. However, she wasn’t as strong as he was, and so the wounds had killed her. Hinrek threw away the rings and, grief-stricken, retired as a hermit.",
+			"effect": "The rings do not have an artifact die. Their effects are described below:\n\nThe rings function just like the legend suggests: all damage to Strength is split between the wearers. If one wearer suffers a critical injury, the same injury is inflicted on the other wearer even if she is not Broken. Any healing is done separately.",
 			"drawback": "",
-			"description":,
-			"appearance": "",
-			"effect": ""
-		},
-		{
-			"id": "Two-Handed Axe",
-			"name": "Hahce à deux mains",
-			"description": ""
-		},
-		{
-			"id": "Two-Handed Sword",
-			"name": "Epée à deux mains",
-			"description": ""
+			"appearance": "The twin rings are identically molded from red copper. They have a simple look, are decorated with a heart each and winding veining."
 		},
 		{
 			"id": "Unbreakable (Orc)",
-			"name": "Unbreakable (Orc)"
+			"name": "Unbreakable (Orc)",
+			"description": "The orcs were created to serve. Their bodies are strong, and they are very resilient when it comes to pain and punishment. When you are Broken by any kind of damage (see @JournalEntry[Combat]), you can spend Willpower Points to immediately get back on your feet. For every point you spend, you recover one point in the Broken attribute. You cannot use this talent unless you are Broken. The talent does not affect critical injuries."
+		},
+		{
+			"id": "Cow",
+			"name": "Vache",
+			"description": "",
+			"effect": "Gives 1 unit of Food (milk) when milked, and 6 units of Meat when slaughtered.",
+			"drawback": "",
+			"appearance": ""
 		},
 		{
 			"id": "Valuable Find",
 			"name": "Valuable Find",
-			"description": ""
+			"description": "",
+			"effect": "",
+			"drawback": "",
+			"appearance": ""
 		},
 		{
 			"id": "Vault",
-			"name": "Vault"
+			"name": "Vault",
+			"description": "Once you have gathered valuable treasures from the ruins of the Forbidden Lands, you?ll need a place to keep them safe.",
+			"effect": "In the VAULT, valuables can be stored safely. The ironclad wooden door has Armor Rating 12 and can take 50 points of damage before giving in."
+		},
+		{
+			"id": "Glass",
+			"name": "Verre"
+		},
+		{
+			"id": "Meat",
+			"name": "Viande"
+		},
+		{
+			"id": "Visions of the Past",
+			"name": "Visions of the Past",
+			"description": "You can see events that have transpired in the past at the location where you are, even if those events are no longer remembered by any living being. Power Level 1 lets you see one day back in time, Power Level 2 one year into the past, and Power Level 3 lets you see hundreds of years back. Your visions are often fragmented and cryptic – the GM decides exactly what you can see."
+		},
+		{
+			"id": "Voice of the Mountain",
+			"name": "Voice of the Mountain",
+			"description": "You can speak to the mountain and listen to its words. The mountain can answer simple questions about what has happened at the location before (events over the last day require Power Level 1, events one year back in time require Power Level 2 and events even further back in time require Power Level 3) or what is happening in the area right now (SHORT range requires Power Level 1, LONG range Power Level 2, anything within the map hex Power Level 3). Unfortunately, the mountain speaks very slowly and therefore this spell works like a ritual. This spell can only be used in the MOUNTAIN terrain type or inside a CAVE."
+		},
+		{
+			"id": "Voller's Helmet",
+			"name": "Voller's Helmet",
+			"description": "The Elvenspring Voller is supposed to have been one of the early teachers in the druidic order of the Golden Bough. He possessed mental prowess unmatched by others, and it is rumored that someone who can channel their concentration just right will be able to fly with his helmet on their head. Others claim that the crucial part is trust as well as concentration, saying that the user has to brave the plunge with the helmet on, firm in the belief in their ability to fly for that ability to manifest.",
+			"effect": "The helmet has nothing to do with flight – Voller’s intended symbolism with the wings pertained to the flight of the mind. Anyone wearing the helmet can read three surface thoughts within NEAR range per day – but one of these thoughts will be false. Voller’s helmet was constructed as a tool of education to teach the students to distinguish truth from falsehood through the stringency of logic. The helmet is a LIGHT item, gives a D8 Artifact Die to INSIGHT rolls, and has Armor Rating 2.",
+			"drawback": "",
+			"appearance": "A slightly pointy helmet with a nose guard, forged as a web over red leather in an unknown light metal, both light and strong. The temples are adorned with bird wings in that same metal."
 		},
 		{
 			"id": "Vegetables",
 			"name": "Végétaux"
 		},
 		{
-			"id": "Visions of the Past",
-			"name": "Visions of the Past"
-		},
-		{
-			"id": "Voice of the Mountain",
-			"name": "Voice of the Mountain"
-		},
-		{
-			"id": "Voller's Helmet",
-			"name": "Voller's Helmet",
+			"id": "Simple Clothes",
+			"name": "Vêtements simples",
+			"description": "",
+			"effect": "",
 			"drawback": "",
-			"description":,
-			"appearance": "",
-			"effect": ""
+			"appearance": ""
 		},
 		{
 			"id": "Wagon",
 			"name": "Wagon",
-			"description": ""
+			"description": "",
+			"effect": "Pulled by two animals. Can carry four people and 200 items.",
+			"drawback": "",
+			"appearance": ""
 		},
 		{
 			"id": "Wail's Horn",
 			"name": "Wail's Horn",
+			"description": "It is said that the goddess Wail visited the oceans in her youth, but that the great waters, overcome by love and greed, refused to let their guest go when she attempted to leave. Wail struggled in the depths, giving birth to the swirls and eddies of the world, but a toothed shark took pity on her, raised her on its tusks and threw her into the air so that she could blow away. Once free, Wail blessed the animal, and since she understood that the oceans would want to punish her savior, she made the creature larger and fatter so that it would never have to be frightened or cold in the oceans again. She also gave it the ability to breathe air so that she could blow life and courage into it henceforth. Thus, the walrus was created.",
+			"effect": "When blown, Wail’s Horn creates a strong gust of wind. The gale grows in force with the length of the tone so that an experienced wielder can blow open doors, propel ships, throw down enemies, or even level walls. They say that the dwarven bard Hollerbellows blew an entire Alderlander army off a cliff during the Second Alder Wars, but that the effort caused his throat to close up, leading to his being overpowered and killed, the horn disappearing in the chaos. Using the horn counts as a ranged attack with NEAR range, with the attacker rolling for PERFORMANCE. A hit causes no damage, but makes a humanoid opponent fall down. The horn has a D10 Artifact Die and Weapon Bonus +1 in the first round. If the user continues to blow in the horn every round, the Weapon Bonus increases by one and the range by one category each round, up to a maximum of LONG range. As soon as the user fails a roll, or stops blowing the horn, the bonus effects are reset.",
 			"drawback": "",
-			"description":,
-			"appearance": "",
-			"effect": ""
+			"appearance": "A natural horn, probably from some sea beast, with copper fittings and swirls and cloud formations carved into the material."
 		},
 		{
 			"id": "Wanderer",
-			"name": "Wanderer"
-		},
-		{
-			"id": "Warhammer",
-			"name": "Marteau de guerre",
-			"description": ""
-		},
-		{
-			"id": "Waterskin",
-			"name": "Outre",
-			"description": "Nécessaire pour transporter de l'eau."
-		},
-		{
-			"id": "Weathered Doll",
-			"name": "Poupée de chiffon",
-			"description": "Peut servir de composant de sort."
+			"name": "Wanderer",
+			"description": "You can travel on foot through the wilderness for a long time without stopping for rest.\n\n✥ RANK 1: Your ENDURANCE roll is modified by +1 when you force march (see page 146).\n\n✥ RANK 2: Your ENDURANCE rolls for forced marches succeed automatically.\n\n✥ RANK 3: HIKING for a Quarter Day counts as REST for you."
 		},
 		{
 			"id": "Weathermaster",
-			"name": "Weathermaster"
+			"name": "Weathermaster",
+			"description": "You are so in tune with the forces of nature that you can summon a drastic weather shift in the map hexagon where you are. A smaller shift, from cloudy to rain or from dead calm to a light breeze, requires Power Level 1. Unusual weather phenomena that still stay within what is apt for the season – a snowstorm in winter, blazing heat in the summer, or hard winds and lashing rains in the fall – require Power Level 2. To summon completely unnatural weather, such as a snowstorm in the summer or a heatwave in the middle of winter, requires Power Level 3."
 		},
 		{
 			"id": "Weight of Ages",
-			"name": "Weight of Ages"
-		},
-		{
-			"id": "Well",
-			"name": "Puit"
+			"name": "Weight of Ages",
+			"description": "You can speed up the aging process of a living being. The victim immediately ages 10 years per Power Level. If the victim as a result of this changes their age category (see page 31), they permanently lose one point in an attribute of their choice. If the victim ages past twice the maximum age for an Adult (for example, 100 years for a human), they wither and die. This spell has no effect on elves or monsters."
 		},
 		{
 			"id": "Well of Tears",
 			"name": "Well of Tears",
-			"drawback": "",
-			"description":,
-			"appearance": "",
-			"effect": ""
-		},
-		{
-			"id": "White hair",
-			"name": "Cheveux blancs"
+			"description": "The Rust Brothers say that before creating humans, the god Rust wanted to create a race of mighty warriors to purge the land of the plague of elves, orcs and dwarves that tarnished it, thus making room for his true servants. To this purpose, he erected a man and woman made of pure diamond and then rested, intending to equip them for their task on the morrow. But the two-faced dwarves saw his plans, and on that very same night they slew the man before he was given a name, and as such was unable to defend himself. The woman, who was later given the name Hemla, was grief-stricken and fled, never to be seen again. The crystal race was never to be born, since she was now the last of her kind. When Rust awoke he became wroth and slew fifty thousand dwarves, but the rest cowardly hid beneath the earth, where they remain to this day. In his grief, Rust formed the chalice of the Well of Tears from the skull of the dead warrior. Every day it replenishes itself with the god’s tears, tainted by blood. Rust had no more diamonds and realized that humankind now had to solve their own problems, to be tempered by the world. He created the humans and granted them the Well of Tears from which they were invited to drink, to waken them to the glory of battle.",
+			"effect": "The well does not have an artifact die. Its effects are described below:\n\nWhomever drinks from the chalice immediately restores all lost Strength and Agility and gains one Willpower Point. At the same time, he loses one point each of Wits and Empathy. These can be recovered normally. Only one person can drink from the chalice each day. Every morning at dawn, it is magically refilled.",
+			"drawback": "If the emerald Gall-Eye is inserted into the Well of Tears, the gem will fuse inside the chalice, turning it into a solid sphere: Scrome’s Evil Eye",
+			"appearance": "The Well of Tears is a hollow sphere of a tough bone-like material, large as the head of a man. It has a light tan coloration and is streaked with what appears to be living veins. The sphere has a circular opening and replenishes itself with blood-mixed saltwater. It is often placed standing upright, supported by a thick iron ring."
 		},
 		{
 			"id": "Wither",
-			"name": "Wither"
-		},
-		{
-			"id": "Wood",
-			"name": "Bois"
-		},
-		{
-			"id": "Wooden Club",
-			"name": "massue",
-			"description": ""
-		},
-		{
-			"id": "Wool",
-			"name": "Laine"
+			"name": "Wither",
+			"description": "Your song can wither stone, allowing you to break down walls and fortifications within NEAR range. The thickness of the barrier determines the Power Level required – every half-meter requires one Power Level."
 		},
 		{
 			"id": "Words on the Wind",
-			"name": "Words on the Wind"
-		},
-		{
-			"id": "Wounded shoulder",
-			"name": "Blessure à l'épaule",
-			"effect": "Les armes à deux mains ne peuvent pas être utilisées."
+			"name": "Words on the Wind",
+			"description": "You can enhance your hearing magically and hear specific sounds up to DISTANT range as clearly as if you stood right where they emanate from. You must see the place to which you direct your hearing."
 		},
 		{
 			"id": "Wyrm's Key",
 			"name": "Wyrm's Key",
+			"description": "There are no legends pertaining to the key, which was originally forged for the Psychopomp Natrix. It is said, however, that no secret can be hidden from the god Wyrm’s gaze, no door locked against his passing.",
+			"effect": "Wyrm’s Key gives a D12 Artifact Die to all attempts to pick locks using the SLEIGHT OF HAND skill.",
 			"drawback": "",
-			"description":,
-			"appearance": "",
-			"effect": "essai"
+			"appearance": "The key is strangely shaped, but in itself insignificant. It consists of an old iron key shaped like a writhing serpent that devours itself. It is possible that the design of the key may be the origin of the belief that the serpent was made from iron, which later gave rise to the concept of the father deity, Rust."
+		},
+		{
+			"id": "Wooden Club",
+			"name": "massue",
+			"description": "",
+			"effect": "",
+			"drawback": "",
+			"appearance": ""
+		},
+		{
+			"id": "Copper Coin",
+			"name": "pièce de cuivre",
+			"description": "",
+			"effect": "",
+			"drawback": "",
+			"appearance": ""
+		},
+		{
+			"id": "Donkey",
+			"name": "Âne",
+			"description": "",
+			"effect": "See @Actor[Donkey]",
+			"drawback": "",
+			"appearance": ""
 		}
 	]
 }
